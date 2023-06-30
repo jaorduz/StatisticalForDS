@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<exercises xml:id="exercises-cyclic">
+    <title>Exercises</title>
+        <exercise number="1">
+            <statement>
+                <p>Prove or disprove each of the following statements.</p>
+                <ol>
+                    <li><p>All of the generators of <m>{\mathbb Z}_{60}</m> are prime.</p></li>
+                    <li><p><m>U(8)</m> is cyclic.</p></li>
+                    <li><p><m>{\mathbb Q}</m> is cyclic.</p></li>
+                    <li><p>If every proper subgroup of a group <m>G</m> is cyclic, then <m>G</m> is a cyclic group.</p></li>
+                    <li><p>A group with a finite number of subgroups is finite.</p></li>
+                </ol>
+            </statement>
+        </exercise>
+</exercises>

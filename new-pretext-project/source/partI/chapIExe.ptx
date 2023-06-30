@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exercises xml:id="chapIExe">
+
+<exercise xml:id="exe-I12">
+  <!-- <title>Exercise in class</title> -->
+<statement>
+
+    <p>Submit on Moodle the answers to the last exercise and write a list of concepts and their definitions, at least 
+    three that discussed in class. </p>
+ <!-- <ul>
+        <li>A summary statistic is a simple number to report a quality of a large amount of data</li>
+        <li></li>
+      </ul>
+      Any information might be represented and analyzed in these two ways. -->
+</statement>
+    <hint>
+      <p>Use some concepts such as proportion, classification, statistics, among others.</p>
+    </hint>
+</exercise>
+
+</exercises>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<chapter xml:id="chapterI-2">
+  <title>Sampling</title>
+
+  <objectives permid = "Obj-2">
+    <ul permid ="ul-12">
+      <li permid ="li-121">
+        <p permid ="p-1211">
+          Introduce concepts and correct terminology to organize data.
+        </p>
+      </li>
+    </ul>
+  </objectives>  
+    <p>
+      Data must be organized and descripted, this is relevant in any analysis.
+    </p>
+
+<p>
+How are we going to call a database? To use a common name could leave lack of clarity.
+Therefore, people use some characteristics of the database.
+  <ul>
+    <li>The first word in the first column</li>  
+    <li>The number of rows/columns</li>  
+  </ul>
+This is an informal way to talk about columns, rows, database and more. Then, we proceed to formalize 
+some relevant concepts.
+  <ul>
+    <li><term>Variables</term><idx><h>Variables</h><h>definition of</h></idx> are the formal name to identify columns in a database. 
+    This variables represent the <term>Characteristics</term><idx><h>Characteristics</h><h>definition of</h></idx> for each row.</li>
+    <li><term>Case</term><idx><h>Case</h><h>definition of</h></idx> is the word to call each row. AKA observational unit.</li>
+   <li><term>Data Matrix</term><idx><h>Data</h><h>Matrix</h></idx> is the way to organize data. This is convenient to put in a spreadsheet.</li>
+  </ul>
+</p>
+
+
+<example xml:id="exa-I21">
+  <p>Let us check a <term>Data Matrix</term><idx><h>Data</h><h>Matrix</h></idx>
+
+  <me>
+    \begin{array}{lccccccc} 
+&amp;\text { MODELYEAR} &amp;\text { MAKE} &amp;\text { MODEL}&amp;\text { VEHICLECLASS} 
+&amp;\text { ENGINESIZE} &amp;\text { CYLINDERS }&amp;\text { TRANSMISSION}\\
+\hline
+1&amp; 2014 &amp;\text { ACURA} &amp;\text { ILX} &amp; \text { COMPACT} &amp; 2 &amp; 4 &amp; \text { AS}5 \\
+2&amp; 2014 &amp;\text { ACURA}&amp;\text { ILX HYBRID}&amp;\text { COMPACT}&amp;1.5&amp;4&amp;\text { AV}7\\
+3&amp; 2014 &amp;\text { ACURA}&amp;\text { MDX 4WD}&amp;\text { SUV - SMALL}&amp;3.5&amp;6&amp;\text { AS}6\\
+4&amp; 2014 &amp;\text { ACURA}&amp;\text { TL}&amp;\text { MID-SIZE}&amp;3.5&amp;6&amp;\text { AS}6\\
+5&amp; 2014 &amp;\text { ACURA}&amp;\text { TL AWD}&amp;\text { MID-SIZE}&amp;3.7&amp;6&amp;\text { AS}6\\
+\vdots&amp; \vdots &amp;\vdots&amp;\vdots&amp;\vdots&amp;\vdots&amp;\vdots&amp;\vdots\\
+n&amp; 2023 &amp;\text { Delorian}&amp;\text { Time Flies}&amp;\text { Individual}&amp;\text { New}&amp;\text { A lot}&amp;\text { EMC}2\\
+    \hline
+    \end{array}
+   </me>
+</p>
+ <p>This is a representation of a data base as a <term>Data Matrix</term><idx><h>Data</h><h>Matrix</h></idx>. 
+ We have the columns and rows.  
+  Check this information and respond the next exercises.</p>
+  
+  <p>
+    <me>
+      \begin{array}{lr}
+        \text{Variable}&amp; \text{Description}\\
+        \hline
+        \text { MODELYEAR} &amp; \text {Year of the car model.}\\
+        \text { MAKE} &amp; \text {Company or brand of the car.}\\
+        \text { MODEL} &amp; \text {Model of car and other characteristics.}\\
+        \text { VEHICLECLASS} &amp;\text {Class of car to describe the capacity or size.}\\
+        \text { ENGINESIZE} &amp; \text {Number of liters inside the engine of car.}\\
+        \text { CYLINDERS } &amp; \text {Number of cilinder for each car.}\\
+        \text { TRANSMISSION} &amp; \text {Transmission of car: automatic or Manual and number of gear.}\\
+        \hline
+      \end{array}
+    </me>
+  </p>
+  </example>
+
+  
+<exercise xml:id="exe-I21">
+  <statement>
+<p>
+<ul>
+  <li>How many characteristics there are in the table of <xref ref="exa-I21"/>?</li>
+  <li>How many cases there are in the table of <xref ref="exa-I21"/>?</li>    
+  <li>What might the name be for the table of <xref ref="exa-I21"/>?</li>
+  </ul>
+</p>
+</statement>
+    <hint>
+      <p>carsn, modelyearn, or CarConsumptionN</p>
+    </hint>
+</exercise>
+
+
+<exercise>
+  <statement>
+  <p>Organize the following data in a <term>Data Matrix</term><idx><h>Data</h><h>Matrix</h></idx>.</p>
+    <p>Charles, GPA 3.4; Michael, GPA 3.5; Juan, GPA 3.5; Emma, GPA 3.6, Anne, GPA 3.8; Melody GPA 3.7</p>
+  </statement>
+</exercise>
+
+
+<p>As we see in <xref ref="exa-I21"/>, data can be represented in different ways,
+<term>Variables</term><idx><h>Variables</h></idx> and 
+<term>Cases</term><idx><h>Cases</h></idx> can be of different types.
+</p>
+
+      <figure xml:id="figure-asymptote-surface">
+        <caption>Asymptote 3-D Surface</caption>
+        <image xml:id="asymptote-surface" width="40%">
+<asymptote>
+// Riemann surface of z^{1/n}
+import graph3;
+import palette;
+int n=3;
+size(200,300,keepAspect=false);
+currentprojection=orthographic(10,10,5);
+currentlight=(10,10,5);
+triple f(pair t) {return (t.x*cos(t.y),t.x*sin(t.y),t.x^(1/n)*sin(t.y/n));}
+surface s=surface(f,(0,0),(1,2pi*n),8,16,Spline);
+s.colors(palette(s.map(zpart),Rainbow()));
+draw(s,meshpen=black,render(merge=true));
+</asymptote>
+        </image>
+      </figure>
+      
+
+
+      <figure xml:id="figure-asymptote-levers">
+        <caption>Asymptote Lever Demonstration</caption>
+        <image xml:id="asymptote-lever">
+          <description>Moments on a lever</description>
+<asymptote>
+size(200,0);
+pair z0=(0,0);
+pair z1=(2,0);
+pair z2=(5,0);
+pair zf=z1+0.75*(z2-z1);
+draw(z1--z2);
+dot(z1,red+0.15cm);
+dot(z2,darkgreen+0.3cm);
+label("$m$",z1,1.2N,red);
+label("$M$",z2,1.5N,darkgreen);
+label("$\hat{\ }$",zf,0.2*S,fontsize(24pt)+blue);
+pair s=-0.2*I;
+draw("$x$",z0+s--z1+s,N,red,Arrows,Bars,PenMargins);
+s=-0.5*I;
+draw("$\bar{x}$",z0+s--zf+s,blue,Arrows,Bars,PenMargins);
+s=-0.95*I;
+draw("$X$",z0+s--z2+s,darkgreen,Arrows,Bars,PenMargins);
+</asymptote>
+        </image>
+      </figure>
+
+
+
+<!-- JO Final part -->
+
+<activity>
+  <title>Extra material: Video</title>
+        <video xml:id="yt-list-vars" youtube="2N_bkiyTiXU" width="60%" margins="35%" />
+</activity>
+
+<activity>
+  <title>Extra material: Slides</title>
+<p>
+<ul>
+  <li>
+    <url href="https://tinyurl.com/2ayga5t3" visual="Data Basics (OpenIntroStat)"/>
+  </li>
+  <li>
+    <url href="https://tinyurl.com/2auzlgbw" visual="Sampling and more (OpenIntroStat)"/>
+  </li>
+</ul>
+</p>
+</activity>
+
+
+</chapter>
+
+<!-- <p> <term>Variables</term><idx><h>Variables</h><h>definition of</h></idx> </p> -->
+<!-- <url href="http://www.gnu.org/copyleft/" visual="www.gnu.org/copyleft"/> -->
+<!-- <image source="ch2-images/butterflies.jpg" width="60%"/> -->

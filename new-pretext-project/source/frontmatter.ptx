@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<frontmatter xml:id="frontmatter">
+    <titlepage>
+        <author>
+            <personname>Javier Orduz</personname>
+            <department>CS and Math</department>
+            <institution>EC</institution>
+            <email>orduzja@earlham.com</email>
+        </author>
+        <date>
+          <today />
+        </date>
+    </titlepage>
+    <colophon>
+        <website>
+            <name>
+            <c>www.jaorduz.org</c>
+            </name>
+            <address>https://jaorduz.github.io</address>
+        </website>
+        <copyright>
+            <year>2020<ndash />2023</year>
+            <holder>JO</holder>
+            <shortlicense> 
+            This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>
+            </shortlicense>
+        </copyright>
+    </colophon>
+    <biography xml:id="author-bio-TWJ">
+        <p>Javier Orduz has international experience as a Professor, and Research.</p>
+        <p>His interests are Math, Computing, and Physics. He presently teaches in Indiana, USA</p>    
+        <p>He likes to music, traveling, and cooking.</p>
+    </biography>
+
+   <dedication xml:id="dedication">
+        <p>
+            <line>My family in Colombia, Mexico, and USA.</line>
+            <line>To people who loves Science.</line>
+        </p>
+        <p>To all of you.</p>
+        <p>This is a greate opportunity to encourage to study and learn sciences. In general any field in STEM areas is beatiful! 
+</p>
+    </dedication>   
+<acknowledgement xml:id="acknowledgement">
+
+        <p>I would like to acknowledge the following people for their comments and suggestions.<ul>
+            <li><p>Professors, Different Institutions, Col., Mex. USA</p></li>
+        </ul></p>
+
+        <p>I would also like to thank everyone.</p>
+
+        <!-- Added NSF support statement.  TWJ 8/9/2012 -->
+        <!-- <p></em>The open source version of this book has received support from the National Science Foundation (Award #DUE-1020957).</p> -->
+
+    </acknowledgement>
+</frontmatter>

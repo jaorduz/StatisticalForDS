@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<chapter xml:id="chapterI-1">
+  <title>Data Basics</title>
+  <objectives permid = "Obj-1">
+    <ul permid ="ul-11">
+      <li permid ="li-111">
+        <p permid ="p-1111">
+          Discuss basic concepts about data and information. 
+        </p>
+      </li>
+    </ul>
+  </objectives>  
+
+    <p>We use and deal with data in our everyday lives. 
+    This data come from information, and to analyze them, 
+    we usually set up them. During this process, 
+    we can organize and summarize data.</p>
+
+
+  <figure>
+    <caption>Data.
+      <url href="https://tinyurl.com/2lbhzg6h" 
+      visual="https://freepik.com/">
+      <c>https://freepik.com</c></url></caption>
+ <image source="https://tinyurl.com/2lbhzg6h" width="40%" />  
+  </figure>
+
+
+  <figure>
+    <caption>Data everywhere.
+      <url href="https://tinyurl.com/2nhn3tml" 
+      visual="https://freepik.com/">
+      <c>https://freepik.com</c></url></caption>
+ <image source="https://tinyurl.com/2nhn3tml" width="40%" />  
+  </figure>
+
+  <figure>
+    <caption>Data Analysis.
+      <url href="https://tinyurl.com/2fv46km8" 
+      visual="https://freepik.com/">
+      <c>https://freepik.com</c></url></caption>
+ <image source="https://tinyurl.com/2fv46km8" width="40%" />  
+  </figure>
+
+
+  <figure>
+    <caption>Data in Science.
+      <url href="https://home.cern/sites/default/files/logo/cern-logo.png" 
+      visual="https://home.cern/">
+      <c>https://home.cern/</c></url></caption>
+ <image source="https://home.cern/sites/default/files/logo/cern-logo.png" width="40%" />  
+  </figure>
+
+
+  <figure>
+    <caption>a) USA in data.
+      <url href="https://datausa.io/" 
+      visual="https://datausa.io/">
+      <c>https://datausa.io/</c></url></caption>
+ <image source="https://datausa.io/" width="40%" />  
+  </figure>
+
+  <figure>
+    <caption>b) USA in data.
+      <url href="https://www.usa.gov/census-data" 
+      visual="https://www.usa.gov/census-data">
+      <c>https://www.usa.gov/census-data</c></url></caption>
+ <image source="https://www.usa.gov/census-data" width="40%" />  
+  </figure>
+
+ <figure>
+    <caption>c) USA in data.
+      <url href="https://www.bls.gov/" 
+      visual="https://www.bls.gov/">
+      <c>https://www.bls.gov/</c></url></caption>
+ <image source="https://www.bls.gov/" width="40%" />  
+  </figure>
+
+
+ <figure>
+    <caption>d) USA in data.
+      <url href="https://guides.lib.uw.edu/research/federal/data" 
+      visual="https://guides.lib.uw.edu/research/federal/data">
+      <c>https://guides.lib.uw.edu/research/federal/data</c></url></caption>
+ <image source="https://guides.lib.uw.edu/research/federal/data" width="40%" />  
+  </figure>
+
+  <figure>
+    <caption>e) USA in data.
+      <url href="https://www.usopendatatoolkit.org/" 
+      visual="https://www.usopendatatoolkit.org/">
+      <c>https://www.usopendatatoolkit.org/</c></url></caption>
+ <image source="https://www.usopendatatoolkit.org/" width="40%" />  
+  </figure>
+
+
+
+  <figure>
+    <caption>Centers for disease control and prevention (CDC).
+      <url href="https://www.cdc.gov/" 
+      visual="https://www.cdc.gov/">
+      <c>https://www.cdc.gov/</c></url></caption>
+ <image source="https://www.cdc.gov/" width="40%" />  
+  </figure>
+
+  <figure>
+    <caption>World in Data.
+      <url href="https://www.worlddata.info/" 
+      visual="https://www.worlddata.info/">
+      <c>https://www.worlddata.info/</c></url></caption>
+ <image source="https://www.worlddata.info/" width="40%" />  
+  </figure>
+
+<p>To summarize, and organize data, there are two ways:  Graphs/Plots, and Numbers.</p>
+<p>Random numbers require Statistics Data Analysis. This field allows to consider all of the data at once.
+Which is convenient to analyze.</p>
+
+
+  <example xml:id="exa-I11">
+  <p>Researchers prepare an experiment which has 451 patients. This population is split in two groups, 
+  224 group 1, and 227 in the group 2. Consider the following two tables where researchers 
+  took information after two periods, short and long. </p>
+  <p>Short period
+    <me>
+    \begin{array}{lcc} 
+    &amp; \text {Event 1} &amp; \text {No event}\\
+    \hline 
+    \text { Group 1 } &amp; 33 &amp; 191 \\
+    \text { Group 2 } &amp; 13 &amp; 214  \\
+    \hline 
+    \text {Total} &amp; 46 &amp; 405  \\
+    \hline
+    \end{array}
+   </me>
+   and long period.
+       <me>
+    \begin{array}{lccccc} 
+    &amp; \text {Event 1} &amp; \text {No event}\\
+    \hline 
+    \text { Group 1 } &amp; 45 &amp; 179 \\
+    \text { Group 2 } &amp; 28 &amp; 199 \\
+    \hline 
+    \text {Total} &amp; 73 &amp; 378 \\
+    \hline
+    \end{array}
+   </me>
+  </p> 
+<p>This table shows data about this experiment.</p>
+  </example>
+  
+<exercise xml:id="exe-I11">
+<p>
+Answer the following questions
+  <ul>
+    <li>What is the proportion of patients that had a Event 1 in the group 1?</li>
+    <li>What is the proportion of patients that had a Event 1 in the group 2?</li>
+    <li>What is the proportion of patients that had a No event in the group 1?</li>
+    <li>What is the proportion of patients that had a No event in the group 2?</li>    
+    <li>What is the proportion of patients that had Event 1 in short period?</li>
+    <li>What is the proportion of patients that had No event in short period?</li>
+    <li>What is the proportion of patients that had Event 1 in long period?</li>
+    <li>What is the proportion of patients that had No event in long period?</li>      
+  </ul>
+</p>
+
+</exercise>
+
+<exercise xml:id="exe-I12">
+<statement>
+    <p>Submit on Moodle the answers to the last exercise and write a list of concepts and their definitions, at least 
+    three that discussed in class. </p>
+</statement>
+    <hint>
+      <p>Use some concepts such as proportion, classification, statistics, among others.</p>
+    </hint>
+</exercise>
+
+ 
+ 
+<activity>
+  <title>Extra material: Video </title>
+        <video xml:id="yt-list-vars" youtube="Mjif8PTgzUs" width="60%" margins="35%" />
+</activity>
+
+<p>
+<url href="http://www.gnu.org/copyleft/" visual="www.gnu.org/copyleft"/>
+</p>
+
+<activity> 
+  <title>Extra material: Slides </title>
+<p>
+<url href="https://tinyurl.com/" visual="Introduction to Data (OpenIntroStat)"/>
+<!-- https://github.com/OpenIntroStat/openintro-statistics-slides/blob/master/Chp%201/chp1.pdf -->
+</p>
+</activity>
+
+
+</chapter>
+
+
+<!-- Youtube video -->
+  <!-- <p>
+    Video, observable on a Runestone server.
+  </p>
+  <video xml:id="yt-list-vars" youtube="Mjif8PTgzUs" width="60%" margins="5% 35%" /> -->
+ <!-- preview="yt-list-variables.png" -->
+
+
+ <!-- Figures  -->
+   <!-- <figure>
+    <caption>XXXX XXXX.
+      <url href="XX" 
+      visual="XX">
+      <c>XX</c></url></caption>
+ <image source="XX" width="40%" />  
+  </figure> -->
+
+  <!-- <figure>
+    <caption>A frog</caption>
+    <image source="frog.jpg" width="50%">
+      <description>A nice-looking frog with a longish
+      description.</description>
+    </image>
+  </figure> -->

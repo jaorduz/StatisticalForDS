@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+    <chapter xml:id="chapter-InfTD">
+      <title>Inference and types of Data </title>
+
+      <section xml:id="sec-InfTD-c">
+        <title>Section title</title>
+        <p>Hello</p>
+      </section>
+
+    </chapter>

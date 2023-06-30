@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+    <chapter xml:id="chapter-LLReg">
+      <title>Linear and Logistic Regression </title>
+
+      <section xml:id="sec-LLReg-d">
+        <title>Section title</title>
+        <p>Hello</p>
+      </section>
+
+    </chapter> 
+

@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <docinfo>
+  <!-- <brandlogo url="https://pretextbook.org" source="images/ptx-logo.png" />
+https://img.freepik.com/free-vector/illustration-social-media-concept_53876-18141.jpg?w=1380&t=st=1687805586~exp=1687806186~hmac=c06517a3f89cb38dabe402d554b046629c13164bf3ad6d1cc689b1b7ec208cdb
+    <covers front="images/original-front-cover-aata.pdf"
+            back="images/plain-back-cover-aata.pdf"/>
+
+    <images>
+      <archive>eps pdf png svg tex</archive>
+    </images> -->
+  <initialism>AATA</initialism>
+
+    <macros>
+      \newcommand{\R}{\mathbb R}
+      \newcommand{\identity}{\mathrm{id}}
+      \newcommand{\notdivide}{{\not{\mid}}}
+      \newcommand{\notsubset}{\not\subset}
+      \newcommand{\lcm}{\operatorname{lcm}}
+      \newcommand{\gf}{\operatorname{GF}}
+      \newcommand{\inn}{\operatorname{Inn}}
+      \newcommand{\aut}{\operatorname{Aut}}
+      \newcommand{\Hom}{\operatorname{Hom}}
+      \newcommand{\cis}{\operatorname{cis}}
+      \newcommand{\chr}{\operatorname{char}}
+      \newcommand{\Null}{\operatorname{Null}}
+    </macros>
+    <cross-references text="type-global" />    
+    <latex-image-preamble>
+      \usepackage{tikz}
+      \usepackage{pgfplots}
+      \usetikzlibrary{positioning} % for worksheet
+      \usepackage{pstricks}
+      \usepackage{phaistos}
+      \usepackage{xcolor}
+      \usetikzlibrary{backgrounds}
+      \usetikzlibrary{arrows,matrix}
+      \usetikzlibrary{snakes}    
+      \usepackage{multirow}
+      \usepackage{multicolumn}
+      \usepackage{tabular} 
+      \usepackage{table}
+      \usepackage{array}
+      <!-- \usepackage{tabulararray}  -->
+    </latex-image-preamble>
+  </docinfo>
+
+  <book xml:id="book-title">
+    <title>Statistics, Modeling and Data Science</title>
+    <subtitle>Math, concepts, and applications</subtitle>
+<!-- JO: Ready to include -->
+    <!-- <xi:include href="frontmatter.ptx" />  -->
+
+  <part xml:id="part-basics">
+    <title>Knowing Data</title>
+      <!-- <xi:include href="test1.ptx" /> -->
+      <!-- <xi:include href="./partI/chapI1.ptx" /> -->
+      <xi:include href="./partI/chapI2.ptx" />
+      <!-- <xi:include href="./partI/chapIExe.ptx" /> -->
+      <!-- <xi:include href="./partI/chapI3.ptx" /> -->
+      <!-- <xi:include href="./partI/chapI4.ptx" /> -->
+      <!-- <xi:include href="./partI/chapI5.ptx" /> -->
+      <!-- <xi:include href="./partI/chapI6.ptx" /> -->
+  </part>
+
+  <!-- <part xml:id="part-Pro_Dist">
+    <title>Probability and Distributions</title>
+    <xi:include href="./partII/chap2.ptx" />
+  </part>
+
+  <part xml:id="part-In-TyDt">
+    <title>Inference and types of Data </title>
+    <xi:include href="./partIII/chap3.ptx" />
+  </part> -->
+
+  <!-- <part xml:id="part-index"> -->
+      <!-- <xi:include href="./index.ptx" /> -->
+  <!-- </part> -->
+
+  </book>
+</pretext>
