@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
+<section>
 
-<chapter xml:id="chapterI-1">
   <title>Data Basics</title>
   <objectives permid = "Obj-1">
     <ul permid ="ul-11">
@@ -196,31 +196,4 @@ Answer the following questions
 </p>
 </activity>
 
-
-</chapter>
-
-
-<!-- Youtube video -->
-  <!-- <p>
-    Video, observable on a Runestone server.
-  </p>
-  <video xml:id="yt-list-vars" youtube="Mjif8PTgzUs" width="60%" margins="5% 35%" /> -->
- <!-- preview="yt-list-variables.png" -->
-
-
- <!-- Figures  -->
-   <!-- <figure>
-    <caption>XXXX XXXX.
-      <url href="XX" 
-      visual="XX">
-      <c>XX</c></url></caption>
- <image source="XX" width="40%" />  
-  </figure> -->
-
-  <!-- <figure>
-    <caption>A frog</caption>
-    <image source="frog.jpg" width="50%">
-      <description>A nice-looking frog with a longish
-      description.</description>
-    </image>
-  </figure> -->
+</section>

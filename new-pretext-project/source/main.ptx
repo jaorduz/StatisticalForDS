@@ -2,28 +2,24 @@
 
 <pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
 
-  <docinfo>
-  <initialism>AATA</initialism>
+  <xi:include href="docInfo.ptx" />
 
-    <macros>
-      \newcommand{\R}{\mathbb R}
-      \newcommand{\identity}{\mathrm{id}}
-      \newcommand{\notdivide}{{\not{\mid}}}
-      \newcommand{\Null}{\operatorname{Null}}
-    </macros>
-    <cross-references text="type-global" />    
-    <latex-image-preamble>
-      \usepackage{tikz}
-      \usepackage{pgfplots}
-      \usetikzlibrary{positioning} % for worksheet
-      \usepackage{pstricks}
-    </latex-image-preamble>
-  </docinfo>
-
-
-  <book xml:id="book-title">
+  <book xml:id="book-Statistics_Modeling_Data-Science">
     <title>Statistics, Modeling and Data Science</title>
-    <subtitle>Math, concepts, and applications</subtitle>
+      <subtitle>Math, concepts, and applications</subtitle>
+      <xi:include href="./frontmatter.ptx" />
+
+
+    <chapter xml:id="chapter-knowing-data">
+      <title>Knowing Data</title>
+        <xi:include href="./partI/sect-one.ptx" />
+        <xi:include href="./partI/sect-two.ptx" />
+        <xi:include href="./partI/sect-three.ptx" />
+    </chapter>
+
+
+
+    <!-- <xi:include href="./backmatter.ptx" /> -->
 
   </book>
 </pretext>

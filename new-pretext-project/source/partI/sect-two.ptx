@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section>
+    
+  <title>Sampling</title>
+  
+  <objectives permid = "Obj-2">
+    <ul permid ="ul-12">
+      <li permid ="li-121">
+        <p permid ="p-1211">
+          Introduce concepts and correct terminology to organize data.
+        </p>
+      </li>
+    </ul>
+  </objectives>  
+
+<p>This section shows sampling concepts and more.
+</p>    
+    <p>
+      Data must be organized and descripted, this is relevant in any analysis.
+    </p>
+
+<p>
+How are we going to call a database? To use a common name could leave lack of clarity.
+Therefore, people use some characteristics of the database.
+  <ul>
+    <li>The first word in the first column</li>  
+    <li>The number of rows/columns</li>  
+  </ul>
+This is an informal way to talk about columns, rows, database and more. Then, we proceed to formalize 
+some relevant concepts.
+  <ul>
+    <li><term>Variables</term><idx><h>Variables</h><h>definition of</h></idx> are the formal name to identify columns in a database. 
+    This variables represent the <term>Characteristics</term><idx><h>Characteristics</h><h>definition of</h></idx> for each row.</li>
+    <li><term>Case</term><idx><h>Case</h><h>definition of</h></idx> is the word to call each row. AKA observational unit.</li>
+   <li><term>Data Matrix</term><idx><h>Data</h><h>Matrix</h></idx> is the way to organize data. This is convenient to put in a spreadsheet.</li>
+  </ul>
+</p>
+
+<example xml:id="exa-I21">
+  <statement>
+  <p>Let us check a <term>Data Matrix</term><idx><h>Data</h><h>Matrix</h></idx>
+
+  <me>
+    \begin{array}{lccccccc} 
+&amp;\text { MODELYEAR} &amp;\text { MAKE} &amp;\text { MODEL}&amp;\text { VEHICLECLASS} 
+&amp;\text { ENGINESIZE} &amp;\text { CYLINDERS }&amp;\text { TRANSMISSION}\\
+\hline
+1&amp; 2014 &amp;\text { ACURA} &amp;\text { ILX} &amp; \text { COMPACT} &amp; 2 &amp; 4 &amp; \text { AS}5 \\
+2&amp; 2014 &amp;\text { ACURA}&amp;\text { ILX HYBRID}&amp;\text { COMPACT}&amp;1.5&amp;4&amp;\text { AV}7\\
+3&amp; 2014 &amp;\text { ACURA}&amp;\text { MDX 4WD}&amp;\text { SUV - SMALL}&amp;3.5&amp;6&amp;\text { AS}6\\
+4&amp; 2014 &amp;\text { ACURA}&amp;\text { TL}&amp;\text { MID-SIZE}&amp;3.5&amp;6&amp;\text { AS}6\\
+5&amp; 2014 &amp;\text { ACURA}&amp;\text { TL AWD}&amp;\text { MID-SIZE}&amp;3.7&amp;6&amp;\text { AS}6\\
+\vdots&amp; \vdots &amp;\vdots&amp;\vdots&amp;\vdots&amp;\vdots&amp;\vdots&amp;\vdots\\
+n&amp; 2023 &amp;\text { Delorian}&amp;\text { Time Flies}&amp;\text { Individual}&amp;\text { New}&amp;\text { A lot}&amp;\text { EMC}2\\
+    \hline
+    \end{array}
+   </me>
+</p>
+ <p>This is a representation of a data base as a <term>Data Matrix</term><idx><h>Data</h><h>Matrix</h></idx>. 
+ We have the columns and rows.  
+  Check this information and respond the next exercises.</p>
+  
+  <p>
+    <me>
+      \begin{array}{lr}
+        \text{Variable}&amp; \text{Description}\\
+        \hline
+        \text { MODELYEAR} &amp; \text {Year of the car model.}\\
+        \text { MAKE} &amp; \text {Company or brand of the car.}\\
+        \text { MODEL} &amp; \text {Model of car and other characteristics.}\\
+        \text { VEHICLECLASS} &amp;\text {Class of car to describe the capacity or size.}\\
+        \text { ENGINESIZE} &amp; \text {Number of liters inside the engine of car.}\\
+        \text { CYLINDERS } &amp; \text {Number of cilinder for each car.}\\
+        \text { TRANSMISSION} &amp; \text {Transmission of car: automatic or Manual and number of gear.}\\
+        \hline
+      \end{array}
+    </me>
+  </p>
+    </statement>
+  </example>
+  <exercise xml:id="exe-I21">
+  <statement>
+<p>
+<ul>
+  <li>How many characteristics there are in the table of <xref ref="exa-I21"/>?</li>
+  <li>How many cases there are in the table of <xref ref="exa-I21"/>?</li>    
+  <li>What might the name be for the table of <xref ref="exa-I21"/>?</li>
+  </ul>
+</p>
+</statement>
+    <hint>
+      <p>carsn, modelyearn, or CarConsumptionN</p>
+    </hint>
+</exercise>
+
+
+<exercise xml:id="exe-I22">
+  <statement>
+  <p>Organize the following data in a <term>Data Matrix</term><idx><h>Data</h><h>Matrix</h></idx>.</p>
+    <p>Charles, GPA 3.4; Michael, GPA 3.5; Juan, GPA 3.5; Emma, GPA 3.6, Anne, GPA 3.8; Melody GPA 3.7</p>
+  </statement>
+</exercise>
+
+
+<p>As we see in <xref ref="exa-I21"/>, data can be represented in different ways,
+<term>Variables</term><idx><h>Variables</h></idx> and 
+<term>Cases</term><idx><h>Cases</h></idx> can be of different types.
+</p>
+
+
+<definition>
+<title>Types of variables</title>
+  <statement>
+    <p>
+      <term>Variable</term><idx><h>Variable</h><h>definition of</h></idx>
+       can share characteristics, but each variables is different in terms of meaning, shape and representation.</p>
+  </statement>
+</definition>
+<p>
+Differences are important, and it means it is not possible to operate with 
+mathematical symbols, or add extra information is not possible such area code, or ZIP-Code.
+In addition, some amounts require discrete numbers, and talk about decimal (continuous) numbers in, 
+for example, population is not possible.  
+On the other hand, some variables can bre represented by acronymous such as state, e.g. IN, NY, CA, etc.
+</p>
+
+
+<figure xml:id="figure-asymptote-levers">
+  <caption>Types of variables.</caption>
+  <image xml:id="asymptote-lever">
+    <description>Types of variables. </description>
+  <asymptote>
+import drawtree;
+
+treeLevelStep = 2cm;
+
+TreeNode root = makeNode( "Variables" );
+TreeNode child1 = makeNode( root, "Numerical" );
+TreeNode child2 = makeNode( root, "Categorical" );
+
+TreeNode gchild1 = makeNode( child1, "Continuous" );
+TreeNode gchild2 = makeNode( child1, "Discrete" );
+
+TreeNode gchild11 = makeNode( child2, "Nominal" );
+TreeNode gchild22 = makeNode( child2, "Ordinal" );
+
+draw( root, (0,0) );
+  </asymptote>
+  </image>
+</figure>
+
+
+<definition>
+<title>Types of variables:</title>
+  <statement>
+    <p>
+      <term>Numerical</term><idx><h>Numerical</h><h>definition of</h></idx>
+      It refers variables that can take a wide range of numerical values.</p>
+  </statement>
+</definition>
+
+
+
+
+<definition>
+<title>Types of variables:</title>
+  <statement>
+    <p>
+<term>Discrete</term><idx><h>Discrete</h><h>definition of</h></idx>      
+      This kind of variable takes non-negative numerical values.</p>
+  </statement>
+</definition>
+
+<definition>
+<title>Types of variables:</title>
+  <statement>
+    <p>
+    <term>Continuous</term><idx><h>Continous</h><h>definition of</h></idx>      
+  This kind of numerical variables is not discrete, this concept might be debatible concept, but it can considered as 
+  a infinitesimal numerical value.
+    </p>
+  </statement>
+</definition>
+
+<definition>
+<title>Types of variables:</title>
+  <statement>
+    <p>
+    <term>Categorical</term><idx><h>Categorical</h><h>definition of</h></idx> 
+    This kind of variables are category per se. It means the responses migth have a range of choices.       
+    </p>
+  </statement>
+</definition>
+
+<definition>
+<title>Types of variables:</title>
+  <statement>
+    <p>
+    <term>Variable's Levels</term><idx><h>Variable's Levels</h><h>definition of</h></idx>  
+    are the possible range of values for categorical variable.  
+    </p>
+  </statement>
+</definition>
+
+
+<definition>
+<title>Types of variables:</title>
+  <statement>
+    <p>
+    <term>Ordinal</term><idx><h>Ordinal</h><h>definition of</h></idx>  
+it is a categorical variable whose variable's levels have a natural ordering.
+    </p>
+  </statement>
+</definition>
+
+
+<definition>
+<title>Types of variables:</title>
+  <statement>
+    <p>
+    <term>Nominal</term><idx><h>Nominal</h><h>definition of</h></idx>  
+it is a categorical variable whose variable's levels have an unordering.
+    </p>
+  </statement>
+</definition>
+
+
+<exercise xml:id="exeI-DB-Variable">
+  <statement>
+    <p>
+Provide three short databases with examples of different kinds of variables.
+    </p>
+  </statement>
+</exercise>
+
+
+
+    <exercise xml:id="exeI-True-Variables-Num">
+        <webwork xml:id="wbw-I24">
+          <pg-code>
+            $limitequalsvalue = PopUp(['?','True','False'],1);
+          </pg-code>
+          <statement>
+            <p>
+              <var name="$limitequalsvalue" form="popup"/>
+              The number of siblings might represent numerical variables.
+            </p>
+          </statement>
+          <solution>
+            <p>
+              True: By definition it is a number.
+            </p>
+          </solution>
+        </webwork>
+    </exercise>
+
+
+
+ <exercise xml:id="exe-I25">
+        <webwork xml:id="wbw-I25">
+          <pg-code>
+            $limitequalsvalue = PopUp(['?','True','False'],2);
+          </pg-code>
+          <statement>
+            <p>
+              <var name="$limitequalsvalue" form="popup"/>
+People height might represent continuous categorical variables.
+            </p>
+          </statement>
+          <solution>
+            <p>
+              False: By definition, categorical variables are not continuous.
+            </p>
+          </solution>
+        </webwork>
+    </exercise>
+
+
+<p>
+    Let us talk about a relationship between variables.
+Most researcher look for relationship between variables. 
+And similarly, we start our questions and variables are in (scientific) questions.
+<ul>
+    <li>How far is Sun from Earth?</li>
+    <li>What is the probability to obtain a kind of particle in a decay process?</li>
+    <li>What is power consumption bill for a family with four members?</li>    
+    </ul>
+In general, resesearchers want to figure out relationships between variables, and to do it, 
+numerical, and graphical analysis are relevant.
+</p>
+
+<p>
+    When a researcher finds a relationship then variables are 
+    <term>associated or Variables</term><idx><h>associated Variables</h><h>definition of</h></idx>
+    are also known as dependant Variables.
+    </p>
+
+<remark>
+    <p>Database can be analyzed from different ways and it will open the fact to have more questions.
+    To do this, we have other definitions:
+        <ul>
+            <li><term>Negative association</term><idx><h>Negative association</h><h>definition of</h></idx> out the 
+            trend in a scatterplot.</li>
+            <li><term>Positive association</term><idx><h>Positive association</h><h>definition of</h></idx> in the trend 
+            in a scatterplot</li>
+            <li><term>Independent variables</term><idx><h>Independent variables</h><h>definition of</h></idx>
+                no evident relationship between two variables.</li>
+            <li><term>Explanatory variables</term><idx><h>Explanatory variables</h><h>definition of</h></idx>
+                these kind of variables (probably) affect another. AKA independent variable.</li>
+            <li><term>Response variables</term><idx><h>Response variables</h><h>definition of</h></idx>
+                these kind of variable (probably) will be affected by the response variables.  
+                AKA dependent variable.</li>
+            <li><term>Observational study</term><idx><h>Observational Study</h><h>definition of</h></idx>
+                It means a study to collect data without interfiring how the data arise. </li>
+            <li><term>Experiments</term><idx><h>Experiments</h><h>definition of</h></idx> 
+                Situations where researchers explore a potential causal connection.</li>
+            <li><term>Randomized experiment</term><idx><h>Randomized experiment</h><h>definition of</h></idx>
+                It is the random assignation of individuals in groups to test the explanatory or response variables.</li>
+            <li><term>Association</term><idx><h>Association</h><h>definition of</h></idx>
+                It means a correlation between variables, but it does not imply causation.</li>
+            <li><term>Causation</term><idx><h>Causation</h><h>definition of</h></idx>
+                It is inferred from random experiments.</li>
+        </ul>
+        </p>
+</remark>
+
+
+
+<example xml:id="exa-I22">
+  <statement>
+<p>Observational studies might be
+    <ul>
+        <li>Surveys</li>
+        <li>Records</li>
+        <li>Other situations where people can collect and not interfere with data.</li>                
+        </ul>
+    </p>
+  </statement>    
+</example>    
+
+
+
+<exercise xml:id="exeI-Experimental-Studies">
+  <statement>
+<p>Experimental studies might be
+    <ul>
+        <li>Administer a medicine during a period to reduce any risk.</li>
+        <li>Measure distances and times to obtain speed.</li>
+        <li>Other situations where researchers make an arrangement to have data and find correlations.</li>                
+        </ul>
+    </p>
+  </statement>    
+</exercise>    
+
+
+  <p>Sampling and other concepts. </p>
+
+  <p>
+    How are data collected? It is important to achieve objectives. 
+  </p>
+
+
+<remark>
+  <p>What do <term>population</term><idx><h>population</h><h>definition of</h></idx> and 
+    <term>sample</term><idx><h>sample</h><h>definition of</h></idx> mean?
+      To stablish a question, we inherently think in a population. This population has several
+      features, and requirements. We will call the population or target population. 
+      Every member in the population stands for a case. 
+      Since collecting each case usually is too expensive, so we consider 
+      a sample.
+  </p>
+</remark>
+
+<p>The following <xref ref="def-sample"/> is relevant in our course.</p>
+
+<definition xml:id="def-sample">
+<!-- <title>Sample</title> -->
+  <statement>
+    <p>
+    <term>Sample</term><idx><h>sample</h><h>definition of</h></idx>  
+it is a subset of cases and represents a small fraction of population.
+    </p>
+  </statement>
+</definition>
+
+
+
+<example xml:id="exaII-target-pop">
+  <statement>
+<p>Identify the target population
+      <ul>
+        <li>Does a new medicine reduce the number of deaths in patients with severe heart disease?</li>
+        </ul>
+    </p>
+  </statement>    
+</example>    
+
+
+<definition xml:id="def-AnecdotalEvidence">
+<!-- <p>Anecdotal Evidence</p> -->
+  <statement>
+    <p>
+  <term>Anecdotal Evidence</term><idx><h>Anecdotal Evidence</h><h>definition of</h></idx>  
+ are data collected in a random and hazard (haphazard) fashion. These usually represent extraordinary cases.
+    </p>
+  </statement>
+</definition>
+
+
+
+<example xml:id="exaII-AnecdotalEvidence">
+  <statement>
+<p>An answer to the question ``What is the average mercury content in swordfish in the Atlantic Ocean?"
+      <ul>
+        <li>A man on the news got mercury poisoning from eating swordfish, so the average mercury
+concentration in swordfish must be dangerously high.</li>
+        </ul>
+    </p>
+  </statement>    
+</example>    
+
+<remark>
+  <p>   
+    Assuming each the conclusion was obtained from data, there are two issues
+<ul>
+  <li>The data represent fewer cases. </li>
+  <li>It is unclear if the cases representive of the population.</li>
+</ul>
+  </p>
+
+</remark>
+
+<p>
+  Sampling and population  
+</p>
+
+
+
+
+<p>Sampling, population and bias</p>
+  
+
+ <definition xml:id="def-Bias">
+  <statement>
+    <p>
+      <ul>
+        <li><term>Bias</term><idx><h>bias</h><h>definition of</h></idx>  
+the fact which permits data manipulation with or without intention of favoring any output.
+        </li>
+        <li><term>Simple random sample</term><idx><h>Simple random sample</h><h>definition of</h></idx>  
+Is the most basic random sample that introduces ramdomness, namely, 
+        <term>Sampling randomly</term><idx><h>Sampling randomly</h><h>definition of</h></idx>
+          to avoid any particular benefit.  
+        </li>
+      </ul>
+The act of taking Simple random sample helps to minimize the bias.
+    </p>
+  </statement>
+</definition> 
+
+<p>There are other relevant concepts</p>
+<definition xml:id="def-nonResponseRate">
+  <statement>
+    <p>
+      <ul>
+        <li>
+          <term>Non-response rate</term><idx><h>Non-response rate</h><h>definition of</h></idx>
+        is the rate of responses and we would pursue it to be high. 
+        </li>
+
+        <li>
+          <term>Non-response bias</term><idx><h>Non-response bias</h><h>definition of</h></idx>          
+        means a non-reponse rate low since it cannot be representative of the population.
+        </li>
+        <li>
+          <term>Convenience sample</term><idx><h>convenience sample</h><h>definition of</h></idx>
+          is the fact of including the cases that are easily accessible then they are more likely 
+          to be included in the sample.
+          is the fact of including the cases that are more likely to be included in the sample 
+         and they are easily accessible. 
+        </li>        
+      </ul>
+    </p>
+  </statement>
+</definition>
+
+
+<!-- <figure xml:id="fig-SamplingPopBiasA">
+  <caption>Sampling, population and bias.</caption>
+    <image xml:id="ima-SamplingPopBiasB">
+      <description>Sampling, population and bias.</description>
+        <asymptote>
+        size(0,150);
+begingroup();
+fill(unitcircle,blue+opacity(0.75));
+fill(shift(1.5dir(120))*unitcircle,green+opacity(0.75));
+fill(shift(1.5dir(60))*unitcircle,red+opacity(0.75));
+endgroup();
+        </asymptote>
+    </image>
+</figure>  -->
+
+   
+
+
+<p>Observational Studies</p>
+
+<p>We start with some definitions</p>
+<definition>
+<statement>
+  <p>
+<ul>
+  <li>
+    <term>Observational data</term><idx><h>Observational data</h><h>definition of</h></idx>
+this is how we call data wich don't have any applied treatment.
+    <term>Observational studies</term><idx><h>Observational studies</h><h>definition of</h></idx>
+are sufficcient to show associations or stablish hypothesis to be verified trought different experiments.
+  </li>
+<li>
+    Observational studies have two forms:  <term>Prospective</term><idx><h>Prospective studies</h><h>definition of</h></idx> and 
+      <term>Retrospective </term><idx><h>Retrospective studies</h><h>definition of</h></idx>. The first one identifies 
+    individuals and collects information as event unfold. The retrospective study collects data after events happened.      
+  </li>
+
+  <li>
+    <term>Confounding variable</term><idx><h>Confounding variable</h><h>definition of</h></idx>
+is a variable which correlated with both <term>explanatory</term> and <term>response</term> variables.
+AKA lurking, confounder factor, or confounder.
+    </li>
+</ul>
+    </p>
+  </statement>
+</definition>
+
+<p>We intruduce the following sampling techniques in order to assure the randomness and the statistical 
+validity.</p>
+
+<figure xml:id="figure-sampling-methods">
+  <caption>Sampling methods.</caption>
+  <image xml:id="sampling-methods">
+    <description>Sampling methods. </description>
+  <asymptote>
+import drawtree;
+
+treeLevelStep = 2cm;
+
+TreeNode root = makeNode( "Sampling methods" );
+TreeNode child1 = makeNode( root, "Simple" );
+TreeNode child2 = makeNode( root, "Stratified" );
+TreeNode child3 = makeNode( root, "Cluster" );
+TreeNode child4 = makeNode( root, "Multistage" );
+
+draw( root, (0,0) );
+  </asymptote>
+  </image>
+</figure>
+
+<definition>
+<statement>
+  <p>
+    <ul>
+      <li>
+    <term>Simple sampling</term> 
+    It was defined on <xref ref="def-Bias"/> such as 
+    the most basic random sample that introduces ramdomness. It is the most intuitive form 
+    of random sampling. AKA Simple random.
+      </li>
+      <li>
+    <term>Stratified sampling</term><idx><h>Stratified sampling</h><h>definition of</h></idx>        
+The population is divided in groups called 
+    <term>Strata</term><idx><h>Strata</h><h>definition of</h></idx>. It is useful when each 
+    <term>Stratum</term><idx><h>Stratum</h><h>definition of</h></idx>  are very similar with respect to 
+    outcome of interest.
+
+      </li>
+      <li>
+    <term>Cluster sampling</term><idx><h>Cluster sampling</h><h>definition of</h></idx> 
+    The populaion is divided in groups called 
+     <term>Clusters</term><idx><h>Clusters</h><h>definition of</h></idx>. 
+     Then we sample a fixed number of clusters and include all observations from each of those clusters in the
+sample.
+      </li>
+      <li>
+    <term>Multistage sampling</term><idx><h>Multistage sampling</h><h>definition of</h></idx>        
+is similar to cluster sample, but we collect a random sample within each selected cluster.
+      </li>                  
+    </ul>
+    </p>
+  </statement>
+
+</definition>
+
+
+
+<!-- <example xml:id="exaII-ObservationalStudies">
+<statement>
+  <p></p>
+  </statement>
+</example> -->
+
+
+
+<!-- JO Final part -->
+
+<activity>
+  <title>Extra material: Video</title>
+        <video xml:id="yt-list-vars" youtube="2N_bkiyTiXU" width="60%" margins="35%" />
+</activity>
+
+<activity>
+  <title>Extra material: Slides</title>
+<p>
+<ul>
+  <li>
+    <url href="https://tinyurl.com/2ayga5t3" visual="Data Basics (OpenIntroStat)"/>
+  </li>
+  <li>
+    <url href="https://tinyurl.com/2auzlgbw" visual="Sampling and more (OpenIntroStat)"/>
+  </li>
+</ul>
+</p>
+</activity>
+
+</section>

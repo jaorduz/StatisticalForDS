@@ -1,17 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-
-
-<chapter xml:id="chapter-1">
-    <title>Data Basics</title>
-        <p>We use and deal with data in our everyday lives. This data come from information, and to analyze them, we usually set up them. During this process, we can organize and summarize data.</p> 
-</chapter>
-
-
-
-
-<?xml version='1.0' encoding='utf-8'?>
-
-<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
 
   <docinfo>
   <!-- <brandlogo url="https://pretextbook.org" source="images/ptx-logo.png" />
@@ -54,16 +40,5 @@ https://img.freepik.com/free-vector/illustration-social-media-concept_53876-1814
       \usepackage{tabular} 
       \usepackage{table}
       \usepackage{array}
-
     </latex-image-preamble>
   </docinfo>
-
-  <book xml:id="book-title">
-    <title>Statistics, Modeling and Data Science</title>
-    <subtitle>Math, concepts, and applications</subtitle>
-<!-- JO: Ready to include -->
-    <!-- <xi:include href="frontmatter.ptx" />  -->
-
-
-  </book>
-</pretext>

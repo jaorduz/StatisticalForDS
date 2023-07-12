@@ -1,0 +1,176 @@
+
+
+
+<!-- Youtube video -->
+  <!-- <p>
+    Video, observable on a Runestone server.
+  </p>
+  <video xml:id="yt-list-vars" youtube="Mjif8PTgzUs" width="60%" margins="5% 35%" /> -->
+ <!-- preview="yt-list-variables.png" -->
+
+
+ <!-- Figures  -->
+   <!-- <figure>
+    <caption>XXXX XXXX.
+      <url href="XX" 
+      visual="XX">
+      <c>XX</c></url></caption>
+ <image source="XX" width="40%" />  
+  </figure> -->
+
+  <!-- <figure>
+    <caption>A frog</caption>
+    <image source="frog.jpg" width="50%">
+      <description>A nice-looking frog with a longish
+      description.</description>
+    </image>
+  </figure> -->
+
+
+<!-- <p> <term>Variables</term><idx><h>Variables</h><h>definition of</h></idx> </p> -->
+<!-- <url href="http://www.gnu.org/copyleft/" visual="www.gnu.org/copyleft"/> -->
+<!-- <image source="ch2-images/butterflies.jpg" width="60%"/> -->
+
+
+<!-- <exercise>
+  <webwork>
+    <pg-code>
+      $answer = FormulaUpToConstant("-cos(x)");
+    </pg-code>
+  <statement>
+    <p><m>f(x)=\sin(x)</m></p>
+    <p><var name="$answer" width="20"/></p>
+  </statement>
+  </webwork>
+</exercise> -->
+
+
+<!-- Figure -->
+
+<!-- <figure xml:id="figure-asymptote-levers">
+  <caption>Types of variables.</caption>
+  <image xml:id="asymptote-lever">
+    <description>Types of variables. </description>
+  <asymptote>
+  https://asymptote.sourceforge.io/gallery/animations/index.html
+import math;
+import bsp;
+import animation;
+
+size(100,100);
+
+animation a;
+
+void face(face[] faces, path3 p, int j, int k) {
+  picture pic=faces.push(p);
+  filldraw(pic,project(p),Pen(j));
+  int sign=(k % 2 == 0) ? 1 : -1;
+  transform t=scale(4)*transform(dir(p,0,sign),dir(p,0,-sign));
+  label(pic,t*(string) j,project(0.5*(min(p)+max(p))));
+}
+
+void snapshot(transform3 t)
+{
+  static transform3 s=shift(-0.5*(X+Y+Z));
+  save();
+  
+  face[] faces;
+  int j=-1;
+  transform3 T=t*s;
+  for(int k=0; k < 2; ++k) {
+    face(faces,T*plane((1,0,0),(0,1,0),(0,0,k)),++j,k);
+    face(faces,T*plane((0,1,0),(0,0,1),(k,0,0)),++j,k);
+    face(faces,T*plane((0,0,1),(1,0,0),(0,k,0)),++j,k); 
+  }
+  add(faces);
+  
+  a.add();
+  restore();
+}
+
+int n=50;
+
+real step=360/n;
+for(int i=0; i < n; ++i)
+  snapshot(rotate(i*step,X));
+for(int i=0; i < n; ++i)
+  snapshot(rotate(i*step,Y));
+for(int i=0; i < n; ++i)
+  snapshot(rotate(i*step,Z));
+
+a.movie(loops=10,delay=50);
+
+  </asymptote>
+  </image>
+</figure> -->
+
+
+
+
+
+<!-- <figure>
+
+    <caption>Negative multiple of a curve</caption>
+    <image xml:id="negative-curve" width="65%">
+        <description>Plot of x^4 - 1 and its negative.</description>
+        <sageplot>
+        f(x) = x^4 - 1
+        g(x) = -x^4 + 1
+        up = plot(f, (x, -1.5, 1.5), color='blue', thickness=2)
+        down = plot(g, (x, -1.5, 1.5), color='red', thickness=2)
+        up + down
+        </sageplot>
+    </image>
+
+</figure> -->
+
+<!--
+<figure xml:id="fig-plotAA">
+  <caption>Types of variables.</caption>
+  <image xml:id="fig-plotAB">
+    <description>Types of variables. </description>
+  <asymptote>
+import graph;
+size(1inches,0);
+
+real f1(real x) {return (1+x^2);}
+real f2(real x) {return (4-x);}
+
+xaxis("$x$",LeftTicks,Arrow);
+yaxis("$y$",RightTicks,Arrow);
+
+draw("$y=1+x^2$",graph(f1,-2,1));
+dot((1,f1(1)),UnFill);
+
+  </asymptote>
+  </image>
+</figure>
+-->
+
+
+<!-- Put QA automatic check -->
+
+<!-- <exercise>
+  <webwork>
+    <pg-code>
+      $answer = 1;
+      FormulaUpToConstant("1") repalace last one. JO Hide
+    </pg-code>
+  <statement>
+    <p>
+<m>f(x)=\sin(x)</m> JO HIDE
+number of sibling is...<m>0</m>
+      </p>
+    <p><var name="$answer" width="20"/></p>
+  </statement>
+  </webwork>
+</exercise> -->
+
+
+JO code and webwork
+ <!-- <exercise xml:id="exe-I26">
+<webwork>
+<pg-code>
+    </pg-code>
+</webwork>
+ </exercise> -->

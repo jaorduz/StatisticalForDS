@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<section xml:id="sec-three">
+  <title>Numerical Data</title>
+
+  <objectives permid = "Obj-3">
+    <ul>
+      <li>
+          Introduce basic concepts and correct terminology about Statistics.
+      </li>
+    </ul>
+  </objectives> 
+
+<p>We examine data through graphs/plots and numbers/statistics. 
+We provide some definitions which are relevant in this chapter.
+    </p>
+
+<remark>
+    <p>We have differen kind of plots/graphs to summarize data.
+        <ul>
+            <li>
+                <term>Scatter plot</term><idx><h>Scatter plot</h><h>definition of</h></idx>
+This kind of plot provides a case-by-case view of data for two numerical variables.
+            </li>
+            <li>
+                <term>Dot plot</term><idx><h>Dot plot</h><h>definition of</h></idx>
+This is a one-variable scatterplot. It is the most basic of displays.           
+</li>
+             <li>
+                <term>Histograms plot</term><idx><h>Histograms plot</h><h>definition of</h></idx> 
+
+            </li>
+             <li>
+                <term>Box plot</term><idx><h>Box plot</h><h>definition of</h></idx>
+            </li>
+             <li>
+                <term>Mapping plot</term><idx><h>Mapping plot</h><h>definition of</h></idx>
+            </li>
+        </ul>
+        </p>
+</remark>
+
+<p>The following are examples of plot/graphs.</p>
+
+
+
+<figure xml:id="fig-histogram">
+  <caption>Histogram.</caption>
+  <image xml:id="ima-histogram">
+    <description>Histogram. </description>
+  <asymptote>
+    import graph;
+    import stats;
+
+    size(400,200,IgnoreAspect);
+
+    int n=1000;
+    real[] a=new real[n];
+    for(int i=0; i &lt; n; ++i) a[i]=Gaussrand();
+
+//    draw(graph(Gaussian,min(a),max(a)),blue);
+
+    // Optionally calculate "optimal" number
+    // of bins a la Shimazaki and Shinomoto.
+    int N=bins(a);
+
+    histogram(a,min(a),max(a),N,normalize=true,low=0,lightyellow,black,bars=true);
+
+    xaxis("$x$",BottomTop,LeftTicks);
+    yaxis("Counts",LeftRight,RightTicks(trailingzero));
+
+  </asymptote>
+  </image>
+</figure>
+
+<p>Let us explore some mathematical concepts.</p>
+
+<remark>
+<p>
+<ul>
+  <li>
+    <term>Mean</term><idx><h>Mean</h><h>definition of</h></idx>
+    AKA 
+    <term>Average</term><idx><h>Average</h><h>definition of</h></idx>
+    It is one of the most popular way to measure the center of a distribution.
+    <m>\overline{x} = \sum\limits_i^n \frac{x_i}{n}</m> 
+    It is the sample mean, where <m>x_i</m> represents the <m>i-</m>th observed value.
+  </li>
+<li>
+  <term>Population mean</term><idx><h>Population mean</h><h>definition of</h></idx>
+  and 
+  <term>Sample mean</term><idx><h>Sample mean</h><h>definition of</h></idx>
+can be calculated trough the same way, using the 
+<m>\mu = \sum\limits_i^N \frac{x_i}{N}.</m>
+Notice, the population mean is represented by <m>\mu.</m>
+</li>
+</ul>
+</p>
+
+</remark>
+
+
+
+<example xml:id="exeI-sampleMean">
+  <statement>
+    <p>
+    Use the follow information to calculate <m>\mu.</m>
+    </p>
+    <p>
+      Data and example
+    </p>
+    </statement>
+</example>    
+
+<exercise>
+  <statement>
+    <p> Calculate the sample mean for the following data.
+        <ul>
+          <li>table 1</li>
+          <li>table 2</li>
+          <li>table 3</li>
+          <li>table 4</li>
+          <li>table 5</li>      
+        </ul>
+    </p>
+      </statement>    
+</exercise>
+
+
+
+
+<activity>
+ <title>Extra material: Videos</title>
+
+<video xml:id="yt-ExaminingNumData" youtube="Xm0PPtci3JE" width="60%" margins="35%" />
+
+<video xml:id="yt-ExploringCatData" youtube="7NhNeADL8fA" width="60%" margins="35%" />
+
+</activity>
+
+
+
+
+
+    <activity>
+  <title>Extra material: Slides</title>
+<p>
+<ul>
+  <li>
+    <url href="https://tinyurl.com/26j7hjy5" visual="Examining Numerical data (OpenIntroStat)"/>
+  </li>
+  <li>
+    <url href="https://tinyurl.com/265hg7pu" visual="Considering Categorical data (OpenIntroStat)"/>
+  </li>
+</ul>
+</p>
+</activity>
+
+
+</section>
+
+
