@@ -81,7 +81,7 @@
       theorem="yes"
       proof="yes"
       definition="yes"
-      example="yes"
+      example="no"
       example-solution="yes"
       project="no"
       task="no"
