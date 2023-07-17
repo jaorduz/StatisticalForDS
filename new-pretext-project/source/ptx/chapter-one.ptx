@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="chapter_one">
+    <title>Knowing Data</title>
+    <introduction>
+      <p>
+This is the introduction for the knowing data chapter.
+      </p>
+    </introduction>
+
+    <xi:include href="./sect-one.ptx" />
+    <xi:include href="./sect-two.ptx" />
+    <xi:include href="./sect-three.ptx" />
+
+    <conclusion>
+        <p>
+            This is the conclusion
+        </p>
+    </conclusion>
+</chapter>

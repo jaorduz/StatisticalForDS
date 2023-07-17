@@ -1,25 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 
 <pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
-
-  <xi:include href="docInfo.ptx" />
+  <xi:include href="./ptx/docInfo.ptx" />
 
   <book xml:id="book-Statistics_Modeling_Data-Science">
     <title>Statistics, Modeling and Data Science</title>
       <subtitle>Math, concepts, and applications</subtitle>
-      <xi:include href="./frontmatter.ptx" />
+      <xi:include href="./ptx/frontmatter.ptx" />
 
+<xi:include href="./ptx/chapter-one.ptx" />
 
-    <chapter xml:id="chapter-knowing-data">
-      <title>Knowing Data</title>
-        <xi:include href="./partI/sect-one.ptx" />
-        <xi:include href="./partI/sect-two.ptx" />
-        <xi:include href="./partI/sect-three.ptx" />
-    </chapter>
-
-
-
-    <!-- <xi:include href="./backmatter.ptx" /> -->
 
   </book>
 </pretext>

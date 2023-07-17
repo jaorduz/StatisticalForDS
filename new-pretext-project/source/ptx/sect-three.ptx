@@ -25,7 +25,8 @@ This kind of plot provides a case-by-case view of data for two numerical variabl
             </li>
             <li>
                 <term>Dot plot</term><idx><h>Dot plot</h><h>definition of</h></idx>
-This is a one-variable scatterplot. It is the most basic of displays.           
+This is a one-variable scatterplot. It is the most basic of displays. 
+
 </li>
              <li>
                 <term>Histograms plot</term><idx><h>Histograms plot.</h><h>definition of</h></idx> 
@@ -44,7 +45,9 @@ trailing off in both directions are called
  
 </li>
              <li>
-                <term>Box plot</term><idx><h>Box plot</h><h>definition of</h></idx>
+                <term>Box plot.</term><idx><h>Box plot</h><h>definition of</h></idx>
+It is a kind of plot to summarize a data set using statistical concepts, and also showing relevant observations.
+
             </li>
              <li>
                 <term>Mapping plot</term><idx><h>Mapping plot</h><h>definition of</h></idx>
@@ -88,14 +91,18 @@ trailing off in both directions are called
 
 <p>Let us explore some mathematical concepts.</p>
 
-<remark>
+<remark xml:id="rem-meanAverPopSMe">
   <p>
 <ul>
   <li><term>Mean</term><idx><h>Mean</h><h>definition of</h></idx>
     AKA 
     <term>Average</term><idx><h>Average</h><h>definition of</h></idx>
     It is one of the most popular way to measure the center of a distribution.
-    <me>\overline{x} = \sum\limits_i^n \frac{x_i}{n}</me> 
+    <mdn>
+      <mrow xml:id="eq-MeanAverageSample">
+    \overline{x} = \sum\limits_i^n \frac{x_i}{n}
+      </mrow>
+  </mdn>
     It is the sample mean, where <m>x_i</m> represents the <m>i-</m>th observed value.
   </li>
   <li><term>Population mean</term><idx><h>Population mean</h><h>definition of</h></idx>
@@ -109,34 +116,96 @@ trailing off in both directions are called
   <term>Weighted mean.</term><idx><h>Weighted mean</h><h>definition of</h></idx>
   Essentially, mean and weighted mean are same, except that the last one has an impact 
   if the number of observations change.  
-    <me>\label{eq:weigthedmeand}
+    <mdn>
+      <mrow xml:id="eq-weigthedmeand">
       \text{Weighted mean of } x_i= \frac{\sum\limits_{n}^{i=1} w_i x_i}{\sum\limits_{n}^{i=1} w_i}
-    </me>
+      </mrow>
+    </mdn>
     where <m>w_i</m>'s are the weights, and <m>x_i</m>'s are the observations.
-    Notice the eqs.  and \ref{eq:weigthedmeand} are same if 
+    Notice the eqs. <xref ref="eq-MeanAverageSample"/> and <xref ref="eq-weigthedmeand"/> are same if 
     in the last one <m>w_1=w_2=w_3= \dots = w_n = 1</m>
 </li>
 
 <li>
-  <term>Mode</term><idx><h>Mode.</h><h>definition of</h></idx>
+  <term>Mode.</term><idx><h>Mode</h><h>definition of</h></idx>
+It is the prominent peak in the distribution (sometimes it is identified as the highest rectangle) in the 
+histogram. Besides, it is the value with the most occurrences in the data set.
+But this definition has some issues, such as, it is uncommon to have repetitions 
+  in the data set.
+  On the other hand, the data set can have more peaks, e.g. 
+  one mode (<term>unimodal</term><idx><h>unimodal.</h><h>definition of</h></idx>),
+  two mode (<term>bimodal</term><idx><h>bimodal.</h><h>definition of</h></idx>), 
+  or several modes (<term>multimodal</term><idx><h>multimodal.</h><h>definition of</h></idx>).
 </li>
 
-<li>
-  <term>unimodal</term><idx><h>unimodal.</h><h>definition of</h></idx>
-</li>
 
 <li>
-  <term>bimodal</term><idx><h>bimodal.</h><h>definition of</h></idx>
+  <term>Standard deviation.</term><idx><h>Standard deviation</h><h>definition of</h></idx>
+  It is a measure of variability. The 
+  <term>deviation</term><idx><h>deviation</h><h>definition of</h></idx>
+  is the distance of the observation from its mean, namely, 
+   <m>x_i - \overline{x}</m>. 
+  For instance, <m>9.5 - 10 = -0.5</m> is the deviation.
+  Mathematically, the standard deviation is 
+<me>
+  \sigma = \sqrt{\frac{1}{N-1} \sum\limits^{N}_{i=1}(x_i - \overline{x})^2}
+</me>
+
+and  it roughly describes how far away the typical observation is from the mean.
+Usually, one standard deviation means the probability that every observation will be within 
+one sigma band is <m>68.5\%.</m> 
+Two standard deviation means the probability that every observation will be within 
+two sigma band is <m>95.5\%</m> and so on. 
+Check the <url href="https://francis.naukas.com/files/2009/09/dibujo20090924_sigma_significance_data_from_gaussian_model.jpg" visual="figure">figure</url> 
+(check the website <url href="https://francis.naukas.com/2009/09/25/las-fluctuaciones-a-2-sigma-del-fermilab-posibles-descubrimientos-futuros-si-se-alcanzan-las-5-sigma/" visual="Blog">blog</url>).
+This usually means that
+<ol>
+  <li>the <m>68.5\%</m> of data usually was within <m>1\ sigma</m> of the mean.</li>
+  <li>the <m>95.5\%</m> of data usually was within <m>2\ sigma</m> of the mean.</li>
+  <li>the <m>99.75\%</m> of data usually was within <m>3\ sigma</m> of the mean.</li>  
+  <li>the <m>99.995\%</m> of data usually was within <m>4\ sigma</m> of the mean.</li>  
+  <li>the <m>99.9995\%</m> of data usually was within <m>5\ sigma</m> of the mean.</li>  
+</ol>
 </li>
 
+
+
 <li>
-  <term>multimodal</term><idx><h>multimodal.</h><h>definition of</h></idx>
+  <term>Variance.</term><idx><h>Variance</h><h>definition of</h></idx>
+It is a measure of variability. It is called as the second central moment of the sample.
+<mdn>
+  <mrow xml:id="eq-varianceDefinition">
+    \sigma^2 &amp;= \frac{1}{N-1} \sum\limits^{N}_{i=1}(x_i - \overline{x})^2
+  </mrow></mdn>
+Note the eq. <xref ref="eq-varianceDefinition"/> is the definition of variance.
+The variance is the average squared distance from the mean.
+Notice the variance symbol is <m>\sigma^2.</m>
 </li>
 </ul>
   </p>
-  
   </remark>
 
+
+<p>
+  We will add more relevant concepts those help in statistical analysis.
+</p>
+
+<remark xml:id="rem-concepts">
+  <p>
+<ul>
+  <li>
+    <term>Interquartile range.</term><idx><h>Interquartile range</h><h>definition of</h></idx>    
+  </li>
+  <li>
+    <term>First range.</term><idx><h>First range</h><h>definition of</h></idx>    
+  </li>
+  <li>
+    <term>Third range.</term><idx><h>Third range</h><h>definition of</h></idx>    
+  </li>
+</ul>
+
+  </p>
+</remark>
 
 
 <example xml:id="exeI-sampleMean">
@@ -235,45 +304,18 @@ Notice that the columns do not have same numbers of inputs.
 
 
 
-<!-- <figure>
-  <caption>GeoGebra: from scratch</caption>
-  <interactive xml:id="geogebra-seed-head" platform="geogebra" width="50%" aspect="1:1">
-<slate xml:id="seed-head" surface="geogebra" aspect="1:1" perspective="G">
-setRounding("3s");
-setCoordSystem(-1,1,-1,1);
-setGridVisible(false);
-setAxesVisible(false, false);
-evalCommand("f(x)=If(x&gt;0,sqrt(x),0)");
-setVisible("f", false);
-evalCommand("T=20");
-evalCommand("t=Slider(0,T)");
-setAnimating("t", true);
-evalCommand("v=Vector((cos(t),sin(t)))");
-evalCommand("r=Slider(0,1)");
-evalCommand("r=(sqrt(5)-1)/2");
-evalCommand("r=Slider(0,1,0.001)");
-evalCommand("N=Min(100,floor(T/r))");
-evalCommand("Seeds = Sequence(f(t - n r) / sqrt(T) (cos(n r 2 pi), sin(n r 2 pi)), n, 0, N)");
-setFixed("v", false, false);
-setFixed("Seeds", false, false);
-</slate>
-  </interactive>
-</figure> -->
-
-
-
-
-
 <activity>
  <title>Extra material: Videos</title>
 
-<video xml:id="yt-ExaminingNumData" youtube="Xm0PPtci3JE" width="60%" margins="35%" />
 
-<video xml:id="yt-ExploringCatData" youtube="7NhNeADL8fA" width="60%" margins="35%" />
+<!-- <figure>
+  <caption>Hi</caption> -->
+  <video xml:id="yt-ExaminingNumData" youtube="Xm0PPtci3JE" width="60%" margins="35%" />
+
+  <video xml:id="yt-ExploringCatData" youtube="7NhNeADL8fA" width="60%" margins="35%" />
+<!-- </figure> -->
 
 </activity>
-
-
 
 
 
@@ -291,6 +333,14 @@ setFixed("Seeds", false, false);
 </p>
 </activity>
 
+
+<!--   <p>Generated: <today />, <timeofday /></p> -->
+
+<sage type="invisible" permid="Nry">
+  <input>version()</input>
+  <output>'Release Date: 2023'</output>
+
+</sage>
 
 </section>
 

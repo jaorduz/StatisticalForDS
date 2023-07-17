@@ -52,7 +52,7 @@
     <!-- @level on divisions above.                                   -->
     <blocks level="3" />
     <projects level="3" />
-    <equations level="3" />
+    <equations level="2" />
     <footnotes level="3" />
   </numbering>
 

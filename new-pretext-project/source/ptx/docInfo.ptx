@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
 
   <docinfo>
   <!-- <brandlogo url="https://pretextbook.org" source="images/ptx-logo.png" />
@@ -5,10 +7,11 @@ https://img.freepik.com/free-vector/illustration-social-media-concept_53876-1814
     <covers front="images/original-front-cover-aata.pdf"
             back="images/plain-back-cover-aata.pdf"/>
 
-    <images>
-      <archive>eps pdf png svg tex</archive>
-    </images> -->
-  <initialism>AATA</initialism>
+   -->
+   <!-- <images>
+    <archive>eps pdf png svg tex</archive>
+  </images> -->
+   <initialism>AATA</initialism>
 
     <macros>
       \newcommand{\R}{\mathbb R}
