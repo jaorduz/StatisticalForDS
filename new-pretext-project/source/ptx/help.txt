@@ -51,63 +51,56 @@
 
 <!-- Figure -->
 
-<!-- <figure xml:id="figure-asymptote-levers">
+<!-- 
+  https://asymptote.sourceforge.io/gallery/animations/index.html
+
+<figure xml:id="figure-asymptote-levers">
   <caption>Types of variables.</caption>
   <image xml:id="asymptote-lever">
     <description>Types of variables. </description>
   <asymptote>
-  https://asymptote.sourceforge.io/gallery/animations/index.html
-import math;
-import bsp;
-import animation;
 
-size(100,100);
-
-animation a;
-
-void face(face[] faces, path3 p, int j, int k) {
-  picture pic=faces.push(p);
-  filldraw(pic,project(p),Pen(j));
-  int sign=(k % 2 == 0) ? 1 : -1;
-  transform t=scale(4)*transform(dir(p,0,sign),dir(p,0,-sign));
-  label(pic,t*(string) j,project(0.5*(min(p)+max(p))));
-}
-
-void snapshot(transform3 t)
-{
-  static transform3 s=shift(-0.5*(X+Y+Z));
-  save();
-  
-  face[] faces;
-  int j=-1;
-  transform3 T=t*s;
-  for(int k=0; k < 2; ++k) {
-    face(faces,T*plane((1,0,0),(0,1,0),(0,0,k)),++j,k);
-    face(faces,T*plane((0,1,0),(0,0,1),(k,0,0)),++j,k);
-    face(faces,T*plane((0,0,1),(1,0,0),(0,k,0)),++j,k); 
-  }
-  add(faces);
-  
-  a.add();
-  restore();
-}
-
-int n=50;
-
-real step=360/n;
-for(int i=0; i < n; ++i)
-  snapshot(rotate(i*step,X));
-for(int i=0; i < n; ++i)
-  snapshot(rotate(i*step,Y));
-for(int i=0; i < n; ++i)
-  snapshot(rotate(i*step,Z));
-
-a.movie(loops=10,delay=50);
 
   </asymptote>
   </image>
-</figure> -->
+</figure> 
+-->
 
+<figure xml:id="fig-barPlot">
+    <caption>Types of variables.</caption>
+    <image xml:id="ima-barPlot">
+      <description>Types of variables. </description>
+    <asymptote>
+        import graph;
+        size(300,150,IgnoreAspect);
+        
+        real f(real x) {return 1/x^(1.1);}
+        pair F(real x) {return (x,f(x));}
+        
+        dotfactor=7;
+        
+        void subinterval(real a, real b)
+        {
+          path g=box((a,0),(b,f(b)));
+          filldraw(g,lightgray);
+          draw(box((a,f(a)),(b,0)));
+        }
+        
+        int a=1, b=3;
+        
+        xaxis("$x$",0,b);
+        yaxis("$y$",0);
+                
+        int n=2;
+        
+        for(int i=a; i &lt;= b; ++i) {
+          if(i &lt; b) subinterval(i,i+1);
+          if(i &lt;= n) labelx(i);
+        }
+                
+    </asymptote>
+    </image>
+  </figure> 
 
 
 

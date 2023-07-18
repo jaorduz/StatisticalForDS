@@ -47,10 +47,16 @@ trailing off in both directions are called
              <li>
                 <term>Box plot.</term><idx><h>Box plot</h><h>definition of</h></idx>
 It is a kind of plot to summarize a data set using statistical concepts, and also showing relevant observations.
-
+To create a box plot, we need steps 
+<ol>
+  <li xml:id="ol-boxPlotA" >Draw the median</li>
+  <li xml:id="ol-boxPlotB" >Draw a rectangle to represent the <m>50/%</m> of the data</li>
+</ol>
             </li>
              <li>
-                <term>Mapping plot</term><idx><h>Mapping plot</h><h>definition of</h></idx>
+                <term>Mapping plot.</term><idx><h>Mapping plot</h><h>definition of</h></idx>
+This kind of plot works to show different parameters/variables in a map. It implements different colors and their 
+intensity to associate get up or down for any variable.
             </li>
         </ul>
         </p>
@@ -89,6 +95,18 @@ It is a kind of plot to summarize a data set using statistical concepts, and als
   </image>
 </figure>
 
+
+
+
+<figure>
+  <caption>Mapping plot. Source: U. S. Department of Commerce. 
+    <url href="https://www.census.gov/library/visualizations/2023/comm/counties-persistent-poverty/_jcr_content/root/responsivegrid/embeddableimage1137.coreimg.jpeg/1683643684666/persistent-poverty.jpeg" 
+    visual="https://www.census.gov/">
+    <c>https://www.census.gov/</c></url></caption>
+<image source="https://www.census.gov/" width="40%" />  
+</figure>
+
+
 <p>Let us explore some mathematical concepts.</p>
 
 <remark xml:id="rem-meanAverPopSMe">
@@ -117,8 +135,8 @@ It is a kind of plot to summarize a data set using statistical concepts, and als
   Essentially, mean and weighted mean are same, except that the last one has an impact 
   if the number of observations change.  
     <mdn>
-      <mrow xml:id="eq-weigthedmeand">
-      \text{Weighted mean of } x_i= \frac{\sum\limits_{n}^{i=1} w_i x_i}{\sum\limits_{n}^{i=1} w_i}
+      <mrow xml:id="eq-weigthedmeand" >
+      \text{Weighted mean of } x_i= \frac{\sum\limits^{n}_{i=1} w_i x_i}{\sum\limits^{n}{i=1} w_i}
       </mrow>
     </mdn>
     where <m>w_i</m>'s are the weights, and <m>x_i</m>'s are the observations.
@@ -140,12 +158,8 @@ But this definition has some issues, such as, it is uncommon to have repetitions
 
 
 <li>
-  <term>Standard deviation.</term><idx><h>Standard deviation</h><h>definition of</h></idx>
-  It is a measure of variability. The 
-  <term>deviation</term><idx><h>deviation</h><h>definition of</h></idx>
-  is the distance of the observation from its mean, namely, 
-   <m>x_i - \overline{x}</m>. 
-  For instance, <m>9.5 - 10 = -0.5</m> is the deviation.
+  <term>Standard-deviation.</term><idx><h>Standard-deviation</h><h>definition of</h></idx>
+  It is a measure of variability. 
   Mathematically, the standard deviation is 
 <me>
   \sigma = \sqrt{\frac{1}{N-1} \sum\limits^{N}_{i=1}(x_i - \overline{x})^2}
@@ -154,20 +168,18 @@ But this definition has some issues, such as, it is uncommon to have repetitions
 and  it roughly describes how far away the typical observation is from the mean.
 Usually, one standard deviation means the probability that every observation will be within 
 one sigma band is <m>68.5\%.</m> 
+
 Two standard deviation means the probability that every observation will be within 
 two sigma band is <m>95.5\%</m> and so on. 
 Check the <url href="https://francis.naukas.com/files/2009/09/dibujo20090924_sigma_significance_data_from_gaussian_model.jpg" visual="figure">figure</url> 
 (check the website <url href="https://francis.naukas.com/2009/09/25/las-fluctuaciones-a-2-sigma-del-fermilab-posibles-descubrimientos-futuros-si-se-alcanzan-las-5-sigma/" visual="Blog">blog</url>).
-This usually means that
-<ol>
-  <li>the <m>68.5\%</m> of data usually was within <m>1\ sigma</m> of the mean.</li>
-  <li>the <m>95.5\%</m> of data usually was within <m>2\ sigma</m> of the mean.</li>
-  <li>the <m>99.75\%</m> of data usually was within <m>3\ sigma</m> of the mean.</li>  
-  <li>the <m>99.995\%</m> of data usually was within <m>4\ sigma</m> of the mean.</li>  
-  <li>the <m>99.9995\%</m> of data usually was within <m>5\ sigma</m> of the mean.</li>  
-</ol>
-</li>
 
+Notice The 
+<term>deviation</term><idx><h>deviation</h><h>definition of</h></idx>
+is the distance of the observation from its mean, namely, 
+ <m>x_i - \overline{x}</m>. 
+ For instance, <m>9.5 - 10 = -0.5</m> is the deviation. 
+</li>
 
 
 <li>
@@ -176,7 +188,8 @@ It is a measure of variability. It is called as the second central moment of the
 <mdn>
   <mrow xml:id="eq-varianceDefinition">
     \sigma^2 &amp;= \frac{1}{N-1} \sum\limits^{N}_{i=1}(x_i - \overline{x})^2
-  </mrow></mdn>
+  </mrow>
+</mdn>
 Note the eq. <xref ref="eq-varianceDefinition"/> is the definition of variance.
 The variance is the average squared distance from the mean.
 Notice the variance symbol is <m>\sigma^2.</m>
@@ -187,25 +200,110 @@ Notice the variance symbol is <m>\sigma^2.</m>
 
 
 <p>
+Additionally, the sigma measure usually means that
+<ul>
+  <li>the <m>68.5\%</m> of data usually was within <m>1\sigma</m> of the mean.</li>
+  <li>the <m>95.5\%</m> of data usually was within <m>2\sigma</m> of the mean.</li>
+  <li>the <m>99.75\%</m> of data usually was within <m>3\sigma</m> of the mean.</li>  
+  <li>the <m>99.995\%</m> of data usually was within <m>4\sigma</m> of the mean.</li>  
+  <li>the <m>99.9995\%</m> of data usually was within <m>5\sigma</m> of the mean.</li>  
+</ul>
+</p>
+<p>
   We will add more relevant concepts those help in statistical analysis.
 </p>
 
-<remark xml:id="rem-concepts">
+
+<figure xml:id="fig-dotPlots">
+  <caption>A vertical dot plot.
+    <url href="../images/dotPlots.png" 
+    visual="https://www.openintro.org/book/os/">
+    <c>Image source: https://www.openintro.org/book/os/</c></url></caption>
+<image source="https://www.openintro.org/book/os/" width="40%" />  
+</figure>
+
+
+
+<p>Median denotes the concept to split data in half (fig. <xref ref="fig-dotPlots"/>). In other words 
+this concept refers the <m>50^{\text{th}}</m> percentile. The median has two options 
+<ol>
+  <li>Even number of observations. In this case we will calculate the average.</li>
+  <li>Odd number of observations. In this case we will have only one observation that splits the data into two halves.</li>
+</ol>
+Besides, the steps showed in items <xref ref="ol-boxPlotA"/> and 
+<xref ref="ol-boxPlotB"/>, we require more concepts about this topic, 
+</p>
+<remark xml:id="rem-conceptsB">
   <p>
 <ul>
   <li>
-    <term>Interquartile range.</term><idx><h>Interquartile range</h><h>definition of</h></idx>    
+    <term>Interquartile range (<m>IQR</m>).</term><idx><h>Interquartile range</h><h>definition of</h></idx> 
+    It is the total length of the box plot. It is a measure of variability.
   </li>
   <li>
-    <term>First range.</term><idx><h>First range</h><h>definition of</h></idx>    
+    <term>First quartile (<m>Q_1</m>).</term><idx><h>First quartile</h><h>definition of</h></idx>    
+    It is boundary to indicate that the <m>25\%</m> of the data fall below this value.
   </li>
   <li>
-    <term>Third range.</term><idx><h>Third range</h><h>definition of</h></idx>    
+    <term>Third quartile (<m>Q_3</m>).</term><idx><h>Third quartile</h><h>definition of</h></idx>    
+    It is boundary to indicate that the <m>75\%</m> of the data fall below this value.
+  </li>
+  <li>
+    <term>Whisker.</term><idx><h>Whisker</h><h>definition of</h></idx>
+    There are three whiskers: max, upper and lower. They are boundaries to have the data inside the box.
+    <ol>
+      <li>max <m>\frac{3}{2}IQR</m></li>
+      <li>upper <m>Q_3+\frac{3}{2}IQR</m> from <m>Q_1</m></li>
+      <li>lower <m>Q_3-\frac{3}{2}IQR</m></li>
+    </ol> 
+
+where,
+
+<mdn>
+  <mrow xml:id="eq-IQR-q3q1">
+IQR = Q_3 -Q_1
+  </mrow>
+</mdn>
+  </li>
+  <li>
+    <term>Outliers.</term><idx><h>Outlier</h><h>definition of</h></idx>
+    They are any observations that appear to be unusually distant from the rest of the data.
+    This concept is crucial because it helps to 
+    <ol>
+      <li>identify bias in the distribution.</li>
+      <li>Establish data entry errors.</li>
+      <li>Reveal potential properties of the data.</li>            
+    </ol>
   </li>
 </ul>
-
   </p>
 </remark>
+
+<p>
+  Let us check other statistical concepts. The following concept is relevant to 
+  analyze data and its influence under changes.
+</p>
+
+
+<remark xml:id="rem-conceptsC">
+<p>
+<ul>
+  <li><term>Robust statistics.</term><idx><h>Robust statistics</h><h>definition of</h></idx>
+  Two concepts constitute the Robust statistics: Median and IQR. 
+  These have little effect when there are extreme observations.
+  </li>
+  <li><term>Transformation.</term><idx><h>transformation</h><h>definition of</h></idx>
+It is a recalibration of data through a mathematical function, this usually works to rescale the data 
+a make easier to build data models. Some transformation examples are 
+<m>x\to\log(), x\to\ln(), x\to\sqrt{x},x\to x^{-1}</m>
+  </li>
+</ul>
+</p>
+</remark>
+
+
+
+
 
 
 <example xml:id="exeI-sampleMean">
@@ -342,6 +440,9 @@ Notice that the columns do not have same numbers of inputs.
 
 </sage>
 
+
 </section>
+
+
 
 

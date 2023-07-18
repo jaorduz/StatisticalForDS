@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+<section xml:id="sect-four">
+
+    <title>Categorical Data</title>
+
+<objectives permid="Obj-4">
+    <ul>
+        <li>
+            Introduce basic concepts and correct terminology for categorical data.
+        </li>
+    </ul>
+</objectives>
+
+<remark>
+    <p>
+    <ul>
+        <li>
+            <term>Bar plot.</term><idx><h>Bar plot</h><h>definition of</h></idx>
+            It is the common plot to show a categorical variable.
+        </li>
+
+        <li>
+            <term>Row proportions.</term><idx><h>Row proportions</h><h>definition of</h></idx>
+It is a way to show the quotient between one case compare to the total. This can be done horizontal.
+        </li>        
+        <li>
+            <term>Column proportions.</term><idx><h>Column proportions</h><h>definition of</h></idx>
+It is a way to show the quotient between one case compare to the total. This should be done vertical.
+        </li>                
+<li>
+    <term>bar plot with two variables</term><idx><h>bar plot with two variables</h><h>definition of</h></idx>
+ is an extension for the bar plot. It is also called stacked bar plot.
+</li>
+
+    </ul>
+    </p>
+</remark>
+
+<example>
+    <statement>
+        <p>
+            <me>
+                \begin{array}{lccc} 
+                            &amp; \text{text}&amp; \text{HTML}&amp; \text{Total}\\
+            \text{Spam}     &amp; 364&amp;  764&amp; 1028\\
+            \text{Not spam} &amp; 632&amp; 2345&amp; 2977\\
+            \text{Total}    &amp; 996&amp; 3109&amp; 4005\\
+                \end{array}
+            </me>
+            Calculate 
+            <ol>
+                <li>Row proportions</li>
+                <li>Column proportions</li>
+            </ol>
+        </p>
+    </statement>
+</example>
+
+
+
+
+
+
+
+
+<!-- <figure xml:id="fig-barPlots">
+    <caption>A vertical dot plot.
+      <url href="../images/barPlots.png" 
+      visual="https://www.openintro.org/book/os/">
+      <c>Image source: https://www.openintro.org/book/os/</c></url></caption>
+  <image source="https://www.openintro.org/book/os/" width="40%" />  
+  </figure> -->
+
+
+
+
+</section>

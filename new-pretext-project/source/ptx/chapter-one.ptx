@@ -9,8 +9,13 @@ This is the introduction for the knowing data chapter.
     </introduction>
 
     <xi:include href="./sect-one.ptx" />
+    
     <xi:include href="./sect-two.ptx" />
+    
     <xi:include href="./sect-three.ptx" />
+    
+    <xi:include href="./sect-four.ptx" />
+
 
     <conclusion>
         <p>
