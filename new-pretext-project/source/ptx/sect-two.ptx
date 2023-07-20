@@ -30,10 +30,10 @@ Therefore, people use some characteristics of the database.
 This is an informal way to talk about columns, rows, database and more. Then, we proceed to formalize 
 some relevant concepts.
   <ul>
-    <li><term>Variables</term><idx><h>Variables</h><h>definition of</h></idx> are the formal name to identify columns in a database. 
-    This variables represent the <term>Characteristics</term><idx><h>Characteristics</h><h>definition of</h></idx> for each row.</li>
-    <li><term>Case</term><idx><h>Case</h><h>definition of</h></idx> is the word to call each row. AKA observational unit.</li>
-   <li><term>Data Matrix</term><idx><h>Data</h><h>Matrix</h></idx> is the way to organize data. This is convenient to put in a spreadsheet.</li>
+    <li><term>Variables</term><idx><h>Variables</h></idx> are the formal name to identify columns in a database. 
+    This variables represent the <term>Characteristics</term><idx><h>Characteristics</h></idx> for each row.</li>
+    <li><term>Case</term><idx><h>Case</h></idx> is the word to call each row. AKA observational unit.</li>
+   <li><term>Data Matrix</term><idx><h>Matrix</h><h>data-</h></idx> is the way to organize data. This is convenient to put in a spreadsheet.</li>
   </ul>
 </p>
 
@@ -113,7 +113,7 @@ n&amp; 2023 &amp;\text { Delorian}&amp;\text { Time Flies}&amp;\text { Individua
 <title>Types of variables</title>
   <statement>
     <p>
-      <term>Variable</term><idx><h>Variable</h><h>definition of</h></idx>
+      <term>Variable</term><idx><h>Variable</h></idx>
        can share characteristics, but each variables is different in terms of meaning, shape and representation.</p>
   </statement>
 </definition>
@@ -155,7 +155,7 @@ draw( root, (0,0) );
 <title>Types of variables:</title>
   <statement>
     <p>
-      <term>Numerical</term><idx><h>Numerical</h><h>definition of</h></idx>
+      <term>Numerical</term><idx><h>Numerical</h></idx>
       It refers variables that can take a wide range of numerical values.</p>
   </statement>
 </definition>
@@ -167,7 +167,7 @@ draw( root, (0,0) );
 <title>Types of variables:</title>
   <statement>
     <p>
-<term>Discrete</term><idx><h>Discrete</h><h>definition of</h></idx>      
+<term>Discrete</term><idx><h>Discrete</h></idx>      
       This kind of variable takes non-negative numerical values.</p>
   </statement>
 </definition>
@@ -176,7 +176,7 @@ draw( root, (0,0) );
 <title>Types of variables:</title>
   <statement>
     <p>
-    <term>Continuous</term><idx><h>Continous</h><h>definition of</h></idx>      
+    <term>Continuous</term><idx><h>Continous</h></idx>      
   This kind of numerical variables is not discrete, this concept might be debatible concept, but it can considered as 
   a infinitesimal numerical value.
     </p>
@@ -187,7 +187,7 @@ draw( root, (0,0) );
 <title>Types of variables:</title>
   <statement>
     <p>
-    <term>Categorical</term><idx><h>Categorical</h><h>definition of</h></idx> 
+    <term>Categorical</term><idx><h>Categorical</h></idx> 
     This kind of variables are category per se. It means the responses migth have a range of choices.       
     </p>
   </statement>
@@ -197,7 +197,7 @@ draw( root, (0,0) );
 <title>Types of variables:</title>
   <statement>
     <p>
-    <term>Variable's Levels</term><idx><h>Variable's Levels</h><h>definition of</h></idx>  
+    <term>Variable's Levels</term><idx><h>Levels</h><h>variable's-</h></idx>  
     are the possible range of values for categorical variable.  
     </p>
   </statement>
@@ -208,7 +208,7 @@ draw( root, (0,0) );
 <title>Types of variables:</title>
   <statement>
     <p>
-    <term>Ordinal</term><idx><h>Ordinal</h><h>definition of</h></idx>  
+    <term>Ordinal</term><idx><h>Ordinal</h></idx>  
 it is a categorical variable whose variable's levels have a natural ordering.
     </p>
   </statement>
@@ -219,7 +219,7 @@ it is a categorical variable whose variable's levels have a natural ordering.
 <title>Types of variables:</title>
   <statement>
     <p>
-    <term>Nominal</term><idx><h>Nominal</h><h>definition of</h></idx>  
+    <term>Nominal</term><idx><h>Nominal</h></idx>  
 it is a categorical variable whose variable's levels have an unordering.
     </p>
   </statement>
@@ -292,7 +292,7 @@ numerical, and graphical analysis are relevant.
 
 <p>
     When a researcher finds a relationship then variables are 
-    <term>associated or Variables</term><idx><h>associated Variables</h><h>definition of</h></idx>
+    <term>associated Variables</term><idx><h>Variables</h><h>associated-</h></idx>
     are also known as dependant Variables.
     </p>
 
@@ -300,26 +300,26 @@ numerical, and graphical analysis are relevant.
     <p>Database can be analyzed from different ways and it will open the fact to have more questions.
     To do this, we have other definitions:
         <ul>
-            <li><term>Negative association</term><idx><h>Negative association</h><h>definition of</h></idx> out the 
+            <li><term>Negative association</term><idx><h>Association</h><h>negative-</h></idx> out the 
             trend in a scatterplot.</li>
-            <li><term>Positive association</term><idx><h>Positive association</h><h>definition of</h></idx> in the trend 
+            <li><term>Positive association</term><idx><h>Association</h><h>positive-</h></idx> in the trend 
             in a scatterplot</li>
-            <li><term>Independent variables</term><idx><h>Independent variables</h><h>definition of</h></idx>
+            <li><term>Independent variables</term><idx><h>Variables</h><h>independent</h></idx>
                 no evident relationship between two variables.</li>
-            <li><term>Explanatory variables</term><idx><h>Explanatory variables</h><h>definition of</h></idx>
+            <li><term>Explanatory variables</term><idx><h>Variables</h><h>explanatory-</h></idx>
                 these kind of variables (probably) affect another. AKA independent variable.</li>
-            <li><term>Response variables</term><idx><h>Response variables</h><h>definition of</h></idx>
+            <li><term>Response variables</term><idx><h>Variables</h><h>response-</h></idx>
                 these kind of variable (probably) will be affected by the response variables.  
                 AKA dependent variable.</li>
-            <li><term>Observational study</term><idx><h>Observational Study</h><h>definition of</h></idx>
+            <li><term>Observational study</term><idx><h>Study</h><h>observational-</h></idx>
                 It means a study to collect data without interfiring how the data arise. </li>
-            <li><term>Experiments</term><idx><h>Experiments</h><h>definition of</h></idx> 
+            <li><term>Experiments</term><idx><h>Experiment(s)</h></idx> 
                 Situations where researchers explore a potential causal connection.</li>
-            <li><term>Randomized experiment</term><idx><h>Randomized experiment</h><h>definition of</h></idx>
+            <li><term>Randomized experiment</term><idx><h>Experiment(s)</h><h>randomized-</h></idx>
                 It is the random assignation of individuals in groups to test the explanatory or response variables.</li>
-            <li><term>Association</term><idx><h>Association</h><h>definition of</h></idx>
+            <li><term>Association</term><idx><h>Association</h></idx>
                 It means a correlation between variables, but it does not imply causation.</li>
-            <li><term>Causation</term><idx><h>Causation</h><h>definition of</h></idx>
+            <li><term>Causation</term><idx><h>Causation</h></idx>
                 It is inferred from random experiments.</li>
         </ul>
         </p>
@@ -362,8 +362,8 @@ numerical, and graphical analysis are relevant.
 
 
 <remark>
-  <p>What do <term>population</term><idx><h>population</h><h>definition of</h></idx> and 
-    <term>sample</term><idx><h>sample</h><h>definition of</h></idx> mean?
+  <p>What do <term>population</term><idx><h>population</h></idx> and 
+    <term>sample</term><idx><h>sample</h></idx> mean?
       To stablish a question, we inherently think in a population. This population has several
       features, and requirements. We will call the population or target population. 
       Every member in the population stands for a case. 
@@ -378,7 +378,7 @@ numerical, and graphical analysis are relevant.
 <!-- <title>Sample</title> -->
   <statement>
     <p>
-    <term>Sample</term><idx><h>sample</h><h>definition of</h></idx>  
+    <term>Sample</term><idx><h>Sample</h></idx>  
 it is a subset of cases and represents a small fraction of population.
     </p>
   </statement>
@@ -401,7 +401,7 @@ it is a subset of cases and represents a small fraction of population.
 <!-- <p>Anecdotal Evidence</p> -->
   <statement>
     <p>
-  <term>Anecdotal Evidence</term><idx><h>Anecdotal Evidence</h><h>definition of</h></idx>  
+  <term>Anecdotal Evidence</term><idx><h>Evidence</h><h>anecdotal-</h></idx>  
  are data collected in a random and hazard (haphazard) fashion. These usually represent extraordinary cases.
     </p>
   </statement>
@@ -445,12 +445,12 @@ concentration in swordfish must be dangerously high.</li>
   <statement>
     <p>
       <ul>
-        <li><term>Bias</term><idx><h>bias</h><h>definition of</h></idx>  
+        <li><term>Bias</term><idx><h>bias</h></idx>  
 the fact which permits data manipulation with or without intention of favoring any output.
         </li>
-        <li><term>Simple random sample</term><idx><h>Simple random sample</h><h>definition of</h></idx>  
+        <li><term>Simple random sample</term><idx><h>Sample</h><h>-random-</h><h>simple--</h></idx>  
 Is the most basic random sample that introduces ramdomness, namely, 
-        <term>Sampling randomly</term><idx><h>Sampling randomly</h><h>definition of</h></idx>
+        <term>Sampling randomly</term><idx><h>Randomly</h><h>sampling</h></idx>
           to avoid any particular benefit.  
         </li>
       </ul>
@@ -465,16 +465,16 @@ The act of taking Simple random sample helps to minimize the bias.
     <p>
       <ul>
         <li>
-          <term>Non-response rate</term><idx><h>Non-response rate</h><h>definition of</h></idx>
+          <term>Non-response rate</term><idx><h>Rate</h><h>non-response-</h></idx>
         is the rate of responses and we would pursue it to be high. 
         </li>
 
         <li>
-          <term>Non-response bias</term><idx><h>Non-response bias</h><h>definition of</h></idx>          
+          <term>Non-response bias</term><idx><h>Bias</h><h>Non-response-</h></idx>          
         means a non-reponse rate low since it cannot be representative of the population.
         </li>
         <li>
-          <term>Convenience sample</term><idx><h>convenience sample</h><h>definition of</h></idx>
+          <term>Convenience sample</term><idx><h>Sample</h><h>convenience-</h></idx>
           is the fact of including the cases that are easily accessible then they are more likely 
           to be included in the sample.
           is the fact of including the cases that are more likely to be included in the sample 
@@ -512,19 +512,19 @@ endgroup();
   <p>
 <ul>
   <li>
-    <term>Observational data</term><idx><h>Observational data</h><h>definition of</h></idx>
+    <term>Observational data</term><idx><h>Data</h><h>observational-</h></idx>
 this is how we call data wich don't have any applied treatment.
-    <term>Observational studies</term><idx><h>Observational studies</h><h>definition of</h></idx>
+    <term>Observational studies</term><idx><h>Studies</h><h>sbservational-</h></idx>
 are sufficcient to show associations or stablish hypothesis to be verified trought different experiments.
   </li>
 <li>
-    Observational studies have two forms:  <term>Prospective</term><idx><h>Prospective studies</h><h>definition of</h></idx> and 
-      <term>Retrospective </term><idx><h>Retrospective studies</h><h>definition of</h></idx>. The first one identifies 
+    Observational studies have two forms:  <term>Prospective</term><idx><h>Studies</h><h>prospective-</h></idx> and 
+      <term>Retrospective </term><idx><h>Studies</h><h>retrospective-</h></idx>. The first one identifies 
     individuals and collects information as event unfold. The retrospective study collects data after events happened.      
   </li>
 
   <li>
-    <term>Confounding variable</term><idx><h>Confounding variable</h><h>definition of</h></idx>
+    <term>Confounding variable</term><idx><h>Variable</h><h>confounding</h></idx>
 is a variable which correlated with both <term>explanatory</term> and <term>response</term> variables.
 AKA lurking, confounder factor, or confounder.
     </li>
@@ -567,22 +567,22 @@ draw( root, (0,0) );
     of random sampling. AKA Simple random.
       </li>
       <li>
-    <term>Stratified sampling</term><idx><h>Stratified sampling</h><h>definition of</h></idx>        
+    <term>Stratified sampling</term><idx><h>Sampling</h><h>stratified-</h></idx>        
 The population is divided in groups called 
-    <term>Strata</term><idx><h>Strata</h><h>definition of</h></idx>. It is useful when each 
-    <term>Stratum</term><idx><h>Stratum</h><h>definition of</h></idx>  are very similar with respect to 
+    <term>Strata</term><idx><h>Strata</h><h>(sing. Stratum)</h></idx>. It is useful when each 
+    <term>Stratum</term>  are very similar with respect to 
     outcome of interest.
 
       </li>
       <li>
-    <term>Cluster sampling</term><idx><h>Cluster sampling</h><h>definition of</h></idx> 
+    <term>Cluster sampling</term><idx><h>Sampling</h><h>Cluster-</h></idx> 
     The populaion is divided in groups called 
-     <term>Clusters</term><idx><h>Clusters</h><h>definition of</h></idx>. 
+     <term>Clusters</term><idx><h>Clusters</h></idx>. 
      Then we sample a fixed number of clusters and include all observations from each of those clusters in the
 sample.
       </li>
       <li>
-    <term>Multistage sampling</term><idx><h>Multistage sampling</h><h>definition of</h></idx>        
+    <term>Multistage sampling</term><idx><h>Sampling</h><h>multistage-</h></idx>        
 is similar to cluster sample, but we collect a random sample within each selected cluster.
       </li>                  
     </ul>

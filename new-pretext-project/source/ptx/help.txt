@@ -1,4 +1,29 @@
+<subsection xml:id="subsec-subsection-One">
+    <title>subsection One</title>
+    
+<introduction>
+    <p>
+        adsf asd 
+    </p>
+</introduction>
+</subsection>
 
+<outcomes>
+    <title>This is an outcome</title>
+    <introduction>
+        <p>
+            this is the introd
+        </p>
+    </introduction>
+    
+    <conclusion>
+        <p>
+            this is the conclusion
+        </p>
+    </conclusion>
+
+
+</outcomes>
 
 
 <!-- Youtube video -->

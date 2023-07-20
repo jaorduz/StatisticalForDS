@@ -10,6 +10,6 @@
 
 <xi:include href="./ptx/chapter-one.ptx" />
 
-
+<xi:include href="./ptx/backmatter.ptx" />
   </book>
 </pretext>

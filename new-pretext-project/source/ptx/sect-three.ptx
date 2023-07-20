@@ -20,32 +20,32 @@ We provide some definitions which are relevant in this chapter.
     <p>We have differen kind of plots/graphs to summarize data.
         <ul>
             <li>
-                <term>Scatter plot</term><idx><h>Scatter plot</h><h>definition of</h></idx>
+                <term>Scatter plot</term><idx><h>Plot</h><h>Scatter</h></idx>
 This kind of plot provides a case-by-case view of data for two numerical variables.
             </li>
             <li>
-                <term>Dot plot</term><idx><h>Dot plot</h><h>definition of</h></idx>
+                <term>Dot plot</term><idx><h>Plot</h><h>dot</h></idx>
 This is a one-variable scatterplot. It is the most basic of displays. 
 
 </li>
              <li>
-                <term>Histograms plot</term><idx><h>Histograms plot.</h><h>definition of</h></idx> 
+                <term>Histograms plot</term><idx><h>Plot.</h><h>histograms</h></idx> 
 It has different interpretations, but, in general, it is a binned version of the stacked dot plot.
 It also can be a frequencies plot. We will discuss more about this in the following sections.
 With this plot, we can know more about
-<term>data density</term><idx><h>data density.</h><h>definition of</h></idx>  
+<term>data density</term><idx><h>Data</h><h>density</h></idx>  
 When data trail off to the right in this way and has a longer right tail, the shape is said
 to be 
-<term>right skewed</term><idx><h>right skewed.</h><h>definition of</h></idx>
+<term>right skewed</term><idx><h>Skewed.</h><h>right-</h></idx>
 Otherwise, we will have 
-<term>left skewed</term><idx><h>left skewed.</h><h>definition of</h></idx>
+<term>left skewed</term><idx><h>Skewed.</h><h>left-</h></idx>
 If data sets show roughly equal
 trailing off in both directions are called 
-<term>symmetric</term><idx><h>symmetric.</h><h>definition of</h></idx>
+<term>symmetric</term><idx><h>symmetric.</h></idx>
  
 </li>
              <li>
-                <term>Box plot.</term><idx><h>Box plot</h><h>definition of</h></idx>
+                <term>Box plot.</term><idx><h>Plot</h><h>box-</h></idx>
 It is a kind of plot to summarize a data set using statistical concepts, and also showing relevant observations.
 To create a box plot, we need steps 
 <ol>
@@ -54,7 +54,7 @@ To create a box plot, we need steps
 </ol>
             </li>
              <li>
-                <term>Mapping plot.</term><idx><h>Mapping plot</h><h>definition of</h></idx>
+                <term>Mapping plot.</term><idx><h>Plot</h><h>mapping</h></idx>
 This kind of plot works to show different parameters/variables in a map. It implements different colors and their 
 intensity to associate get up or down for any variable.
             </li>
@@ -112,9 +112,9 @@ intensity to associate get up or down for any variable.
 <remark xml:id="rem-meanAverPopSMe">
   <p>
 <ul>
-  <li><term>Mean</term><idx><h>Mean</h><h>definition of</h></idx>
+  <li><term>Mean</term><idx><h>Mean</h></idx>
     AKA 
-    <term>Average</term><idx><h>Average</h><h>definition of</h></idx>
+    <term>Average</term><idx><h>Average</h></idx>
     It is one of the most popular way to measure the center of a distribution.
     <mdn>
       <mrow xml:id="eq-MeanAverageSample">
@@ -123,15 +123,15 @@ intensity to associate get up or down for any variable.
   </mdn>
     It is the sample mean, where <m>x_i</m> represents the <m>i-</m>th observed value.
   </li>
-  <li><term>Population mean</term><idx><h>Population mean</h><h>definition of</h></idx>
+  <li><term>Population mean</term><idx><h>Mean</h><h>Population-</h></idx>
     and 
-    <term>Sample mean</term><idx><h>Sample mean</h><h>definition of</h></idx>
+    <term>Sample mean</term><idx><h>Mean</h><h>Sample-</h></idx>
   can be calculated trough the same way, using the 
   <m>\mu = \sum\limits_i^N \frac{x_i}{N}.</m>
   Notice, the population mean is represented by <m>\mu.</m>
 </li>
 <li>
-  <term>Weighted mean.</term><idx><h>Weighted mean</h><h>definition of</h></idx>
+  <term>Weighted mean.</term><idx><h>Mean</h><h>weighted-</h></idx>
   Essentially, mean and weighted mean are same, except that the last one has an impact 
   if the number of observations change.  
     <mdn>
@@ -145,20 +145,20 @@ intensity to associate get up or down for any variable.
 </li>
 
 <li>
-  <term>Mode.</term><idx><h>Mode</h><h>definition of</h></idx>
+  <term>Mode.</term><idx><h>Mode</h></idx>
 It is the prominent peak in the distribution (sometimes it is identified as the highest rectangle) in the 
 histogram. Besides, it is the value with the most occurrences in the data set.
 But this definition has some issues, such as, it is uncommon to have repetitions 
   in the data set.
   On the other hand, the data set can have more peaks, e.g. 
-  one mode (<term>unimodal</term><idx><h>unimodal.</h><h>definition of</h></idx>),
-  two mode (<term>bimodal</term><idx><h>bimodal.</h><h>definition of</h></idx>), 
-  or several modes (<term>multimodal</term><idx><h>multimodal.</h><h>definition of</h></idx>).
+  one mode (<term>unimodal</term><idx><h>unimodal</h></idx>),
+  two mode (<term>bimodal</term><idx><h>bimodal</h></idx>), 
+  or several modes (<term>multimodal</term><idx><h>multimodal</h></idx>).
 </li>
 
 
 <li>
-  <term>Standard-deviation.</term><idx><h>Standard-deviation</h><h>definition of</h></idx>
+  <term>Standard deviation.</term><idx><h>Deviation</h><h>standard-</h></idx>
   It is a measure of variability. 
   Mathematically, the standard deviation is 
 <me>
@@ -175,7 +175,7 @@ Check the <url href="https://francis.naukas.com/files/2009/09/dibujo20090924_sig
 (check the website <url href="https://francis.naukas.com/2009/09/25/las-fluctuaciones-a-2-sigma-del-fermilab-posibles-descubrimientos-futuros-si-se-alcanzan-las-5-sigma/" visual="Blog">blog</url>).
 
 Notice The 
-<term>deviation</term><idx><h>deviation</h><h>definition of</h></idx>
+<term>deviation</term><idx><h>Deviation</h></idx>
 is the distance of the observation from its mean, namely, 
  <m>x_i - \overline{x}</m>. 
  For instance, <m>9.5 - 10 = -0.5</m> is the deviation. 
@@ -183,7 +183,7 @@ is the distance of the observation from its mean, namely,
 
 
 <li>
-  <term>Variance.</term><idx><h>Variance</h><h>definition of</h></idx>
+  <term>Variance.</term><idx><h>Variance</h></idx>
 It is a measure of variability. It is called as the second central moment of the sample.
 <mdn>
   <mrow xml:id="eq-varianceDefinition">
@@ -237,19 +237,19 @@ Besides, the steps showed in items <xref ref="ol-boxPlotA"/> and
   <p>
 <ul>
   <li>
-    <term>Interquartile range (<m>IQR</m>).</term><idx><h>Interquartile range</h><h>definition of</h></idx> 
+    <term>Interquartile range (<m>IQR</m>).</term><idx><h>Quartile</h><h>inter- range</h></idx> 
     It is the total length of the box plot. It is a measure of variability.
   </li>
   <li>
-    <term>First quartile (<m>Q_1</m>).</term><idx><h>First quartile</h><h>definition of</h></idx>    
+    <term>First quartile (<m>Q_1</m>).</term><idx><h>Quartile</h><h>first- range</h></idx>    
     It is boundary to indicate that the <m>25\%</m> of the data fall below this value.
   </li>
   <li>
-    <term>Third quartile (<m>Q_3</m>).</term><idx><h>Third quartile</h><h>definition of</h></idx>    
+    <term>Third quartile (<m>Q_3</m>).</term><idx><h>Quartile</h><h>third- range</h></idx>    
     It is boundary to indicate that the <m>75\%</m> of the data fall below this value.
   </li>
   <li>
-    <term>Whisker.</term><idx><h>Whisker</h><h>definition of</h></idx>
+    <term>Whisker.</term><idx><h>Whisker</h></idx>
     There are three whiskers: max, upper and lower. They are boundaries to have the data inside the box.
     <ol>
       <li>max <m>\frac{3}{2}IQR</m></li>
@@ -266,7 +266,7 @@ IQR = Q_3 -Q_1
 </mdn>
   </li>
   <li>
-    <term>Outliers.</term><idx><h>Outlier</h><h>definition of</h></idx>
+    <term>Outliers.</term><idx><h>Outlier</h></idx>
     They are any observations that appear to be unusually distant from the rest of the data.
     This concept is crucial because it helps to 
     <ol>
@@ -288,11 +288,11 @@ IQR = Q_3 -Q_1
 <remark xml:id="rem-conceptsC">
 <p>
 <ul>
-  <li><term>Robust statistics.</term><idx><h>Robust statistics</h><h>definition of</h></idx>
+  <li><term>Robust statistics.</term><idx><h>Statistics</h><h>robust-</h></idx>
   Two concepts constitute the Robust statistics: Median and IQR. 
   These have little effect when there are extreme observations.
   </li>
-  <li><term>Transformation.</term><idx><h>transformation</h><h>definition of</h></idx>
+  <li><term>Transformation.</term><idx><h>transformation</h></idx>
 It is a recalibration of data through a mathematical function, this usually works to rescale the data 
 a make easier to build data models. Some transformation examples are 
 <m>x\to\log(), x\to\ln(), x\to\sqrt{x},x\to x^{-1}</m>
@@ -409,8 +409,6 @@ Notice that the columns do not have same numbers of inputs.
 <!-- <figure>
   <caption>Hi</caption> -->
   <video xml:id="yt-ExaminingNumData" youtube="Xm0PPtci3JE" width="60%" margins="35%" />
-
-  <video xml:id="yt-ExploringCatData" youtube="7NhNeADL8fA" width="60%" margins="35%" />
 <!-- </figure> -->
 
 </activity>

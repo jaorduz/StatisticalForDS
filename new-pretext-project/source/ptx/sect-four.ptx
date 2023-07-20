@@ -18,24 +18,41 @@
     <p>
     <ul>
         <li>
-            <term>Bar plot.</term><idx><h>Bar plot</h><h>definition of</h></idx>
+            <term>Bar plot.</term><idx><h>Plot</h><h>bar</h></idx>
             It is the common plot to show a categorical variable.
         </li>
 
         <li>
-            <term>Row proportions.</term><idx><h>Row proportions</h><h>definition of</h></idx>
+            <term>Row proportions.</term><idx><h>Proportions</h><h>row</h></idx>
 It is a way to show the quotient between one case compare to the total. This can be done horizontal.
         </li>        
         <li>
-            <term>Column proportions.</term><idx><h>Column proportions</h><h>definition of</h></idx>
+            <term>Column proportions.</term><idx><h>Proportions</h><h>column</h></idx>
 It is a way to show the quotient between one case compare to the total. This should be done vertical.
         </li>                
 <li>
-    <term>bar plot with two variables</term><idx><h>bar plot with two variables</h><h>definition of</h></idx>
- is an extension for the bar plot. It is also called stacked bar plot.
+    <term>bar plot with two variables</term><idx><h>Plot</h><h>bar with two variables</h></idx>
+ is an extension for the bar plot. It is also called 
+ <term>stacked bar plot.</term><idx><h>Plot</h><h>stacked bar</h></idx>
+This kind of plot represents different groups of one varible stacked.
 </li>
 
-    </ul>
+<li>
+<term>Mosaic plots.</term><idx><h>Plot</h><h>Mosaic</h></idx>
+This kind of plot uses areas to stand for the number of cases in each category.
+</li>
+
+<li>
+    <term>Pie chart.</term><idx><h>Plot</h><h>Pie chart</h></idx>
+    It is another to represent the information, similarly to 
+    bar plot, but in a circle shape.
+</li>
+
+<li>
+    <term>hola.</term><idx><h>mundo</h><h>javier</h></idx>
+    This is a nice guy!
+</li>
+</ul>
     </p>
 </remark>
 
@@ -60,11 +77,12 @@ It is a way to show the quotient between one case compare to the total. This sho
 </example>
 
 
-
-
-
-
-
+<activity>
+    <title>Extra material: Videos</title>
+   
+        <video xml:id="yt-ExploringCatData" youtube="7NhNeADL8fA" width="60%" margins="35%" />
+   
+   </activity>
 
 <!-- <figure xml:id="fig-barPlots">
     <caption>A vertical dot plot.
