@@ -80,7 +80,7 @@
     <knowl
       theorem="yes"
       proof="yes"
-      definition="yes"
+      definition="no"
       example="no"
       example-solution="yes"
       project="no"
