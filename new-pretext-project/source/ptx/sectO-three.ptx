@@ -136,7 +136,7 @@ intensity to associate get up or down for any variable.
   if the number of observations change.  
     <mdn>
       <mrow xml:id="eq-weigthedmeand" >
-      \text{Weighted mean of } x_i= \frac{\sum\limits^{n}_{i=1} w_i x_i}{\sum\limits^{n}{i=1} w_i}
+      \text{Weighted mean of } x_i= \frac{\sum\limits^{n}_{i=1} w_i x_i}{\sum\limits^{n}_{i=1} w_i}
       </mrow>
     </mdn>
     where <m>w_i</m>'s are the weights, and <m>x_i</m>'s are the observations.

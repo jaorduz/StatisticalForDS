@@ -4,11 +4,15 @@
   <xi:include href="./ptx/docInfo.ptx" />
 
   <book xml:id="book-Statistics_Modeling_Data-Science">
-    <title>Statistics, Modeling and Data Science</title>
+    <title>Elementary Statistics, Modeling and Data Science</title>
       <subtitle>Math, concepts, and applications</subtitle>
       <xi:include href="./ptx/frontmatter.ptx" />
 
 <xi:include href="./ptx/chapter-one.ptx" />
+
+<xi:include href="./ptx/chapter-oneCom.ptx" />
+
+
 
 <xi:include href="./ptx/backmatter.ptx" />
   </book>

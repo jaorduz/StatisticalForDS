@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="chapter_one">
+    <title>Complementary topics</title>
+    <introduction>
+      <p>
+This is the introduction for the complementary topics to 
+this first chapter.
+      </p>
+    </introduction>
+
+    <xi:include href="./sectO-twoCom.ptx" />
+
+    <conclusion>
+        <p>
+            This is the conclusion
+        </p>
+    </conclusion>
+</chapter>

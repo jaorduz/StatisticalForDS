@@ -27,7 +27,7 @@ https://img.freepik.com/free-vector/illustration-social-media-concept_53876-1814
       \newcommand{\chr}{\operatorname{char}}
       \newcommand{\Null}{\operatorname{Null}}
     </macros>
-    <cross-references text="type-global" />    
+    <!-- <cross-references text="type-global" />     -->
     <latex-image-preamble>
   \usepackage{tikz, pgfplots}
   \usetikzlibrary{positioning,matrix,arrows}
