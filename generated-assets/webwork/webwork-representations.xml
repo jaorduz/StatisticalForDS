@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-representations>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-wbw-I24" ww-id="wbw-I24">
+    <static seed="1">
+      <statement><p><var form="popup" name="AnSwEr0001">
+<li>
+<p>?</p>
+</li>
+<li>
+<p>True</p>
+</li>
+<li>
+<p>False</p>
+</li>
+</var> The number of siblings might represent numerical variables.</p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{True}</m>
+        </p>
+      </answer>
+      <solution><p>True: By definition it is a number.</p>
+</solution>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwicGFyc2VyUG9wVXAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgnTnVtZXJpYycpOyRsaW1pdGVxdWFsc3ZhbHVlID0gUG9wVXAoWyc/JywnVHJ1ZScsJ0ZhbHNlJ10sMSk7CgpCRUdJTl9QR01MCltfXXskbGltaXRlcXVhbHN2YWx1ZX17NX0gVGhlIG51bWJlciBvZiBzaWJsaW5ncyBtaWdodCByZXByZXNlbnQgbnVtZXJpY2FsIHZhcmlhYmxlcy4KCgpFTkRfUEdNTAoKQkVHSU5fUEdNTF9TT0xVVElPTgpUcnVlOiBCeSBkZWZpbml0aW9uIGl0IGlzIGEgbnVtYmVyLgoKCkVORF9QR01MX1NPTFVUSU9OCgpFTkRET0NVTUVOVCgpOw==" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2023-08-07T14:41:15-04:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.2.0.14)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserPopUp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+$limitequalsvalue = PopUp(['?','True','False'],1);
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+[_]{$limitequalsvalue}{5} The number of siblings might represent numerical variables.
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+True: By definition it is a number.
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-wbw-I25" ww-id="wbw-I25">
+    <static seed="2">
+      <statement><p><var form="popup" name="AnSwEr0001">
+<li>
+<p>?</p>
+</li>
+<li>
+<p>True</p>
+</li>
+<li>
+<p>False</p>
+</li>
+</var> People height might represent continuous categorical variables.</p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{False}</m>
+        </p>
+      </answer>
+      <solution><p>False: By definition, categorical variables are not continuous.</p>
+</solution>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwicGFyc2VyUG9wVXAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgnTnVtZXJpYycpOyRsaW1pdGVxdWFsc3ZhbHVlID0gUG9wVXAoWyc/JywnVHJ1ZScsJ0ZhbHNlJ10sMik7CgpCRUdJTl9QR01MCltfXXskbGltaXRlcXVhbHN2YWx1ZX17NX0gUGVvcGxlIGhlaWdodCBtaWdodCByZXByZXNlbnQgY29udGludW91cyBjYXRlZ29yaWNhbCB2YXJpYWJsZXMuCgoKRU5EX1BHTUwKCkJFR0lOX1BHTUxfU09MVVRJT04KRmFsc2U6IEJ5IGRlZmluaXRpb24sIGNhdGVnb3JpY2FsIHZhcmlhYmxlcyBhcmUgbm90IGNvbnRpbnVvdXMuCgoKRU5EX1BHTUxfU09MVVRJT04KCkVORERPQ1VNRU5UKCk7" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2023-08-07T14:41:15-04:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.2.0.15)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserPopUp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+$limitequalsvalue = PopUp(['?','True','False'],2);
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+[_]{$limitequalsvalue}{5} People height might represent continuous categorical variables.
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+False: By definition, categorical variables are not continuous.
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+</webwork-representations>

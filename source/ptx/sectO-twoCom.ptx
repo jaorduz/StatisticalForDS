@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<section>
+  <title>Variation and Statistics</title>
+  <objectives permid = "Obj-2">
+    <ul permid ="ul-12">
+      <li permid ="li-121">
+        <p permid ="p-1211">
+          Introduce concepts and correct terminology to organize data.
+        </p>
+      </li>
+    </ul>
+  </objectives>  
+  <p>Let us go over some previous concepts and introduce new ones. </p>
+<p>We explore the 
+<term>sample</term><idx><h>Sample</h></idx> which is the data 
+randomly selected from the population. Where the 
+<term>Population</term><idx><h>Population</h></idx> is all data that 
+know should be interesting and appropriate in our study.
+In our analysis, we will use <term>Statistics</term><idx><h>Statistics</h></idx>
+which is the proportion of data/input in the sample.
+</p>
+
+<p>In addition to previous concepts, we will require</p>
+<definition>
+    <!-- <title></title> -->
+    <statement>
+    <p>
+        <term>Parameter</term><idx><h>Parameter</h></idx>
+is the proportion of data/input in the population.
+    </p>
+</statement>
+</definition>
+<p>
+    Another ways words to define data are
+</p>
+
+<definition>
+    <statement>
+        <p>
+            <term>Qualitative data</term><idx><h>Data</h><h>qualitative-</h></idx>
+           AKA <term>Categorical data.</term><idx><h>Data</h><h>categorical-</h></idx>
+        </p>
+    </statement>
+</definition>
+<p>and</p>
+<definition>
+    <statement>
+        <p>
+            <term>Quantitative data</term><idx><h>Data</h><h>quantitative-</h></idx>            
+          AKA  <term>Numerical data.</term><idx><h>Data</h><h>Numerical-</h></idx>
+        </p>
+    </statement>
+</definition>
+<p>Find these concepts in the book index.</p>
+
+<p>Go over the statistics concept, we will think on this field as </p>
+
+<definition xml:id="def-statisticsField">
+  <statement>
+    <p>
+      <term>Statistics</term><idx><h>statistics</h></idx> 
+      is the part of mathematics that analyzes, collects, and 
+      interpretes data.
+    </p>
+  </statement>
+</definition>
+<p>Probably, you will find similar definitions in other contexts, but 
+  the purpose is the same: knowing, and summarizing data.
+</p>
+
+<p>The definition <xref ref="def-statisticsField"/> has two 
+branches</p>
+<definition>
+  <statement>
+    <p>
+      <ul>
+        <li>
+          <term>Descriptive statistics</term><idx><h>statistics</h><h>descriptive</h></idx> 
+This area organizes and summarizes data.
+        </li>
+        <li>
+          <term>Inferential statistics</term><idx><h>statistics</h><h>inferential-</h></idx> 
+This is called the formal methods. It uses probability to know if our 
+conclusions are correct.
+        </li>
+      </ul>
+    </p>
+  </statement>
+</definition>
+
+<definition>
+  <statement>
+<p><term>Levels of Measurement</term><idx><h>Levels</h><h>measurement-</h></idx> 
+ is the way a set of data is measured. </p>
+  </statement>
+</definition>
+<p>There are four levels of measurement</p>
+<definition>
+  <statement>
+    <p>
+      <ol>
+        <li>
+          <term>Nominal scale level</term><idx><h>Level</h><h>scale-</h><h>nominal</h></idx> 
+        </li>
+        <li>
+          <term>Ordinal scale level</term><idx><h>Level</h><h>scale-</h><h>ordinal</h></idx> 
+        </li>       
+        <li>
+          <term>Interval scale level</term><idx><h>Level</h><h>scale-</h><h>Interval</h></idx>
+        </li>
+        <li>
+            <term>Ratio scale level</term><idx><h>Level</h><h>scale-</h><h>nominal</h></idx> 
+          </li>                  
+      </ol>
+    </p>
+  </statement>
+</definition>
+</section>
