@@ -11,15 +11,37 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h2 class="heading"><span class="type">Paragraph</span></h2>
-<div class="para logical">
-<div class="para">Median denotes the concept to split data in half (fig. <a href="" class="xref" data-knowl="./knowl/fig-dotPlots.html" title="Figure 1.3.0.5">Figure 1.3.0.5</a>). In other words this concept refers the <span class="process-math">\(50^{\text{th}}\)</span> percentile. The median has two options</div>
-<ol class="decimal">
-<li><div class="para">Even number of observations. In this case we will calculate the average.</div></li>
-<li><div class="para">Odd number of observations. In this case we will have only one observation that splits the data into two halves.</div></li>
+<h3 class="heading"><span class="type">Paragraph</span></h3>
+<div class="para logical"><ul class="disc">
+<li><div class="para">
+<dfn class="terminology">Interquartile range (<span class="process-math">\(IQR\)</span>).</dfn> It is the total length of the box plot. It is a measure of variability.</div></li>
+<li><div class="para">
+<dfn class="terminology">First quartile (<span class="process-math">\(Q_1\)</span>).</dfn> It is boundary to indicate that the <span class="process-math">\(25\%\)</span> of the data fall below this value.</div></li>
+<li><div class="para">
+<dfn class="terminology">Third quartile (<span class="process-math">\(Q_3\)</span>).</dfn> It is boundary to indicate that the <span class="process-math">\(75\%\)</span> of the data fall below this value.</div></li>
+<li><div class="para">
+<dfn class="terminology">Whisker.</dfn><ol class="decimal">
+<li><div class="para">max <span class="process-math">\(\frac{3}{2}IQR\)</span>
+</div></li>
+<li><div class="para">upper <span class="process-math">\(Q_3+\frac{3}{2}IQR\)</span> from <span class="process-math">\(Q_1\)</span>
+</div></li>
+<li><div class="para">lower <span class="process-math">\(Q_3-\frac{3}{2}IQR\)</span>
+</div></li>
 </ol>
-<div class="para">Besides, the steps showed in items <a href="" class="xref" data-knowl="./knowl/ol-boxPlotA.html" title="Item">Item </a> and <a href="" class="xref" data-knowl="./knowl/ol-boxPlotB.html" title="Item">Item </a>, we require more concepts about this topic,</div>
+<div class="displaymath process-math">
+\begin{gather}
+IQR = Q_3 -Q_1\tag{1.3.4}
+\end{gather}
 </div>
+</div></li>
+<li><div class="para">
+<dfn class="terminology">Outliers.</dfn><ol class="decimal">
+<li><div class="para">identify bias in the distribution.</div></li>
+<li><div class="para">Establish data entry errors.</div></li>
+<li><div class="para">Reveal potential properties of the data.</div></li>
+</ol>
+</div></li>
+</ul></div>
 <span class="incontext"><a href="sec-three.html#p-87" class="internal">in-context</a></span>
 </body>
 </html>
