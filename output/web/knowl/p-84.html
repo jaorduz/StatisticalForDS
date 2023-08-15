@@ -11,40 +11,17 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h3 class="heading"><span class="type">Paragraph</span></h3>
-<div class="para logical"><ul class="disc">
-<li><div class="para">
-<dfn class="terminology">Mean</dfn> AKA <dfn class="terminology">Average</dfn> It is one of the most popular way to measure the center of a distribution.<div class="displaymath process-math">
-\begin{gather}
-\overline{x} = \sum\limits_i^n \frac{x_i}{n}\tag{1.3.1}
-\end{gather}
-</div>It is the sample mean, where <span class="process-math">\(x_i\)</span> represents the <span class="process-math">\(i-\)</span>th observed value.</div></li>
-<li><div class="para">
-<dfn class="terminology">Population mean</dfn> and <dfn class="terminology">Sample mean</dfn> can be calculated trough the same way, using the <span class="process-math">\(\mu = \sum\limits_i^N \frac{x_i}{N}.\)</span> Notice, the population mean is represented by <span class="process-math">\(\mu.\)</span>
-</div></li>
-<li><div class="para">
-<dfn class="terminology">Weighted mean.</dfn> Essentially, mean and weighted mean are same, except that the last one has an impact if the number of observations change.<div class="displaymath process-math" data-contains-math-knowls="./knowl/eq-MeanAverageSample.html ./knowl/eq-weigthedmeand.html">
-\begin{gather}
-\text{Weighted mean of } x_i= \frac{\sum\limits^{n}_{i=1} w_i x_i}{\sum\limits^{n}_{i=1} w_i}\tag{1.3.2}
-\end{gather}
-</div>where <span class="process-math">\(w_i\)</span>’s are the weights, and <span class="process-math">\(x_i\)</span>’s are the observations. Notice the eqs. <a href="" class="xref" data-knowl="./knowl/eq-MeanAverageSample.html" title="Equation 1.3.1">(1.3.1)</a> and <a href="" class="xref" data-knowl="./knowl/eq-weigthedmeand.html" title="Equation 1.3.2">(1.3.2)</a> are same if in the last one <span class="process-math">\(w_1=w_2=w_3= \dots = w_n = 1\)</span>
-</div></li>
-<li><div class="para">
-<dfn class="terminology">Mode.</dfn> It is the prominent peak in the distribution (sometimes it is identified as the highest rectangle) in the histogram. Besides, it is the value with the most occurrences in the data set. But this definition has some issues, such as, it is uncommon to have repetitions in the data set. On the other hand, the data set can have more peaks, e.g. one mode (<dfn class="terminology">unimodal</dfn>), two mode (<dfn class="terminology">bimodal</dfn>), or several modes (<dfn class="terminology">multimodal</dfn>).</div></li>
-<li><div class="para">
-<dfn class="terminology">Standard deviation.</dfn> It is a measure of variability. Mathematically, the standard deviation is<div class="displaymath process-math">
-\begin{equation*}
-\sigma = \sqrt{\frac{1}{N-1} \sum\limits^{N}_{i=1}(x_i - \overline{x})^2}
-\end{equation*}
-</div>and  it roughly describes how far away the typical observation is from the mean. Usually, one standard deviation means the probability that every observation will be within one sigma band is <span class="process-math">\(68.5\%.\)</span> Two standard deviation means the probability that every observation will be within two sigma band is <span class="process-math">\(95.5\%\)</span> and so on. Check the <a class="external" href="https://francis.naukas.com/files/2009/09/dibujo20090924_sigma_significance_data_from_gaussian_model.jpg" target="_blank">figure</a><a href="" class="fn-knowl original" data-knowl="./knowl/fn-14-hidden.html" title="Footnote 1.3.0.2"><sup> 2 </sup></a> (check the website <a class="external" href="https://francis.naukas.com/2009/09/25/las-fluctuaciones-a-2-sigma-del-fermilab-posibles-descubrimientos-futuros-si-se-alcanzan-las-5-sigma/" target="_blank">blog</a><a href="" class="fn-knowl original" data-knowl="./knowl/fn-15-hidden.html" title="Footnote 1.3.0.3"><sup> 3 </sup></a>). Notice The <dfn class="terminology">deviation</dfn> is the distance of the observation from its mean, namely, <span class="process-math">\(x_i - \overline{x}\text{.}\)</span> For instance, <span class="process-math">\(9.5 - 10 = -0.5\)</span> is the deviation.</div></li>
-<li><div class="para">
-<dfn class="terminology">Variance.</dfn> It is a measure of variability. It is called as the second central moment of the sample.<div class="displaymath process-math" data-contains-math-knowls="./knowl/eq-varianceDefinition.html">
-\begin{align}
-\sigma^2 &amp;= \frac{1}{N-1} \sum\limits^{N}_{i=1}(x_i - \overline{x})^2\tag{1.3.3}
-\end{align}
-</div>Note the eq. <a href="" class="xref" data-knowl="./knowl/eq-varianceDefinition.html" title="Equation 1.3.3">(1.3.3)</a> is the definition of variance. The variance is the average squared distance from the mean. Notice the variance symbol is <span class="process-math">\(\sigma^2.\)</span>
-</div></li>
-</ul></div>
+<h2 class="heading"><span class="type">Paragraph</span></h2>
+<div class="para logical">
+<div class="para">Additionally, the sigma measure usually means that</div>
+<ul class="disc">
+<li><div class="para">the <span class="process-math">\(68.5\%\)</span> of data usually was within <span class="process-math">\(1\sigma\)</span> of the mean.</div></li>
+<li><div class="para">the <span class="process-math">\(95.5\%\)</span> of data usually was within <span class="process-math">\(2\sigma\)</span> of the mean.</div></li>
+<li><div class="para">the <span class="process-math">\(99.75\%\)</span> of data usually was within <span class="process-math">\(3\sigma\)</span> of the mean.</div></li>
+<li><div class="para">the <span class="process-math">\(99.995\%\)</span> of data usually was within <span class="process-math">\(4\sigma\)</span> of the mean.</div></li>
+<li><div class="para">the <span class="process-math">\(99.9995\%\)</span> of data usually was within <span class="process-math">\(5\sigma\)</span> of the mean.</div></li>
+</ul>
+</div>
 <span class="incontext"><a href="sec-three.html#p-84" class="internal">in-context</a></span>
 </body>
 </html>
