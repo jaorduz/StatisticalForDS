@@ -43,7 +43,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Data Basics",
-  "body": " Data Basics     Discuss basic concepts about data and information.     We use and deal with data in our everyday lives. This data come from information, and to analyze them, we usually set up them. During this process, we can organize and summarize data.   Data.  https:\/\/freepik.com     Data everywhere.  https:\/\/freepik.com     Data Analysis.  https:\/\/freepik.com     Data in Science.  https:\/\/home.cern\/     a) USA in data.  https:\/\/datausa.io\/     b) USA in data.  https:\/\/www.usa.gov\/census-data     c) USA in data.  https:\/\/www.bls.gov\/     d) USA in data.  https:\/\/guides.lib.uw.edu\/research\/federal\/data     e) USA in data.  https:\/\/www.usopendatatoolkit.org\/     Centers for disease control and prevention (CDC).  https:\/\/www.cdc.gov\/     World in Data.  https:\/\/www.worlddata.info\/    To summarize, and organize data, there are two ways: Graphs\/Plots, and Numbers.  Random numbers require Statistics Data Analysis. This field allows to consider all of the data at once. Which is convenient to analyze.   Researchers prepare an experiment which has 451 patients. This population is split in two groups, 224 group 1, and 227 in the group 2. Consider the following two tables where researchers took information after two periods, short and long.  Short period and long period.   This table shows data about this experiment.   Answer the following questions  What is the proportion of patients that had a Event 1 in the group 1?  What is the proportion of patients that had a Event 1 in the group 2?  What is the proportion of patients that had a No event in the group 1?  What is the proportion of patients that had a No event in the group 2?  What is the proportion of patients that had Event 1 in short period?  What is the proportion of patients that had No event in short period?  What is the proportion of patients that had Event 1 in long period?  What is the proportion of patients that had No event in long period?    Elementary statistics is a branch of mathematics that deals with the collection, organization, analysis, interpretation, and presentation of data. It is a fundamental tool for understanding our world and is used in a wide variety of fields, such as business, science, and government. Here are some of the key concepts in elementary statistics:  Data collection: This involves gathering information about a particular topic or population. Data can be collected through surveys, experiments, and observation.  Data organization: Once data has been collected, it needs to be organized in a way that makes it easy to understand and analyze. This can involve creating tables, charts, and graphs.  Data analysis: This involves using statistical methods to summarize and interpret data. This can involve calculating measures of central tendency (mean, median, mode), measures of variability (variance, standard deviation), and correlations.  Data interpretation: This involves making sense of the results of data analysis and drawing conclusions about the population or topic under study.  Data presentation: This involves communicating the results of data analysis to others in a clear and concise way. This can involve writing reports, creating presentations, and giving speeches.  Modeling is a process of representing a real-world system or phenomenon mathematically. Models can be used to make predictions about the future, to understand the behavior of a system, and to test hypotheses. Here are some of the types of models:  Statistical models: These models use statistical methods to represent the relationships between variables.  Machine learning models: These models use algorithms to learn from data and make predictions.  Physical models: These models are physical representations of a system or phenomenon.  Data science is a field that combines statistics, machine learning, and other disciplines to extract knowledge and insights from data. Data scientists use a variety of tools and techniques to collect, clean, analyze, and visualize data. They then use this information to make predictions, solve problems, and improve decision-making. Data science is a rapidly growing field with applications in a wide variety of industries, such as healthcare, finance, retail, and government. Data scientists are in high demand, and their skills are highly valued. Finally, elementary statistics, modeling, and data science are all important tools for understanding our world. By understanding these concepts, we can make better decisions, solve problems, and improve our lives.    Extra material: Video        Extra material: Slides       "
+  "body": " Data Basics     Discuss basic concepts about data and information.     We use and deal with data in our everyday lives. This data come from information, and to analyze them, we usually set up them. During this process, we can organize and summarize data.   Data.  https:\/\/freepik.com     Data everywhere.  https:\/\/freepik.com     Data Analysis.  https:\/\/freepik.com     Data in Science.  https:\/\/home.cern\/     a) USA in data.  https:\/\/datausa.io\/     b) USA in data.  https:\/\/www.usa.gov\/census-data     c) USA in data.  https:\/\/www.bls.gov\/     d) USA in data.  https:\/\/guides.lib.uw.edu\/research\/federal\/data     e) USA in data.  https:\/\/www.usopendatatoolkit.org\/     Centers for disease control and prevention (CDC).  https:\/\/www.cdc.gov\/     World in Data.  https:\/\/www.worlddata.info\/    To summarize, and organize data, there are two ways: Graphs\/Plots, and Numbers.  Random numbers require Statistics Data Analysis. This field allows to consider all of the data at once. Which is convenient to analyze.   Researchers prepare an experiment which has 451 patients. This population is split in two groups, 224 group 1, and 227 in the group 2. Consider the following two tables where researchers took information after two periods, short and long.  Short period and long period.   This table shows data about this experiment.   Answer the following questions  What is the proportion of patients that had a Event 1 in the group 1?  What is the proportion of patients that had a Event 1 in the group 2?  What is the proportion of patients that had a No event in the group 1?  What is the proportion of patients that had a No event in the group 2?  What is the proportion of patients that had Event 1 in short period?  What is the proportion of patients that had No event in short period?  What is the proportion of patients that had Event 1 in long period?  What is the proportion of patients that had No event in long period?     Submit on Moodle the answers to the last exercise and write a list of concepts and their definitions, at least three that discussed in class.   Use some concepts such as proportion, classification, statistics, among others.    Extra material: Video        Extra material: Slides       "
 },
 {
   "id": "Obj-1",
@@ -172,6 +172,15 @@ var ptx_lunr_docs = [
   "body": "Answer the following questions  What is the proportion of patients that had a Event 1 in the group 1?  What is the proportion of patients that had a Event 1 in the group 2?  What is the proportion of patients that had a No event in the group 1?  What is the proportion of patients that had a No event in the group 2?  What is the proportion of patients that had Event 1 in short period?  What is the proportion of patients that had No event in short period?  What is the proportion of patients that had Event 1 in long period?  What is the proportion of patients that had No event in long period?   "
 },
 {
+  "id": "exe-I12",
+  "level": "2",
+  "url": "section-1.html#exe-I12",
+  "type": "Checkpoint",
+  "number": "1.1.0.14",
+  "title": "",
+  "body": " Submit on Moodle the answers to the last exercise and write a list of concepts and their definitions, at least three that discussed in class.   Use some concepts such as proportion, classification, statistics, among others.  "
+},
+{
   "id": "activity-1",
   "level": "2",
   "url": "section-1.html#activity-1",
@@ -208,9 +217,9 @@ var ptx_lunr_docs = [
   "body": "   Introduce concepts and correct terminology to organize data.    "
 },
 {
-  "id": "p-25",
+  "id": "p-26",
   "level": "2",
-  "url": "section-2.html#p-25",
+  "url": "section-2.html#p-26",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -244,9 +253,9 @@ var ptx_lunr_docs = [
   "body": " Organize the following data in a Data Matrix Data Matrix .  Charles, GPA 3.4; Michael, GPA 3.5; Juan, GPA 3.5; Emma, GPA 3.6, Anne, GPA 3.8; Melody GPA 3.7  "
 },
 {
-  "id": "p-33",
+  "id": "p-34",
   "level": "2",
-  "url": "section-2.html#p-33",
+  "url": "section-2.html#p-34",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -361,9 +370,9 @@ var ptx_lunr_docs = [
   "body": "    True    False   People height might represent continuous categorical variables.        False: By definition, categorical variables are not continuous.      "
 },
 {
-  "id": "p-55",
+  "id": "p-56",
   "level": "2",
-  "url": "section-2.html#p-55",
+  "url": "section-2.html#p-56",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -604,9 +613,9 @@ var ptx_lunr_docs = [
   "body": "  Use the follow information to calculate   Data and example Notice that the columns do not have same numbers of inputs.   "
 },
 {
-  "id": "exercise-8",
+  "id": "exercise-9",
   "level": "2",
-  "url": "sec-three.html#exercise-8",
+  "url": "sec-three.html#exercise-9",
   "type": "Checkpoint",
   "number": "1.3.0.9",
   "title": "",
@@ -682,7 +691,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Variation and Statistics",
-  "body": " Variation and Statistics     Introduce concepts and correct terminology to organize data.     Let us go over some previous concepts and introduce new ones.  We explore the sample Sample which is the data randomly selected from the population. Where the Population Population is all data that know should be interesting and appropriate in our study. In our analysis, we will use Statistics Statistics which is the proportion of data\/input in the sample.  In addition to previous concepts, we will require      Parameter Parameter is the proportion of data\/input in the population.    Another ways words to define data are     Qualitative data Data qualitative- AKA Categorical data. Data categorical-     and     Quantitative data Data quantitative- AKA Numerical data. Data Numerical-     Find these concepts in the book index.  Go over the statistics concept, we will think on this field as     Statistics statistics is the part of mathematics that analyzes, collects, and interpretes data.    Probably, you will find similar definitions in other contexts, but the purpose is the same: knowing, and summarizing data.  The definition has two branches       Descriptive statistics statistics descriptive This area organizes and summarizes data.   Inferential statistics statistics inferential- This is called the formal methods. It uses probability to know if our conclusions are correct.        Levels of Measurement Levels measurement- is the way a set of data is measured.    There are four levels of measurement       Nominal scale level Level scale- nominal These kind of data can be measured using categories, such as, names, labels, or yes or not answers.   Ordinal scale level Level scale- ordinal These kind of data can be ordered such as a list of top five of Zoos in the USA. There is not a scale to measure the difference between two Zoos. Another example, responses such as sad, neutral, and happy. There is an order, but there is not an scale at all.   Interval scale level. Level scale- Interval It has a definite ordering, but we cannot compare data. Examples: Different scales to measure temperature.   Ratio scale level. Level scale- nominal It can be order-definited, and has a zero point and it represents same information for different data. Example: points to grade exams.         Frequency. Frequency It is the number of time a value of data occurs.       Relative Frequency. Frequency relative- It is the number of times a value of the data occurs.       Cumulative relative Frequency. Frequency relative- cumulative Indicates the accumulation of the previous relative frequencies. It is the addition of all the previous relative frequencies, including the current relative frequency.    "
+  "body": " Variation and Statistics     Introduce concepts and correct terminology to organize data.     Let us go over some previous concepts and introduce new ones.  We explore the sample Sample which is the data randomly selected from the population. Where the Population Population is all data that know should be interesting and appropriate in our study. In our analysis, we will use Statistics Statistics which is the proportion of data\/input in the sample.  In addition to previous concepts, we will require      Parameter Parameter is the proportion of data\/input in the population.    Another ways words to define data are     Qualitative data Data qualitative- AKA Categorical data. Data categorical-     and     Quantitative data Data quantitative- AKA Numerical data. Data Numerical-     Find these concepts in the book index.  Go over the statistics concept, we will think on this field as     Statistics statistics is the part of mathematics that analyzes, collects, and interpretes data.    Probably, you will find similar definitions in other contexts, but the purpose is the same: knowing, and summarizing data.  The definition has two branches       Descriptive statistics statistics descriptive This area organizes and summarizes data.   Inferential statistics statistics inferential- This is called the formal methods. It uses probability to know if our conclusions are correct.        Levels of Measurement Levels measurement- is the way a set of data is measured.    There are four levels of measurement       Nominal scale level Level scale- nominal    Ordinal scale level Level scale- ordinal    Interval scale level Level scale- Interval    Ratio scale level Level scale- nominal       "
 },
 {
   "id": "Obj-2",
@@ -694,9 +703,9 @@ var ptx_lunr_docs = [
   "body": "   Introduce concepts and correct terminology to organize data.    "
 },
 {
-  "id": "p-100",
+  "id": "p-101",
   "level": "2",
-  "url": "section-5.html#p-100",
+  "url": "section-5.html#p-101",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -763,34 +772,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "2.1.0.7",
   "title": "",
-  "body": "     Nominal scale level Level scale- nominal These kind of data can be measured using categories, such as, names, labels, or yes or not answers.   Ordinal scale level Level scale- ordinal These kind of data can be ordered such as a list of top five of Zoos in the USA. There is not a scale to measure the difference between two Zoos. Another example, responses such as sad, neutral, and happy. There is an order, but there is not an scale at all.   Interval scale level. Level scale- Interval It has a definite ordering, but we cannot compare data. Examples: Different scales to measure temperature.   Ratio scale level. Level scale- nominal It can be order-definited, and has a zero point and it represents same information for different data. Example: points to grade exams.     "
-},
-{
-  "id": "definition-22",
-  "level": "2",
-  "url": "section-5.html#definition-22",
-  "type": "Definition",
-  "number": "2.1.0.8",
-  "title": "",
-  "body": "   Frequency. Frequency It is the number of time a value of data occurs.   "
-},
-{
-  "id": "definition-23",
-  "level": "2",
-  "url": "section-5.html#definition-23",
-  "type": "Definition",
-  "number": "2.1.0.9",
-  "title": "",
-  "body": "   Relative Frequency. Frequency relative- It is the number of times a value of the data occurs.   "
-},
-{
-  "id": "definition-24",
-  "level": "2",
-  "url": "section-5.html#definition-24",
-  "type": "Definition",
-  "number": "2.1.0.10",
-  "title": "",
-  "body": "   Cumulative relative Frequency. Frequency relative- cumulative Indicates the accumulation of the previous relative frequencies. It is the addition of all the previous relative frequencies, including the current relative frequency.   "
+  "body": "     Nominal scale level Level scale- nominal    Ordinal scale level Level scale- ordinal    Interval scale level Level scale- Interval    Ratio scale level Level scale- nominal      "
 },
 {
   "id": "index-1",
