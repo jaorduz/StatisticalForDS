@@ -24,14 +24,14 @@
       <url href="https://tinyurl.com/2lbhzg6h" 
       visual="https://freepik.com/">
       <c>https://freepik.com</c></url></caption>
- <image source="images/dotPlots.png" width="40%" />  
+ <image source="/images/dotPlots.png" width="40%" />  
   </figure>
 
 
   <figure>
     <caption>Data everywhere.
       <url href="images/dotPlots.png" 
-      visual="images/dotPlots.png">
+      visual="./images/dotPlots.png">
       <c>https://freepik.com</c></url></caption>
  <image source="https://tinyurl.com/2nhn3tml" width="40%" />  
   </figure>
@@ -39,7 +39,7 @@
   <figure>
     <caption>Data Analysis.
       <url href="https://tinyurl.com/2fv46km8" 
-      visual="https://freepik.com/">
+      visual="/images/dotPlots.png">
       <c>https://freepik.com</c></url></caption>
  <image source="https://tinyurl.com/2fv46km8" width="40%" />  
   </figure>
@@ -50,7 +50,7 @@
       <url href="https://home.cern/sites/default/files/logo/cern-logo.png" 
       visual="https://home.cern/">
       <c>https://home.cern/</c></url></caption>
- <image source="https://home.cern/sites/default/files/logo/cern-logo.png" width="40%" />  
+ <image source="/images/dotPlots.png" width="40%" />  
   </figure>
 
 
@@ -59,7 +59,7 @@
       <url href="https://datausa.io/" 
       visual="https://datausa.io/">
       <c>https://datausa.io/</c></url></caption>
- <image source="https://datausa.io/" width="40%" />  
+ <image source="./images/dotPlots.png" width="40%" />  
   </figure>
 
   <figure>
@@ -67,7 +67,7 @@
       <url href="https://www.usa.gov/census-data" 
       visual="https://www.usa.gov/census-data">
       <c>https://www.usa.gov/census-data</c></url></caption>
- <image source="https://www.usa.gov/census-data" width="40%" />  
+ <image source="images/dotPlots.png" width="40%" />  
   </figure>
 
  <figure>
