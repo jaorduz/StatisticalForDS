@@ -43,7 +43,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Data Basics",
-  "body": " Data Basics     Discuss basic concepts about data and information.     We use and deal with data in our everyday lives. This data come from information, and to analyze them, we usually set up them. During this process, we can organize and summarize data.   Data.  https:\/\/freepik.com     Data everywhere.  https:\/\/freepik.com     Data Analysis.  https:\/\/freepik.com     Data in Science.  https:\/\/home.cern\/     a) USA in data.  https:\/\/datausa.io\/     b) USA in data.  https:\/\/www.usa.gov\/census-data     c) USA in data.  https:\/\/www.bls.gov\/     d) USA in data.  https:\/\/guides.lib.uw.edu\/research\/federal\/data     e) USA in data.  https:\/\/www.usopendatatoolkit.org\/     Centers for disease control and prevention (CDC).  https:\/\/www.cdc.gov\/     World in Data.  https:\/\/www.worlddata.info\/    To summarize, and organize data, there are two ways: Graphs\/Plots, and Numbers.  Random numbers require Statistics Data Analysis. This field allows to consider all of the data at once. Which is convenient to analyze.   Researchers prepare an experiment which has 451 patients. This population is split in two groups, 224 group 1, and 227 in the group 2. Consider the following two tables where researchers took information after two periods, short and long.  Short period and long period.   This table shows data about this experiment.   Answer the following questions  What is the proportion of patients that had a Event 1 in the group 1?  What is the proportion of patients that had a Event 1 in the group 2?  What is the proportion of patients that had a No event in the group 1?  What is the proportion of patients that had a No event in the group 2?  What is the proportion of patients that had Event 1 in short period?  What is the proportion of patients that had No event in short period?  What is the proportion of patients that had Event 1 in long period?  What is the proportion of patients that had No event in long period?    Elementary statistics is a branch of mathematics that deals with the collection, organization, analysis, interpretation, and presentation of data. It is a fundamental tool for understanding our world and is used in a wide variety of fields, such as business, science, and government. Here are some of the key concepts in elementary statistics:  Data collection: This involves gathering information about a particular topic or population. Data can be collected through surveys, experiments, and observation.  Data organization: Once data has been collected, it needs to be organized in a way that makes it easy to understand and analyze. This can involve creating tables, charts, and graphs.  Data analysis: This involves using statistical methods to summarize and interpret data. This can involve calculating measures of central tendency (mean, median, mode), measures of variability (variance, standard deviation), and correlations.  Data interpretation: This involves making sense of the results of data analysis and drawing conclusions about the population or topic under study.  Data presentation: This involves communicating the results of data analysis to others in a clear and concise way. This can involve writing reports, creating presentations, and giving speeches.  Modeling is a process of representing a real-world system or phenomenon mathematically. Models can be used to make predictions about the future, to understand the behavior of a system, and to test hypotheses. Here are some of the types of models:  Statistical models: These models use statistical methods to represent the relationships between variables.  Machine learning models: These models use algorithms to learn from data and make predictions.  Physical models: These models are physical representations of a system or phenomenon.  Data science is a field that combines statistics, machine learning, and other disciplines to extract knowledge and insights from data. Data scientists use a variety of tools and techniques to collect, clean, analyze, and visualize data. They then use this information to make predictions, solve problems, and improve decision-making. Data science is a rapidly growing field with applications in a wide variety of industries, such as healthcare, finance, retail, and government. Data scientists are in high demand, and their skills are highly valued. Finally, elementary statistics, modeling, and data science are all important tools for understanding our world. By understanding these concepts, we can make better decisions, solve problems, and improve our lives.    Extra material: Video        Extra material: Slides       "
+  "body": " Data Basics     Discuss basic concepts about data and information.     We use and deal with data in our everyday lives. This data come from information, and to analyze them, we usually set up them. During this process, we can organize and summarize data.                                  To summarize, and organize data, there are two ways: Graphs\/Plots, and Numbers.  Random numbers require Statistics Data Analysis. This field allows to consider all of the data at once. Which is convenient to analyze.   Researchers prepare an experiment which has 451 patients. This population is split in two groups, 224 group 1, and 227 in the group 2. Consider the following two tables where researchers took information after two periods, short and long.  Short period and long period.   This table shows data about this experiment.   Answer the following questions  What is the proportion of patients that had a Event 1 in the group 1?  What is the proportion of patients that had a Event 1 in the group 2?  What is the proportion of patients that had a No event in the group 1?  What is the proportion of patients that had a No event in the group 2?  What is the proportion of patients that had Event 1 in short period?  What is the proportion of patients that had No event in short period?  What is the proportion of patients that had Event 1 in long period?  What is the proportion of patients that had No event in long period?    Elementary statistics is a branch of mathematics that deals with the collection, organization, analysis, interpretation, and presentation of data. It is a fundamental tool for understanding our world and is used in a wide variety of fields, such as business, science, and government. Here are some of the key concepts in elementary statistics:  Data collection: This involves gathering information about a particular topic or population. Data can be collected through surveys, experiments, and observation.  Data organization: Once data has been collected, it needs to be organized in a way that makes it easy to understand and analyze. This can involve creating tables, charts, and graphs.  Data analysis: This involves using statistical methods to summarize and interpret data. This can involve calculating measures of central tendency (mean, median, mode), measures of variability (variance, standard deviation), and correlations.  Data interpretation: This involves making sense of the results of data analysis and drawing conclusions about the population or topic under study.  Data presentation: This involves communicating the results of data analysis to others in a clear and concise way. This can involve writing reports, creating presentations, and giving speeches.  Modeling is a process of representing a real-world system or phenomenon mathematically. Models can be used to make predictions about the future, to understand the behavior of a system, and to test hypotheses. Here are some of the types of models:  Statistical models: These models use statistical methods to represent the relationships between variables.  Machine learning models: These models use algorithms to learn from data and make predictions.  Physical models: These models are physical representations of a system or phenomenon.  Data science is a field that combines statistics, machine learning, and other disciplines to extract knowledge and insights from data. Data scientists use a variety of tools and techniques to collect, clean, analyze, and visualize data. They then use this information to make predictions, solve problems, and improve decision-making. Data science is a rapidly growing field with applications in a wide variety of industries, such as healthcare, finance, retail, and government. Data scientists are in high demand, and their skills are highly valued. Finally, elementary statistics, modeling, and data science are all important tools for understanding our world. By understanding these concepts, we can make better decisions, solve problems, and improve our lives.    Extra material: Video        Extra material: Slides       "
 },
 {
   "id": "Obj-1",
@@ -55,119 +55,20 @@ var ptx_lunr_docs = [
   "body": "   Discuss basic concepts about data and information.    "
 },
 {
-  "id": "figure-1",
-  "level": "2",
-  "url": "section-1.html#figure-1",
-  "type": "Figure",
-  "number": "1.1.0.1",
-  "title": "",
-  "body": " Data.  https:\/\/freepik.com   "
-},
-{
-  "id": "figure-2",
-  "level": "2",
-  "url": "section-1.html#figure-2",
-  "type": "Figure",
-  "number": "1.1.0.2",
-  "title": "",
-  "body": " Data everywhere.  https:\/\/freepik.com   "
-},
-{
-  "id": "figure-3",
-  "level": "2",
-  "url": "section-1.html#figure-3",
-  "type": "Figure",
-  "number": "1.1.0.3",
-  "title": "",
-  "body": " Data Analysis.  https:\/\/freepik.com   "
-},
-{
-  "id": "figure-4",
-  "level": "2",
-  "url": "section-1.html#figure-4",
-  "type": "Figure",
-  "number": "1.1.0.4",
-  "title": "",
-  "body": " Data in Science.  https:\/\/home.cern\/   "
-},
-{
-  "id": "figure-5",
-  "level": "2",
-  "url": "section-1.html#figure-5",
-  "type": "Figure",
-  "number": "1.1.0.5",
-  "title": "",
-  "body": " a) USA in data.  https:\/\/datausa.io\/   "
-},
-{
-  "id": "figure-6",
-  "level": "2",
-  "url": "section-1.html#figure-6",
-  "type": "Figure",
-  "number": "1.1.0.6",
-  "title": "",
-  "body": " b) USA in data.  https:\/\/www.usa.gov\/census-data   "
-},
-{
-  "id": "figure-7",
-  "level": "2",
-  "url": "section-1.html#figure-7",
-  "type": "Figure",
-  "number": "1.1.0.7",
-  "title": "",
-  "body": " c) USA in data.  https:\/\/www.bls.gov\/   "
-},
-{
-  "id": "figure-8",
-  "level": "2",
-  "url": "section-1.html#figure-8",
-  "type": "Figure",
-  "number": "1.1.0.8",
-  "title": "",
-  "body": " d) USA in data.  https:\/\/guides.lib.uw.edu\/research\/federal\/data   "
-},
-{
-  "id": "figure-9",
-  "level": "2",
-  "url": "section-1.html#figure-9",
-  "type": "Figure",
-  "number": "1.1.0.9",
-  "title": "",
-  "body": " e) USA in data.  https:\/\/www.usopendatatoolkit.org\/   "
-},
-{
-  "id": "figure-10",
-  "level": "2",
-  "url": "section-1.html#figure-10",
-  "type": "Figure",
-  "number": "1.1.0.10",
-  "title": "",
-  "body": " Centers for disease control and prevention (CDC).  https:\/\/www.cdc.gov\/   "
-},
-{
-  "id": "figure-11",
-  "level": "2",
-  "url": "section-1.html#figure-11",
-  "type": "Figure",
-  "number": "1.1.0.11",
-  "title": "",
-  "body": " World in Data.  https:\/\/www.worlddata.info\/   "
-},
-{
   "id": "exa-I11",
   "level": "2",
   "url": "section-1.html#exa-I11",
   "type": "Example",
-  "number": "1.1.0.12",
+  "number": "1.1.0.1",
   "title": "",
   "body": " Researchers prepare an experiment which has 451 patients. This population is split in two groups, 224 group 1, and 227 in the group 2. Consider the following two tables where researchers took information after two periods, short and long.  Short period and long period.   This table shows data about this experiment.  "
 },
 {
-  "id": "exe-I11",
+  "id": "exe-I12",
   "level": "2",
-  "url": "section-1.html#exe-I11",
+  "url": "section-1.html#exe-I12",
   "type": "Checkpoint",
-  "number": "1.1.0.13",
+  "number": "1.1.0.2",
   "title": "",
   "body": "Answer the following questions  What is the proportion of patients that had a Event 1 in the group 1?  What is the proportion of patients that had a Event 1 in the group 2?  What is the proportion of patients that had a No event in the group 1?  What is the proportion of patients that had a No event in the group 2?  What is the proportion of patients that had Event 1 in short period?  What is the proportion of patients that had No event in short period?  What is the proportion of patients that had Event 1 in long period?  What is the proportion of patients that had No event in long period?   "
 },
@@ -208,9 +109,9 @@ var ptx_lunr_docs = [
   "body": "   Introduce concepts and correct terminology to organize data.    "
 },
 {
-  "id": "p-25",
+  "id": "p-26",
   "level": "2",
-  "url": "section-2.html#p-25",
+  "url": "section-2.html#p-26",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -226,27 +127,27 @@ var ptx_lunr_docs = [
   "body": "  Let us check a Data Matrix Data Matrix    This is a representation of a data base as a Data Matrix Data Matrix . We have the columns and rows. Check this information and respond the next exercises.      "
 },
 {
-  "id": "exe-I21",
+  "id": "exe-I22",
   "level": "2",
-  "url": "section-2.html#exe-I21",
+  "url": "section-2.html#exe-I22",
   "type": "Checkpoint",
   "number": "1.2.0.2",
   "title": "",
   "body": "   How many characteristics there are in the table of ?  How many cases there are in the table of ?  What might the name be for the table of ?     carsn, modelyearn, or CarConsumptionN  "
 },
 {
-  "id": "exe-I22",
+  "id": "exe-I23",
   "level": "2",
-  "url": "section-2.html#exe-I22",
+  "url": "section-2.html#exe-I23",
   "type": "Checkpoint",
   "number": "1.2.0.3",
   "title": "",
   "body": " Organize the following data in a Data Matrix Data Matrix .  Charles, GPA 3.4; Michael, GPA 3.5; Juan, GPA 3.5; Emma, GPA 3.6, Anne, GPA 3.8; Melody GPA 3.7  "
 },
 {
-  "id": "p-33",
+  "id": "p-34",
   "level": "2",
-  "url": "section-2.html#p-33",
+  "url": "section-2.html#p-34",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -361,9 +262,9 @@ var ptx_lunr_docs = [
   "body": "    True    False   People height might represent continuous categorical variables.        False: By definition, categorical variables are not continuous.      "
 },
 {
-  "id": "p-55",
+  "id": "p-56",
   "level": "2",
-  "url": "section-2.html#p-55",
+  "url": "section-2.html#p-56",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -550,9 +451,9 @@ var ptx_lunr_docs = [
   "body": " Histogram.   Histogram.    "
 },
 {
-  "id": "figure-15",
+  "id": "figure-4",
   "level": "2",
-  "url": "sec-three.html#figure-15",
+  "url": "sec-three.html#figure-4",
   "type": "Figure",
   "number": "1.3.0.3",
   "title": "",
@@ -694,9 +595,9 @@ var ptx_lunr_docs = [
   "body": "   Introduce concepts and correct terminology to organize data.    "
 },
 {
-  "id": "p-100",
+  "id": "p-101",
   "level": "2",
-  "url": "section-5.html#p-100",
+  "url": "section-5.html#p-101",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
