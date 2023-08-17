@@ -284,105 +284,105 @@ sagecell.makeSagecell({
 <span class="type">Section</span> <span class="codenumber">1.3</span> <span class="title">Numerical Data</span>
 </h2>
 <article class="objectives goal-like" id="Obj-3"><h2 class="heading"><span class="type">Objectives</span></h2>
-<ul class="disc"><li id="li-69"><div class="para" id="p-derived-li-69">Introduce basic concepts and correct terminology about Statistics.</div></li></ul></article><div class="para" id="p-79">We examine data through graphs/plots and numbers/statistics. We provide some definitions which are relevant in this chapter.</div>
+<ul class="disc"><li id="li-77"><div class="para" id="p-derived-li-77">Introduce basic concepts and correct terminology about Statistics.</div></li></ul></article><div class="para" id="p-80">We examine data through graphs/plots and numbers/statistics. We provide some definitions which are relevant in this chapter.</div>
 <article class="remark remark-like" id="remark-4"><h2 class="heading">
 <span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.3.0.1</span><span class="period">.</span>
 </h2>
-<div class="para logical" id="p-80">
+<div class="para logical" id="p-81">
 <div class="para">We have differen kind of plots/graphs to summarize data.</div>
 <ul class="disc">
-<li id="li-70"><div class="para" id="p-derived-li-70">
+<li id="li-78"><div class="para" id="p-derived-li-78">
 <dfn class="terminology">Scatter plot</dfn> This kind of plot provides a case-by-case view of data for two numerical variables.</div></li>
-<li id="li-71"><div class="para" id="p-derived-li-71">
+<li id="li-79"><div class="para" id="p-derived-li-79">
 <dfn class="terminology">Dot plot</dfn> This is a one-variable scatterplot. It is the most basic of displays.</div></li>
-<li id="li-72"><div class="para" id="p-derived-li-72">
+<li id="li-80"><div class="para" id="p-derived-li-80">
 <dfn class="terminology">Histograms plot</dfn> It has different interpretations, but, in general, it is a binned version of the stacked dot plot. It also can be a frequencies plot. We will discuss more about this in the following sections. With this plot, we can know more about <dfn class="terminology">data density</dfn> When data trail off to the right in this way and has a longer right tail, the shape is said to be <dfn class="terminology">right skewed</dfn> Otherwise, we will have <dfn class="terminology">left skewed</dfn> If data sets show roughly equal trailing off in both directions are called <dfn class="terminology">symmetric</dfn>
 </div></li>
-<li id="li-73"><div class="para" id="p-derived-li-73">
+<li id="li-81"><div class="para" id="p-derived-li-81">
 <dfn class="terminology">Box plot.</dfn><ol class="decimal">
 <li id="ol-boxPlotA"><div class="para" id="p-derived-ol-boxPlotA">Draw the median</div></li>
 <li id="ol-boxPlotB"><div class="para" id="p-derived-ol-boxPlotB">Draw a rectangle to represent the <span class="process-math">\(50/%\)</span> of the data</div></li>
 </ol>
 </div></li>
-<li id="li-76"><div class="para" id="p-derived-li-76">
+<li id="li-84"><div class="para" id="p-derived-li-84">
 <dfn class="terminology">Mapping plot.</dfn> This kind of plot works to show different parameters/variables in a map. It implements different colors and their intensity to associate get up or down for any variable.</div></li>
 </ul>
-</div></article><div class="para" id="p-81">The following are examples of plot/graphs.</div>
+</div></article><div class="para" id="p-82">The following are examples of plot/graphs.</div>
 <figure class="figure figure-like" id="fig-histogram"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><div class="asymptote-box" style="padding-top: 50%"><iframe src="generated/asymptote/ima-histogram.html" class="asymptote"></iframe></div></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.3.0.2<span class="period">.</span></span><span class="space"> </span>Histogram.</figcaption></figure><figure class="figure figure-like" id="figure-15"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/https://www.census.gov/" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.3.0.3<span class="period">.</span></span><span class="space"> </span>Mapping plot. Source: U. S. Department of Commerce. <a class="external" href="https://www.census.gov/library/visualizations/2023/comm/counties-persistent-poverty/_jcr_content/root/responsivegrid/embeddableimage1137.coreimg.jpeg/1683643684666/persistent-poverty.jpeg" target="_blank"><code class="code-inline tex2jax_ignore">https://www.census.gov/</code></a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-13" id="fn-13"><sup> 1 </sup></a></figcaption></figure><div class="para" id="p-82">Let us explore some mathematical concepts.</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.3.0.2<span class="period">.</span></span><span class="space"> </span>Histogram.</figcaption></figure><figure class="figure figure-like" id="figure-4"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/https://www.census.gov/" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.3.0.3<span class="period">.</span></span><span class="space"> </span>Mapping plot. Source: U. S. Department of Commerce. <a class="external" href="https://www.census.gov/library/visualizations/2023/comm/counties-persistent-poverty/_jcr_content/root/responsivegrid/embeddableimage1137.coreimg.jpeg/1683643684666/persistent-poverty.jpeg" target="_blank"><code class="code-inline tex2jax_ignore">https://www.census.gov/</code></a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-2" id="fn-2"><sup> 1 </sup></a></figcaption></figure><div class="para" id="p-83">Let us explore some mathematical concepts.</div>
 <article class="remark remark-like" id="rem-meanAverPopSMe"><h2 class="heading">
 <span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.3.0.4</span><span class="period">.</span>
 </h2>
-<div class="para logical" id="p-83"><ul class="disc">
-<li id="li-77"><div class="para" id="p-derived-li-77">
+<div class="para logical" id="p-84"><ul class="disc">
+<li id="li-85"><div class="para" id="p-derived-li-85">
 <dfn class="terminology">Mean</dfn> AKA <dfn class="terminology">Average</dfn> It is one of the most popular way to measure the center of a distribution.<div class="displaymath process-math" id="mdn-1">
 \begin{gather}
 \overline{x} = \sum\limits_i^n \frac{x_i}{n}\tag{1.3.1}
 \end{gather}
 </div>It is the sample mean, where <span class="process-math">\(x_i\)</span> represents the <span class="process-math">\(i-\)</span>th observed value.</div></li>
-<li id="li-78"><div class="para" id="p-derived-li-78">
+<li id="li-86"><div class="para" id="p-derived-li-86">
 <dfn class="terminology">Population mean</dfn> and <dfn class="terminology">Sample mean</dfn> can be calculated trough the same way, using the <span class="process-math">\(\mu = \sum\limits_i^N \frac{x_i}{N}.\)</span> Notice, the population mean is represented by <span class="process-math">\(\mu.\)</span>
 </div></li>
-<li id="li-79"><div class="para" id="p-derived-li-79">
+<li id="li-87"><div class="para" id="p-derived-li-87">
 <dfn class="terminology">Weighted mean.</dfn> Essentially, mean and weighted mean are same, except that the last one has an impact if the number of observations change.<div class="displaymath process-math" data-contains-math-knowls="./knowl/eq-MeanAverageSample.html ./knowl/eq-weigthedmeand.html" id="mdn-2">
 \begin{gather}
 \text{Weighted mean of } x_i= \frac{\sum\limits^{n}_{i=1} w_i x_i}{\sum\limits^{n}_{i=1} w_i}\tag{1.3.2}
 \end{gather}
 </div>where <span class="process-math">\(w_i\)</span>’s are the weights, and <span class="process-math">\(x_i\)</span>’s are the observations. Notice the eqs. <a href="" class="xref" data-knowl="./knowl/eq-MeanAverageSample.html" title="Equation 1.3.1">(1.3.1)</a> and <a href="" class="xref" data-knowl="./knowl/eq-weigthedmeand.html" title="Equation 1.3.2">(1.3.2)</a> are same if in the last one <span class="process-math">\(w_1=w_2=w_3= \dots = w_n = 1\)</span>
 </div></li>
-<li id="li-80"><div class="para" id="p-derived-li-80">
+<li id="li-88"><div class="para" id="p-derived-li-88">
 <dfn class="terminology">Mode.</dfn> It is the prominent peak in the distribution (sometimes it is identified as the highest rectangle) in the histogram. Besides, it is the value with the most occurrences in the data set. But this definition has some issues, such as, it is uncommon to have repetitions in the data set. On the other hand, the data set can have more peaks, e.g. one mode (<dfn class="terminology">unimodal</dfn>), two mode (<dfn class="terminology">bimodal</dfn>), or several modes (<dfn class="terminology">multimodal</dfn>).</div></li>
-<li id="li-81"><div class="para" id="p-derived-li-81">
+<li id="li-89"><div class="para" id="p-derived-li-89">
 <dfn class="terminology">Standard deviation.</dfn> It is a measure of variability. Mathematically, the standard deviation is<div class="displaymath process-math">
 \begin{equation*}
 \sigma = \sqrt{\frac{1}{N-1} \sum\limits^{N}_{i=1}(x_i - \overline{x})^2}
 \end{equation*}
-</div>and  it roughly describes how far away the typical observation is from the mean. Usually, one standard deviation means the probability that every observation will be within one sigma band is <span class="process-math">\(68.5\%.\)</span> Two standard deviation means the probability that every observation will be within two sigma band is <span class="process-math">\(95.5\%\)</span> and so on. Check the <a class="external" href="https://francis.naukas.com/files/2009/09/dibujo20090924_sigma_significance_data_from_gaussian_model.jpg" target="_blank">figure</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-14" id="fn-14"><sup> 2 </sup></a> (check the website <a class="external" href="https://francis.naukas.com/2009/09/25/las-fluctuaciones-a-2-sigma-del-fermilab-posibles-descubrimientos-futuros-si-se-alcanzan-las-5-sigma/" target="_blank">blog</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-15" id="fn-15"><sup> 3 </sup></a>). Notice The <dfn class="terminology">deviation</dfn> is the distance of the observation from its mean, namely, <span class="process-math">\(x_i - \overline{x}\text{.}\)</span> For instance, <span class="process-math">\(9.5 - 10 = -0.5\)</span> is the deviation.</div></li>
-<li id="li-82"><div class="para" id="p-derived-li-82">
+</div>and  it roughly describes how far away the typical observation is from the mean. Usually, one standard deviation means the probability that every observation will be within one sigma band is <span class="process-math">\(68.5\%.\)</span> Two standard deviation means the probability that every observation will be within two sigma band is <span class="process-math">\(95.5\%\)</span> and so on. Check the <a class="external" href="https://francis.naukas.com/files/2009/09/dibujo20090924_sigma_significance_data_from_gaussian_model.jpg" target="_blank">figure</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-3" id="fn-3"><sup> 2 </sup></a> (check the website <a class="external" href="https://francis.naukas.com/2009/09/25/las-fluctuaciones-a-2-sigma-del-fermilab-posibles-descubrimientos-futuros-si-se-alcanzan-las-5-sigma/" target="_blank">blog</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-4" id="fn-4"><sup> 3 </sup></a>). Notice The <dfn class="terminology">deviation</dfn> is the distance of the observation from its mean, namely, <span class="process-math">\(x_i - \overline{x}\text{.}\)</span> For instance, <span class="process-math">\(9.5 - 10 = -0.5\)</span> is the deviation.</div></li>
+<li id="li-90"><div class="para" id="p-derived-li-90">
 <dfn class="terminology">Variance.</dfn> It is a measure of variability. It is called as the second central moment of the sample.<div class="displaymath process-math" data-contains-math-knowls="./knowl/eq-varianceDefinition.html" id="mdn-3">
 \begin{align}
 \sigma^2 &amp;= \frac{1}{N-1} \sum\limits^{N}_{i=1}(x_i - \overline{x})^2\tag{1.3.3}
 \end{align}
 </div>Note the eq. <a href="" class="xref" data-knowl="./knowl/eq-varianceDefinition.html" title="Equation 1.3.3">(1.3.3)</a> is the definition of variance. The variance is the average squared distance from the mean. Notice the variance symbol is <span class="process-math">\(\sigma^2.\)</span>
 </div></li>
-</ul></div></article><div class="para logical" id="p-84">
+</ul></div></article><div class="para logical" id="p-85">
 <div class="para">Additionally, the sigma measure usually means that</div>
 <ul class="disc">
-<li id="li-83"><div class="para" id="p-derived-li-83">the <span class="process-math">\(68.5\%\)</span> of data usually was within <span class="process-math">\(1\sigma\)</span> of the mean.</div></li>
-<li id="li-84"><div class="para" id="p-derived-li-84">the <span class="process-math">\(95.5\%\)</span> of data usually was within <span class="process-math">\(2\sigma\)</span> of the mean.</div></li>
-<li id="li-85"><div class="para" id="p-derived-li-85">the <span class="process-math">\(99.75\%\)</span> of data usually was within <span class="process-math">\(3\sigma\)</span> of the mean.</div></li>
-<li id="li-86"><div class="para" id="p-derived-li-86">the <span class="process-math">\(99.995\%\)</span> of data usually was within <span class="process-math">\(4\sigma\)</span> of the mean.</div></li>
-<li id="li-87"><div class="para" id="p-derived-li-87">the <span class="process-math">\(99.9995\%\)</span> of data usually was within <span class="process-math">\(5\sigma\)</span> of the mean.</div></li>
+<li id="li-91"><div class="para" id="p-derived-li-91">the <span class="process-math">\(68.5\%\)</span> of data usually was within <span class="process-math">\(1\sigma\)</span> of the mean.</div></li>
+<li id="li-92"><div class="para" id="p-derived-li-92">the <span class="process-math">\(95.5\%\)</span> of data usually was within <span class="process-math">\(2\sigma\)</span> of the mean.</div></li>
+<li id="li-93"><div class="para" id="p-derived-li-93">the <span class="process-math">\(99.75\%\)</span> of data usually was within <span class="process-math">\(3\sigma\)</span> of the mean.</div></li>
+<li id="li-94"><div class="para" id="p-derived-li-94">the <span class="process-math">\(99.995\%\)</span> of data usually was within <span class="process-math">\(4\sigma\)</span> of the mean.</div></li>
+<li id="li-95"><div class="para" id="p-derived-li-95">the <span class="process-math">\(99.9995\%\)</span> of data usually was within <span class="process-math">\(5\sigma\)</span> of the mean.</div></li>
 </ul>
 </div>
-<div class="para" id="p-85">We will add more relevant concepts those help in statistical analysis.</div>
+<div class="para" id="p-86">We will add more relevant concepts those help in statistical analysis.</div>
 <figure class="figure figure-like" id="fig-dotPlots"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/https://www.openintro.org/book/os/" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.3.0.5<span class="period">.</span></span><span class="space"> </span>A vertical dot plot. <a class="external" href="../images/dotPlots.png" target="_blank"><code class="code-inline tex2jax_ignore">Image source: https://www.openintro.org/book/os/</code></a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-16" id="fn-16"><sup> 4 </sup></a></figcaption></figure><div class="para logical" id="p-86">
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.3.0.5<span class="period">.</span></span><span class="space"> </span>A vertical dot plot. <a class="external" href="../ptx/images/dotPlots.png" target="_blank"><code class="code-inline tex2jax_ignore">Image source: https://www.openintro.org/book/os/</code></a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-5" id="fn-5"><sup> 4 </sup></a></figcaption></figure><div class="para logical" id="p-87">
 <div class="para">Median denotes the concept to split data in half (fig. <a href="" class="xref" data-knowl="./knowl/fig-dotPlots.html" title="Figure 1.3.0.5">Figure 1.3.0.5</a>). In other words this concept refers the <span class="process-math">\(50^{\text{th}}\)</span> percentile. The median has two options</div>
 <ol class="decimal">
-<li id="li-88"><div class="para" id="p-derived-li-88">Even number of observations. In this case we will calculate the average.</div></li>
-<li id="li-89"><div class="para" id="p-derived-li-89">Odd number of observations. In this case we will have only one observation that splits the data into two halves.</div></li>
+<li id="li-96"><div class="para" id="p-derived-li-96">Even number of observations. In this case we will calculate the average.</div></li>
+<li id="li-97"><div class="para" id="p-derived-li-97">Odd number of observations. In this case we will have only one observation that splits the data into two halves.</div></li>
 </ol>
 <div class="para">Besides, the steps showed in items <a href="" class="xref" data-knowl="./knowl/ol-boxPlotA.html" title="Item">Item </a> and <a href="" class="xref" data-knowl="./knowl/ol-boxPlotB.html" title="Item">Item </a>, we require more concepts about this topic,</div>
 </div>
 <article class="remark remark-like" id="rem-conceptsB"><h2 class="heading">
 <span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.3.0.6</span><span class="period">.</span>
 </h2>
-<div class="para logical" id="p-87"><ul class="disc">
-<li id="li-90"><div class="para" id="p-derived-li-90">
+<div class="para logical" id="p-88"><ul class="disc">
+<li id="li-98"><div class="para" id="p-derived-li-98">
 <dfn class="terminology">Interquartile range (<span class="process-math">\(IQR\)</span>).</dfn> It is the total length of the box plot. It is a measure of variability.</div></li>
-<li id="li-91"><div class="para" id="p-derived-li-91">
+<li id="li-99"><div class="para" id="p-derived-li-99">
 <dfn class="terminology">First quartile (<span class="process-math">\(Q_1\)</span>).</dfn> It is boundary to indicate that the <span class="process-math">\(25\%\)</span> of the data fall below this value.</div></li>
-<li id="li-92"><div class="para" id="p-derived-li-92">
+<li id="li-100"><div class="para" id="p-derived-li-100">
 <dfn class="terminology">Third quartile (<span class="process-math">\(Q_3\)</span>).</dfn> It is boundary to indicate that the <span class="process-math">\(75\%\)</span> of the data fall below this value.</div></li>
-<li id="li-93"><div class="para" id="p-derived-li-93">
+<li id="li-101"><div class="para" id="p-derived-li-101">
 <dfn class="terminology">Whisker.</dfn><ol class="decimal">
-<li id="li-94"><div class="para" id="p-derived-li-94">max <span class="process-math">\(\frac{3}{2}IQR\)</span>
+<li id="li-102"><div class="para" id="p-derived-li-102">max <span class="process-math">\(\frac{3}{2}IQR\)</span>
 </div></li>
-<li id="li-95"><div class="para" id="p-derived-li-95">upper <span class="process-math">\(Q_3+\frac{3}{2}IQR\)</span> from <span class="process-math">\(Q_1\)</span>
+<li id="li-103"><div class="para" id="p-derived-li-103">upper <span class="process-math">\(Q_3+\frac{3}{2}IQR\)</span> from <span class="process-math">\(Q_1\)</span>
 </div></li>
-<li id="li-96"><div class="para" id="p-derived-li-96">lower <span class="process-math">\(Q_3-\frac{3}{2}IQR\)</span>
+<li id="li-104"><div class="para" id="p-derived-li-104">lower <span class="process-math">\(Q_3-\frac{3}{2}IQR\)</span>
 </div></li>
 </ol>
 <div class="displaymath process-math" id="mdn-4">
@@ -391,28 +391,28 @@ IQR = Q_3 -Q_1\tag{1.3.4}
 \end{gather}
 </div>
 </div></li>
-<li id="li-97"><div class="para" id="p-derived-li-97">
+<li id="li-105"><div class="para" id="p-derived-li-105">
 <dfn class="terminology">Outliers.</dfn><ol class="decimal">
-<li id="li-98"><div class="para" id="p-derived-li-98">identify bias in the distribution.</div></li>
-<li id="li-99"><div class="para" id="p-derived-li-99">Establish data entry errors.</div></li>
-<li id="li-100"><div class="para" id="p-derived-li-100">Reveal potential properties of the data.</div></li>
+<li id="li-106"><div class="para" id="p-derived-li-106">identify bias in the distribution.</div></li>
+<li id="li-107"><div class="para" id="p-derived-li-107">Establish data entry errors.</div></li>
+<li id="li-108"><div class="para" id="p-derived-li-108">Reveal potential properties of the data.</div></li>
 </ol>
 </div></li>
-</ul></div></article><div class="para" id="p-88">Let us check other statistical concepts. The following concept is relevant to analyze data and its influence under changes.</div>
+</ul></div></article><div class="para" id="p-89">Let us check other statistical concepts. The following concept is relevant to analyze data and its influence under changes.</div>
 <article class="remark remark-like" id="rem-conceptsC"><h2 class="heading">
 <span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.3.0.7</span><span class="period">.</span>
 </h2>
-<div class="para logical" id="p-89"><ul class="disc">
-<li id="li-101"><div class="para" id="p-derived-li-101">
+<div class="para logical" id="p-90"><ul class="disc">
+<li id="li-109"><div class="para" id="p-derived-li-109">
 <dfn class="terminology">Robust statistics.</dfn> Two concepts constitute the Robust statistics: Median and IQR. These have little effect when there are extreme observations.</div></li>
-<li id="li-102"><div class="para" id="p-derived-li-102">
+<li id="li-110"><div class="para" id="p-derived-li-110">
 <dfn class="terminology">Transformation.</dfn> It is a recalibration of data through a mathematical function, this usually works to rescale the data a make easier to build data models. Some transformation examples are <span class="process-math">\(x\to\log(), x\to\ln(), x\to\sqrt{x},x\to x^{-1}\)</span>
 </div></li>
 </ul></div></article><article class="example example-like" id="exeI-sampleMean"><h2 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.0.8</span><span class="period">.</span>
 </h2>
-<div class="para" id="p-90">Use the follow information to calculate <span class="process-math">\(\mu.\)</span>
-</div> <div class="para logical" id="p-91">
+<div class="para" id="p-91">Use the follow information to calculate <span class="process-math">\(\mu.\)</span>
+</div> <div class="para logical" id="p-92">
 <div class="para">Data and example</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -436,10 +436,10 @@ i&amp;x_i &amp; y_i &amp; z_i\\
 <div class="para">Notice that the columns do not have same numbers of inputs.</div>
 </div></article><article class="exercise exercise-like" id="exercise-8"><a href="" data-knowl="" class="id-ref exercise-knowl original" data-refid="hk-exercise-8"><h2 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.0.9</span><span class="period">.</span>
-</h2></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-8"><article class="exercise exercise-like"><div class="para logical" id="p-92">
+</h2></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-8"><article class="exercise exercise-like"><div class="para logical" id="p-93">
 <div class="para">Calculate the sample mean for the following data.</div>
 <ol class="decimal">
-<li id="li-103"><div class="para" id="p-derived-li-103">table 1<div class="displaymath process-math">
+<li id="li-111"><div class="para" id="p-derived-li-111">table 1<div class="displaymath process-math">
 \begin{equation*}
 \begin{array}{c|c|c} 
 &amp; \text{New course} &amp; \text{old course}\\
@@ -451,7 +451,7 @@ i&amp;x_i &amp; y_i &amp; z_i\\
 \end{equation*}
 </div>
 </div></li>
-<li id="li-104"><div class="para" id="p-derived-li-104">table 2<div class="displaymath process-math">
+<li id="li-112"><div class="para" id="p-derived-li-112">table 2<div class="displaymath process-math">
 \begin{equation*}
 \begin{array}{c|c|c} 
 &amp; \text{New course} &amp; \text{old course}\\
@@ -463,7 +463,7 @@ i&amp;x_i &amp; y_i &amp; z_i\\
 \end{equation*}
 </div>
 </div></li>
-<li id="li-105"><div class="para" id="p-derived-li-105">table 3<div class="displaymath process-math">
+<li id="li-113"><div class="para" id="p-derived-li-113">table 3<div class="displaymath process-math">
 \begin{equation*}
 \begin{array}{c|c|c} 
 &amp; \text{City A} (\times 10^3) &amp; \text{City B} (\times 10^3)\\
@@ -475,7 +475,7 @@ i&amp;x_i &amp; y_i &amp; z_i\\
 \end{equation*}
 </div>
 </div></li>
-<li id="li-106"><div class="para" id="p-derived-li-106">table 4<div class="displaymath process-math">
+<li id="li-114"><div class="para" id="p-derived-li-114">table 4<div class="displaymath process-math">
 \begin{equation*}
 \begin{array}{c|c|c} 
 &amp; \text{City A} (\times 10^3) &amp; \text{City B} (\times 10^3)\\
@@ -487,7 +487,7 @@ i&amp;x_i &amp; y_i &amp; z_i\\
 \end{equation*}
 </div>
 </div></li>
-<li id="li-107"><div class="para" id="p-derived-li-107">table 5<div class="displaymath process-math">
+<li id="li-115"><div class="para" id="p-derived-li-115">table 5<div class="displaymath process-math">
 \begin{equation*}
 \begin{array}{c|c|c} 
 &amp; \text{Country A} (\times 10^6) &amp; \text{Country B} (\times 10^6)\\
@@ -505,13 +505,13 @@ i&amp;x_i &amp; y_i &amp; z_i\\
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.0.1</span><span class="period">.</span><span class="space"> </span><span class="title">Extra material: Videos.</span>
 </h2>  <div class="video-box" style="width: 60%;padding-top: 33.75%; margin-left: 35%; margin-right: 35%;"><iframe id="yt-ExaminingNumData" class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/Xm0PPtci3JE?&amp;modestbranding=1&amp;rel=0"></iframe></div> </article><article class="activity project-like" id="activity-6"><h2 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.0.2</span><span class="period">.</span><span class="space"> </span><span class="title">Extra material: Slides.</span>
-</h2> <div class="para logical" id="p-93"><ul class="disc">
-<li id="li-108"><div class="para" id="p-derived-li-108"><a class="external" href="https://tinyurl.com/26j7hjy5" target="_blank"><code class="code-inline tex2jax_ignore">Examining Numerical data (OpenIntroStat)</code></a></div></li>
-<li id="li-109"><div class="para" id="p-derived-li-109"><a class="external" href="https://tinyurl.com/265hg7pu" target="_blank"><code class="code-inline tex2jax_ignore">Considering Categorical data (OpenIntroStat)</code></a></div></li>
-</ul></div></article></section><div class="hidden-content tex2jax_ignore" id="hk-fn-13"><div class="fn"><code class="code-inline tex2jax_ignore">https://www.census.gov/</code></div></div>
-<div class="hidden-content tex2jax_ignore" id="hk-fn-14"><div class="fn"><code class="code-inline tex2jax_ignore">figure</code></div></div>
-<div class="hidden-content tex2jax_ignore" id="hk-fn-15"><div class="fn"><code class="code-inline tex2jax_ignore">Blog</code></div></div>
-<div class="hidden-content tex2jax_ignore" id="hk-fn-16"><div class="fn"><code class="code-inline tex2jax_ignore">https://www.openintro.org/book/os/</code></div></div>
+</h2> <div class="para logical" id="p-94"><ul class="disc">
+<li id="li-116"><div class="para" id="p-derived-li-116"><a class="external" href="https://tinyurl.com/26j7hjy5" target="_blank"><code class="code-inline tex2jax_ignore">Examining Numerical data (OpenIntroStat)</code></a></div></li>
+<li id="li-117"><div class="para" id="p-derived-li-117"><a class="external" href="https://tinyurl.com/265hg7pu" target="_blank"><code class="code-inline tex2jax_ignore">Considering Categorical data (OpenIntroStat)</code></a></div></li>
+</ul></div></article></section><div class="hidden-content tex2jax_ignore" id="hk-fn-2"><div class="fn"><code class="code-inline tex2jax_ignore">https://www.census.gov/</code></div></div>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-3"><div class="fn"><code class="code-inline tex2jax_ignore">figure</code></div></div>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-4"><div class="fn"><code class="code-inline tex2jax_ignore">Blog</code></div></div>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-5"><div class="fn"><code class="code-inline tex2jax_ignore">https://www.openintro.org/book/os/</code></div></div>
 </div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="section-2.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sect-four.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>

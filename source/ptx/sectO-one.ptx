@@ -18,100 +18,42 @@
     we usually set up them. During this process, 
     we can organize and summarize data.</p>
 
+<p>
+  <ul>
+    <li>
+      <url href="https://home.cern/" visual="CERN"/>
+    </li>
+      <li>
+      <url href="https://datausa.io/" visual="Data USA"/>
+      </li>
+      <li>
+      <url href="https://www.usa.gov/census-data" visual="Census data"/>
+      </li>
+      <li>
+      <url href="https://www.bls.gov/" visual="USA in data"/>
+      </li>
+      <li>
+      <url href="https://guides.lib.uw.edu/research/federal/data" visual="Federal data"/>
+      </li>
+      <li>
+      <url href="https://www.usopendatatoolkit.org/" visual="Open data"/>
+      </li>
+      <li>
+      <url href="https://www.cdc.gov/" visual="Centers for disease control and prevention (CDC)"/>
+      </li>
+      <li>
+      <url href="https://www.worlddata.info/" visual="World in data"/>
+      </li>
 
-  <figure>
-    <caption>Data.
-      <url href="https://tinyurl.com/2lbhzg6h" 
-      visual="https://freepik.com/">
-      <c>https://freepik.com</c></url></caption>
- <image source="/images/dotPlots.png" width="40%" />  
-  </figure>
-
-
-  <figure>
-    <caption>Data everywhere.
-      <url href="images/dotPlots.png" 
-      visual="./images/dotPlots.png">
-      <c>https://freepik.com</c></url></caption>
- <image source="https://tinyurl.com/2nhn3tml" width="40%" />  
-  </figure>
-
-  <figure>
-    <caption>Data Analysis.
-      <url href="https://tinyurl.com/2fv46km8" 
-      visual="/images/dotPlots.png">
-      <c>https://freepik.com</c></url></caption>
- <image source="https://tinyurl.com/2fv46km8" width="40%" />  
-  </figure>
-
-
-  <figure>
-    <caption>Data in Science.
-      <url href="https://home.cern/sites/default/files/logo/cern-logo.png" 
-      visual="https://home.cern/">
-      <c>https://home.cern/</c></url></caption>
- <image source="/images/dotPlots.png" width="40%" />  
-  </figure>
-
-
-  <figure>
-    <caption>a) USA in data.
-      <url href="https://datausa.io/" 
-      visual="https://datausa.io/">
-      <c>https://datausa.io/</c></url></caption>
- <image source="./images/dotPlots.png" width="40%" />  
-  </figure>
-
-  <figure>
-    <caption>b) USA in data.
-      <url href="https://www.usa.gov/census-data" 
-      visual="https://www.usa.gov/census-data">
-      <c>https://www.usa.gov/census-data</c></url></caption>
- <image source="images/dotPlots.png" width="40%" />  
-  </figure>
-
- <figure>
-    <caption>c) USA in data.
-      <url href="https://www.bls.gov/" 
-      visual="https://www.bls.gov/">
-      <c>https://www.bls.gov/</c></url></caption>
- <image source="https://www.bls.gov/" width="40%" />  
-  </figure>
+      <!-- <url href="" visual=""/>      
+      <url href="" visual=""/> -->
+      <!-- <url href="https://tinyurl.com/2lbhzg6h" visual="Data"/> -->
+      <!-- <url href="https://tinyurl.com/2nhn3tml" visual="Data Everywhere"/> -->
+      <!-- <url href="https://tinyurl.com/2fv46km8" visual="Data analysis"/> -->
+  </ul>
+</p>
 
 
- <figure>
-    <caption>d) USA in data.
-      <url href="https://guides.lib.uw.edu/research/federal/data" 
-      visual="https://guides.lib.uw.edu/research/federal/data">
-      <c>https://guides.lib.uw.edu/research/federal/data</c></url></caption>
- <image source="https://guides.lib.uw.edu/research/federal/data" width="40%" />  
-  </figure>
-
-  <figure>
-    <caption>e) USA in data.
-      <url href="https://www.usopendatatoolkit.org/" 
-      visual="https://www.usopendatatoolkit.org/">
-      <c>https://www.usopendatatoolkit.org/</c></url></caption>
- <image source="https://www.usopendatatoolkit.org/" width="40%" />  
-  </figure>
-
-
-
-  <figure>
-    <caption>Centers for disease control and prevention (CDC).
-      <url href="https://www.cdc.gov/" 
-      visual="https://www.cdc.gov/">
-      <c>https://www.cdc.gov/</c></url></caption>
- <image source="https://www.cdc.gov/" width="40%" />  
-  </figure>
-
-  <figure>
-    <caption>World in Data.
-      <url href="https://www.worlddata.info/" 
-      visual="https://www.worlddata.info/">
-      <c>https://www.worlddata.info/</c></url></caption>
- <image source="https://www.worlddata.info/" width="40%" />  
-  </figure>
 
 <p>To summarize, and organize data, there are two ways:  Graphs/Plots, and Numbers.</p>
 <p>Random numbers require Statistics Data Analysis. This field allows to consider all of the data at once.
@@ -150,7 +92,7 @@ Which is convenient to analyze.</p>
 <p>This table shows data about this experiment.</p>
   </example>
   
-<exercise xml:id="exe-I11">
+<exercise xml:id="exe-I12">
 <p>
 Answer the following questions
   <ul>

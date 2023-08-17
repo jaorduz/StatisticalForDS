@@ -81,7 +81,7 @@ n&amp; 2023 &amp;\text { Delorian}&amp;\text { Time Flies}&amp;\text { Individua
   </p>
     </statement>
   </example>
-  <exercise xml:id="exe-I21">
+  <exercise xml:id="exe-I22">
   <statement>
 <p>
 <ul>
@@ -97,7 +97,7 @@ n&amp; 2023 &amp;\text { Delorian}&amp;\text { Time Flies}&amp;\text { Individua
 </exercise>
 
 
-<exercise xml:id="exe-I22">
+<exercise xml:id="exe-I23">
   <statement>
   <p>Organize the following data in a <term>Data Matrix</term><idx><h>Data</h><h>Matrix</h></idx>.</p>
     <p>Charles, GPA 3.4; Michael, GPA 3.5; Juan, GPA 3.5; Emma, GPA 3.6, Anne, GPA 3.8; Melody GPA 3.7</p>
@@ -607,7 +607,7 @@ is similar to cluster sample, but we collect a random sample within each selecte
 
 <activity>
   <title>Extra material: Video</title>
-        <video xml:id="yt-list-vars" youtube="2N_bkiyTiXU" width="60%" margins="35%" />
+        <video xml:id="yt-list-vars-EM" youtube="2N_bkiyTiXU" width="60%" margins="35%" />
 </activity>
 
 <activity>
