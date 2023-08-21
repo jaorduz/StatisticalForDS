@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="chapter_twoKD">
+    <title>Types of Graph</title>
+    <introduction>
+      <p>
+This is the introduction for the knowing data chapter.
+      </p>
+    </introduction>
+
+    <xi:include href="./sectT-one.ptx" />
+
+    <conclusion>
+        <p>
+            This is the conclusion
+        </p>
+    </conclusion>
+</chapter>

@@ -1,3 +1,3 @@
-/Users/JO/Documents/GitHub/StatisticalForDS/source/main.ptx:5:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element include there
-/Users/JO/Documents/GitHub/StatisticalForDS/source/main.ptx:5:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element pretext has extra content: include
-/Users/JO/Documents/GitHub/StatisticalForDS/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element docinfo, got pretext
+/Users/JO/github/StatisticalForDS/source/main.ptx:5:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element include there
+/Users/JO/github/StatisticalForDS/source/main.ptx:5:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element pretext has extra content: include
+/Users/JO/github/StatisticalForDS/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element docinfo, got pretext
