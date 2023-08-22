@@ -1,11 +1,208 @@
 INFO    : PreTeXt project found in `/Users/JO/github/StatisticalForDS`.
-INFO    : Now preparing local server to preview directory `/Users/JO/github/StatisticalForDS/output/web`.
-INFO    :   (Reminder: use `pretext deploy` to deploy your built project to a public
-INFO    :   GitHub Pages site that can be shared with readers who cannot access your
-INFO    :   personal computer.)
+WARNING : Using CLI version 1.7.5 but project's `requirements.txt`
+WARNING : is configured to use 1.7.0. Consider either installing
+WARNING : CLI version 1.7.0 or changing `requirements.txt` to match 1.7.5.
+INFO    : Since no build target was supplied, the first target of the project.ptx manifest (web) will be built.
+
+INFO    : No change in assets requiring generating detected.  To force regeneration of assets, use `-g` flag.
+
+INFO    : Generating all assets in default formats as requested.
+INFO    : Note: PreTeXt will automatically generate assets that have been changed since your last build, so this option is no longer necessary unless something isn't happening as expected.
+INFO    : Now generating webwork representation
+
+
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/Users/JO/github/StatisticalForDS/publication/publication.ptx'}
+INFO    : discovering source file's directory name: /Users/JO/github/StatisticalForDS/source
+INFO    : verifying and expanding input directory: /Users/JO/github/StatisticalForDS/source/../generated-assets
+INFO    : input directory expanded to absolute path: /Users/JO/github/StatisticalForDS/generated-assets
+INFO    : verifying and expanding input directory: /Users/JO/github/StatisticalForDS/source/../assets
+INFO    : input directory expanded to absolute path: /Users/JO/github/StatisticalForDS/assets
+INFO    : XSL conversion of /Users/JO/github/StatisticalForDS/source/main.ptx by /Users/JO/.ptx/xsl/extract-pg.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of /Users/JO/.ptx/xsl/extract-pg.xsl
+INFO    : validating, cleaning server URL: https://webwork-ptx.aimath.org
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending wbw-I24 to server to save in /Users/JO/github/StatisticalForDS/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending wbw-I25 to server to save in /Users/JO/github/StatisticalForDS/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : Removing temporary directory /var/folders/rq/h9tvq1312s3d29xz12pnd5v40000gs/T/tmpf9uysnz5
+INFO    : Note: No latex-image elements found.
+INFO    : Now generating asymptote images
+
+
+INFO    : converting Asymptote diagrams from /Users/JO/github/StatisticalForDS/source/main.ptx to HTML graphics for placement in /Users/JO/github/StatisticalForDS/generated-assets/asymptote with method "server"
+INFO    : extracting Asymptote diagrams from /Users/JO/github/StatisticalForDS/source/main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/Users/JO/github/StatisticalForDS/publication/publication.ptx'}
+INFO    : XSL conversion of /Users/JO/github/StatisticalForDS/source/main.ptx by /Users/JO/.ptx/xsl/extract-asymptote.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of /Users/JO/.ptx/xsl/extract-asymptote.xsl
+INFO    : converting /var/folders/rq/h9tvq1312s3d29xz12pnd5v40000gs/T/tmpsh67togh/ima-histogram.asy to /var/folders/rq/h9tvq1312s3d29xz12pnd5v40000gs/T/tmpsh67togh/ima-histogram.html
+INFO    : converting /var/folders/rq/h9tvq1312s3d29xz12pnd5v40000gs/T/tmpsh67togh/asymptote-lever.asy to /var/folders/rq/h9tvq1312s3d29xz12pnd5v40000gs/T/tmpsh67togh/asymptote-lever.html
+INFO    : converting /var/folders/rq/h9tvq1312s3d29xz12pnd5v40000gs/T/tmpsh67togh/sampling-methods.asy to /var/folders/rq/h9tvq1312s3d29xz12pnd5v40000gs/T/tmpsh67togh/sampling-methods.html
+INFO    : Note: No sageplot elements found.
+INFO    : Note: No interactive elements found.
+INFO    : Now generating youtube previews
+
+
+INFO    : downloading YouTube thumbnails from /Users/JO/github/StatisticalForDS/source/main.ptx for placement in /Users/JO/github/StatisticalForDS/generated-assets/youtube
+INFO    : XSL conversion of /Users/JO/github/StatisticalForDS/source/main.ptx by /Users/JO/.ptx/xsl/extract-youtube.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of /Users/JO/.ptx/xsl/extract-youtube.xsl
+INFO    : downloading http://i.ytimg.com/vi/Mjif8PTgzUs/default.jpg as /Users/JO/github/StatisticalForDS/generated-assets/youtube/yt-list-vars.jpg...
+INFO    : downloading http://i.ytimg.com/vi/2N_bkiyTiXU/default.jpg as /Users/JO/github/StatisticalForDS/generated-assets/youtube/yt-list-vars-EM.jpg...
+INFO    : downloading http://i.ytimg.com/vi/Xm0PPtci3JE/default.jpg as /Users/JO/github/StatisticalForDS/generated-assets/youtube/yt-ExaminingNumData.jpg...
+INFO    : downloading http://i.ytimg.com/vi/7NhNeADL8fA/default.jpg as /Users/JO/github/StatisticalForDS/generated-assets/youtube/yt-ExploringCatData.jpg...
+INFO    : YouTube thumbnail download complete
+INFO    : Now copying play-button image for videos
+
+
+INFO    : Generating generic video preview, aka "play button" into /Users/JO/github/StatisticalForDS/generated-assets/play-button
+INFO    : Note: No program elements using codelens found.
+INFO    : Note: No elements needing datafile conversion found
+INFO    : Now generating QR codes for videos and/or interactives
+
+
+INFO    : manufacturing QR codes from /Users/JO/github/StatisticalForDS/source/main.ptx for placement in /Users/JO/github/StatisticalForDS/generated-assets/qrcode
+INFO    : XSL conversion of /Users/JO/github/StatisticalForDS/source/main.ptx by /Users/JO/.ptx/xsl/extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of /Users/JO/.ptx/xsl/extract-qrcode.xsl
+INFO    : creating URL with content "https://www.youtube.com/watch?v=Mjif8PTgzUs" as /Users/JO/github/StatisticalForDS/generated-assets/qrcode/yt-list-vars.png...
+INFO    : creating URL with content "https://www.youtube.com/watch?v=2N_bkiyTiXU" as /Users/JO/github/StatisticalForDS/generated-assets/qrcode/yt-list-vars-EM.png...
+INFO    : creating URL with content "https://www.youtube.com/watch?v=Xm0PPtci3JE" as /Users/JO/github/StatisticalForDS/generated-assets/qrcode/yt-ExaminingNumData.png...
+INFO    : creating URL with content "https://www.youtube.com/watch?v=7NhNeADL8fA" as /Users/JO/github/StatisticalForDS/generated-assets/qrcode/yt-ExploringCatData.png...
+INFO    : QR code creation complete
+INFO    : Removing temporary directory /var/folders/rq/h9tvq1312s3d29xz12pnd5v40000gs/T/tmpsh67togh
+INFO    : Removing temporary directory /var/folders/rq/h9tvq1312s3d29xz12pnd5v40000gs/T/tmp_88zc2k1
+INFO    : Removing temporary directory /var/folders/rq/h9tvq1312s3d29xz12pnd5v40000gs/T/tmpsvcmx8fz
+INFO    : PreTeXt source passed schema validation.
+INFO    : Preparing to build into /Users/JO/github/StatisticalForDS/output/web.
 INFO    : 
-INFO    : Success! The most recent build of your project can be viewed in a web browser at the following url:
-INFO    :     http://localhost:8000
-INFO    : This page should open in a new tab automatically.
-INFO    : Use [Ctrl]+[C] to halt the server.
+Now building HTML into /Users/JO/github/StatisticalForDS/output/web
+
+INFO    : discovering source file's directory name: /Users/JO/github/StatisticalForDS/source
+INFO    : verifying and expanding input directory: /Users/JO/github/StatisticalForDS/source/../generated-assets
+INFO    : input directory expanded to absolute path: /Users/JO/github/StatisticalForDS/generated-assets
+INFO    : verifying and expanding input directory: /Users/JO/github/StatisticalForDS/source/../assets
+INFO    : input directory expanded to absolute path: /Users/JO/github/StatisticalForDS/assets
+INFO    : Runestone Services (via PreTeXt repository): version 6.5.0
+INFO    : Runestone Services (using newer, via online CDN query): version 7.1.1
+INFO    : converting /Users/JO/github/StatisticalForDS/source/main.ptx to HTML in /var/folders/rq/h9tvq1312s3d29xz12pnd5v40000gs/T/tmptw9rjkrd
+INFO    : XSL conversion of /Users/JO/github/StatisticalForDS/source/main.ptx by /Users/JO/.ptx/xsl/pretext-html.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must not have a sum exceeding 100%
+INFO    :     *              located within: "yt-list-vars" (xml:id)
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must sum to 100%
+INFO    :     *              located within: "yt-list-vars" (xml:id)
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must not have a sum exceeding 100%
+INFO    :     *              located within: "yt-list-vars" (xml:id)
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must sum to 100%
+INFO    :     *              located within: "yt-list-vars" (xml:id)
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must not have a sum exceeding 100%
+INFO    :     *              located within: "yt-list-vars-EM" (xml:id)
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must sum to 100%
+INFO    :     *              located within: "yt-list-vars-EM" (xml:id)
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must not have a sum exceeding 100%
+INFO    :     *              located within: "yt-list-vars-EM" (xml:id)
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must sum to 100%
+INFO    :     *              located within: "yt-list-vars-EM" (xml:id)
+INFO    :     * PTX:WARNING: Unstructured content within a list item is being ignored ("It is a kind of plot to summarize a data set using statistical concepts, and also showing relevant observations. To create a box plot, we need steps")
+INFO    :     *              located within: "sec-three" (xml:id), "Numerical Data" (title)
+INFO    :     * PTX:WARNING:    An <xref> wants to build text using a number to identify the target, but the target (which has @xml:id "ol-boxPlotA") does not have a number. You could try 'text="title"' or 'text="custom"' on the "xref".
+INFO    :     *              located within: "sec-three" (xml:id), "Numerical Data" (title)
+INFO    :     * PTX:WARNING:    An <xref> wants to build text using a number to identify the target, but the target (which has @xml:id "ol-boxPlotB") does not have a number. You could try 'text="title"' or 'text="custom"' on the "xref".
+INFO    :     *              located within: "sec-three" (xml:id), "Numerical Data" (title)
+INFO    :     * PTX:WARNING: Unstructured content within a list item is being ignored ("There are three whiskers: max, upper and lower. They are boundaries to have the data inside the box.")
+INFO    :     *              located within: "rem-conceptsB" (xml:id)
+INFO    :     * PTX:WARNING: Unstructured content within a list item is being ignored ("where,")
+INFO    :     *              located within: "rem-conceptsB" (xml:id)
+INFO    :     * PTX:WARNING: Unstructured content within a list item is being ignored ("They are any observations that appear to be unusually distant from the rest of the data. This concept is crucial because it helps to")
+INFO    :     *              located within: "rem-conceptsB" (xml:id)
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must not have a sum exceeding 100%
+INFO    :     *              located within: "yt-ExaminingNumData" (xml:id)
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must sum to 100%
+INFO    :     *              located within: "yt-ExaminingNumData" (xml:id)
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must not have a sum exceeding 100%
+INFO    :     *              located within: "yt-ExaminingNumData" (xml:id)
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must sum to 100%
+INFO    :     *              located within: "yt-ExaminingNumData" (xml:id)
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must not have a sum exceeding 100%
+INFO    :     *              located within: "yt-ExploringCatData" (xml:id)
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must sum to 100%
+INFO    :     *              located within: "yt-ExploringCatData" (xml:id)
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must not have a sum exceeding 100%
+INFO    :     *              located within: "yt-ExploringCatData" (xml:id)
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must sum to 100%
+INFO    :     *              located within: "yt-ExploringCatData" (xml:id)
+INFO    :     * PTX:WARNING: Unstructured content within a list item is being ignored ("It is a kind of plot to summarize a data set using statistical concepts, and also showing relevant observations. To create a box plot, we need steps")
+INFO    :     *              located within: "sec-three" (xml:id), "Numerical Data" (title)
+INFO    :     * PTX:WARNING: Unstructured content within a list item is being ignored ("There are three whiskers: max, upper and lower. They are boundaries to have the data inside the box.")
+INFO    :     *              located within: "rem-conceptsB" (xml:id)
+INFO    :     * PTX:WARNING: Unstructured content within a list item is being ignored ("where,")
+INFO    :     *              located within: "rem-conceptsB" (xml:id)
+INFO    :     * PTX:WARNING: Unstructured content within a list item is being ignored ("They are any observations that appear to be unusually distant from the rest of the data. This concept is crucial because it helps to")
+INFO    :     *              located within: "rem-conceptsB" (xml:id)
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must not have a sum exceeding 100%
+INFO    :     *              located within: "yt-list-vars" (xml:id)
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must sum to 100%
+INFO    :     *              located within: "yt-list-vars" (xml:id)
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must not have a sum exceeding 100%
+INFO    :     *              located within: "yt-list-vars" (xml:id)
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must sum to 100%
+INFO    :     *              located within: "yt-list-vars" (xml:id)
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must not have a sum exceeding 100%
+INFO    :     *              located within: "yt-list-vars-EM" (xml:id)
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must sum to 100%
+INFO    :     *              located within: "yt-list-vars-EM" (xml:id)
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must not have a sum exceeding 100%
+INFO    :     *              located within: "yt-list-vars-EM" (xml:id)
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must sum to 100%
+INFO    :     *              located within: "yt-list-vars-EM" (xml:id)
+INFO    :     * PTX:WARNING: Unstructured content within a list item is being ignored ("It is a kind of plot to summarize a data set using statistical concepts, and also showing relevant observations. To create a box plot, we need steps")
+INFO    :     *              located within: "sec-three" (xml:id), "Numerical Data" (title)
+INFO    :     * PTX:WARNING: Unstructured content within a list item is being ignored ("It is a kind of plot to summarize a data set using statistical concepts, and also showing relevant observations. To create a box plot, we need steps")
+INFO    :     *              located within: "sec-three" (xml:id), "Numerical Data" (title)
+INFO    :     * PTX:WARNING: Unstructured content within a list item is being ignored ("It is a kind of plot to summarize a data set using statistical concepts, and also showing relevant observations. To create a box plot, we need steps")
+INFO    :     *              located within: "sec-three" (xml:id), "Numerical Data" (title)
+INFO    :     * PTX:WARNING:    An <xref> wants to build text using a number to identify the target, but the target (which has @xml:id "ol-boxPlotA") does not have a number. You could try 'text="title"' or 'text="custom"' on the "xref".
+INFO    :     *              located within: "sec-three" (xml:id), "Numerical Data" (title)
+INFO    :     * PTX:WARNING:    An <xref> wants to build text using a number to identify the target, but the target (which has @xml:id "ol-boxPlotB") does not have a number. You could try 'text="title"' or 'text="custom"' on the "xref".
+INFO    :     *              located within: "sec-three" (xml:id), "Numerical Data" (title)
+INFO    :     * PTX:WARNING: Unstructured content within a list item is being ignored ("There are three whiskers: max, upper and lower. They are boundaries to have the data inside the box.")
+INFO    :     *              located within: "rem-conceptsB" (xml:id)
+INFO    :     * PTX:WARNING: Unstructured content within a list item is being ignored ("where,")
+INFO    :     *              located within: "rem-conceptsB" (xml:id)
+INFO    :     * PTX:WARNING: Unstructured content within a list item is being ignored ("They are any observations that appear to be unusually distant from the rest of the data. This concept is crucial because it helps to")
+INFO    :     *              located within: "rem-conceptsB" (xml:id)
+INFO    :     * PTX:WARNING: Unstructured content within a list item is being ignored ("There are three whiskers: max, upper and lower. They are boundaries to have the data inside the box.")
+INFO    :     *              located within: "rem-conceptsB" (xml:id)
+INFO    :     * PTX:WARNING: Unstructured content within a list item is being ignored ("where,")
+INFO    :     *              located within: "rem-conceptsB" (xml:id)
+INFO    :     * PTX:WARNING: Unstructured content within a list item is being ignored ("They are any observations that appear to be unusually distant from the rest of the data. This concept is crucial because it helps to")
+INFO    :     *              located within: "rem-conceptsB" (xml:id)
+INFO    :     * PTX:WARNING: Unstructured content within a list item is being ignored ("There are three whiskers: max, upper and lower. They are boundaries to have the data inside the box.")
+INFO    :     *              located within: "rem-conceptsB" (xml:id)
+INFO    :     * PTX:WARNING: Unstructured content within a list item is being ignored ("where,")
+INFO    :     *              located within: "rem-conceptsB" (xml:id)
+INFO    :     * PTX:WARNING: Unstructured content within a list item is being ignored ("They are any observations that appear to be unusually distant from the rest of the data. This concept is crucial because it helps to")
+INFO    :     *              located within: "rem-conceptsB" (xml:id)
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must not have a sum exceeding 100%
+INFO    :     *              located within: "yt-ExaminingNumData" (xml:id)
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must sum to 100%
+INFO    :     *              located within: "yt-ExaminingNumData" (xml:id)
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must not have a sum exceeding 100%
+INFO    :     *              located within: "yt-ExaminingNumData" (xml:id)
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must sum to 100%
+INFO    :     *              located within: "yt-ExaminingNumData" (xml:id)
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must not have a sum exceeding 100%
+INFO    :     *              located within: "yt-ExploringCatData" (xml:id)
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must sum to 100%
+INFO    :     *              located within: "yt-ExploringCatData" (xml:id)
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must not have a sum exceeding 100%
+INFO    :     *              located within: "yt-ExploringCatData" (xml:id)
+INFO    :     * PTX:ERROR:   margins and width (35%, 60%, 35%) must sum to 100%
+INFO    :     *              located within: "yt-ExploringCatData" (xml:id)
+INFO    : successful application of /Users/JO/.ptx/xsl/pretext-html.xsl
+INFO    : Removing temporary directory /var/folders/rq/h9tvq1312s3d29xz12pnd5v40000gs/T/tmptw9rjkrd
+INFO    : 
+Success! Run `pretext view web` to see the results.
 
