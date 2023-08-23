@@ -700,7 +700,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.1",
   "title": "Graphs taxonomy and practical contexts",
-  "body": " Graphs taxonomy and practical contexts     Develop your skills in creating and interpreting statistical graphs by learning about their different types.     We use and deal with data in our everyday lives. This data come from information, and to analyze them, we usually set up them. During this process, we can organize and summarize data.  "
+  "body": " Graphs taxonomy and practical contexts     Develop your skills in creating and interpreting statistical graphs by learning about their different types.       "
 },
 {
   "id": "ObjT-1",

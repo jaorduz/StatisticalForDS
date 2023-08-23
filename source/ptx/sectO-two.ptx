@@ -607,7 +607,7 @@ is similar to cluster sample, but we collect a random sample within each selecte
 
 <activity>
   <title>Extra material: Video</title>
-        <video xml:id="yt-list-vars-EM" youtube="2N_bkiyTiXU" width="60%" margins="35%" />
+        <video xml:id="yt-list-vars-EM" youtube="2N_bkiyTiXU" width="65%" margins="35%" />
 </activity>
 
 <activity>
