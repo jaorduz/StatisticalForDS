@@ -17,7 +17,7 @@ We provide some definitions which are relevant in this chapter.
     </p>
 
 <remark>
-    <p>We have differen kind of plots/graphs to summarize data.
+   <p>We have differen kind of plots/graphs to summarize data.
         <ul>
             <li>
                 <term>Scatter plot</term><idx><h>Plot</h><h>Scatter</h></idx>
@@ -26,7 +26,6 @@ This kind of plot provides a case-by-case view of data for two numerical variabl
             <li>
                 <term>Dot plot</term><idx><h>Plot</h><h>dot</h></idx>
 This is a one-variable scatterplot. It is the most basic of displays. 
-
 </li>
              <li>
                 <term>Histograms plot</term><idx><h>Plot.</h><h>histograms</h></idx> 

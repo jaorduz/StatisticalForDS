@@ -699,8 +699,8 @@ var ptx_lunr_docs = [
   "url": "section-6.html",
   "type": "Section",
   "number": "3.1",
-  "title": "Data Basics",
-  "body": " Data Basics     Discuss basic concepts about data and information.     We use and deal with data in our everyday lives. This data come from information, and to analyze them, we usually set up them. During this process, we can organize and summarize data.  "
+  "title": "Graphs taxonomy and practical contexts",
+  "body": " Graphs taxonomy and practical contexts     Develop your skills in creating and interpreting statistical graphs by learning about their different types.     We use and deal with data in our everyday lives. This data come from information, and to analyze them, we usually set up them. During this process, we can organize and summarize data.  "
 },
 {
   "id": "ObjT-1",
@@ -709,7 +709,7 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "3.1",
   "title": "",
-  "body": "   Discuss basic concepts about data and information.    "
+  "body": "   Develop your skills in creating and interpreting statistical graphs by learning about their different types.    "
 },
 {
   "id": "index-1",
