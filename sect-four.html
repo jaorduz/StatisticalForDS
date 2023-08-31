@@ -109,7 +109,7 @@ window.MathJax = {
 <body class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
 <a id="logo-link" class="logo-link" href=""></a><div class="title-container">
-<h1 class="heading"><a href="book-Statistics_Modeling_Data-Science.html"><span class="title">Elementary Statistics, Modeling and Data Science:</span> <span class="subtitle">Math, concepts, and applications</span></a></h1>
+<h1 class="heading"><a href="book-StatModDS.html"><span class="title">Elementary Statistics, Modeling and Data Science:</span> <span class="subtitle">Math, concepts, and applications</span></a></h1>
 <p class="byline">Javier Orduz</p>
 </div>
 <div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
@@ -220,7 +220,7 @@ window.MathJax = {
 <span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
 </ol>
 </li>
-</ol></div></button><span class="treebuttons"><a class="previous-button button" href="sec-three.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="chapter_one.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="chapter_oneCT.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="sec-three.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="chapter_oneKD.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="chapter_oneCT.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
 <input id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" class="searchbutton" type="button" onclick="doSearch()">🔍</button>
 </div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\R}{\mathbb R}
 \newcommand{\identity}{\mathrm{id}}
@@ -252,7 +252,7 @@ window.MathJax = {
 </ul>
 </li>
 <li>
-<div class="toc-item"><a href="chapter_one.html" class="internal"><span class="codenumber">1</span> <span class="title">Knowing Data</span></a></div>
+<div class="toc-item"><a href="chapter_oneKD.html" class="internal"><span class="codenumber">1</span> <span class="title">Knowing Data</span></a></div>
 <ul class="structural">
 <li><div class="toc-item"><a href="section-1.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Data Basics</span></a></div></li>
 <li><div class="toc-item"><a href="section-2.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Sampling</span></a></div></li>
@@ -265,6 +265,10 @@ window.MathJax = {
 <ul class="structural"><li><div class="toc-item"><a href="section-5.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Variation and Statistics</span></a></div></li></ul>
 </li>
 <li>
+<div class="toc-item"><a href="chapter_twoKD.html" class="internal"><span class="codenumber">3</span> <span class="title">Types of Graph</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="section-6.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Graphs taxonomy and practical contexts</span></a></div></li></ul>
+</li>
+<li>
 <div class="toc-item"><a href="back-backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
 <ul class="structural"><li><div class="toc-item"><a href="index-1.html" class="internal"><span class="title">Index</span></a></div></li></ul>
 </li>
@@ -273,26 +277,26 @@ window.MathJax = {
 <span class="type">Section</span> <span class="codenumber">1.4</span> <span class="title">Categorical Data</span>
 </h2>
 <article class="objectives goal-like" id="Obj-4"><h2 class="heading"><span class="type">Objectives</span></h2>
-<ul class="disc"><li id="li-118"><div class="para" id="p-derived-li-118">Introduce basic concepts and correct terminology for categorical data.</div></li></ul></article><article class="remark remark-like" id="remark-8"><h2 class="heading">
+<ul class="disc"><li id="li-142"><div class="para" id="p-derived-li-142">Introduce basic concepts and correct terminology for categorical data.</div></li></ul></article><article class="remark remark-like" id="remark-8"><h2 class="heading">
 <span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.4.0.1</span><span class="period">.</span>
 </h2>
-<div class="para logical" id="p-95"><ul class="disc">
-<li id="li-119"><div class="para" id="p-derived-li-119">
+<div class="para logical" id="p-117"><ul class="disc">
+<li id="li-143"><div class="para" id="p-derived-li-143">
 <dfn class="terminology">Bar plot.</dfn> It is the common plot to show a categorical variable.</div></li>
-<li id="li-120"><div class="para" id="p-derived-li-120">
+<li id="li-144"><div class="para" id="p-derived-li-144">
 <dfn class="terminology">Row proportions.</dfn> It is a way to show the quotient between one case compare to the total. This can be done horizontal.</div></li>
-<li id="li-121"><div class="para" id="p-derived-li-121">
+<li id="li-145"><div class="para" id="p-derived-li-145">
 <dfn class="terminology">Column proportions.</dfn> It is a way to show the quotient between one case compare to the total. This should be done vertical.</div></li>
-<li id="li-122"><div class="para" id="p-derived-li-122">
+<li id="li-146"><div class="para" id="p-derived-li-146">
 <dfn class="terminology">bar plot with two variables</dfn> is an extension for the bar plot. It is also called <dfn class="terminology">stacked bar plot.</dfn> This kind of plot represents different groups of one varible stacked.</div></li>
-<li id="li-123"><div class="para" id="p-derived-li-123">
+<li id="li-147"><div class="para" id="p-derived-li-147">
 <dfn class="terminology">Mosaic plots.</dfn> This kind of plot uses areas to stand for the number of cases in each category.</div></li>
-<li id="li-124"><div class="para" id="p-derived-li-124">
+<li id="li-148"><div class="para" id="p-derived-li-148">
 <dfn class="terminology">Pie chart.</dfn> It is another to represent the information, similarly to bar plot, but in a circle shape.</div></li>
-</ul></div></article><article class="example example-like" id="example-7"><h2 class="heading">
+</ul></div></article><article class="example example-like" id="example-13"><h2 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.4.0.2</span><span class="period">.</span>
 </h2>
-<div class="para logical" id="p-96">
+<div class="para logical" id="p-118">
 <div class="displaymath process-math">
 \begin{equation*}
 \begin{array}{lccc} 
@@ -305,12 +309,12 @@ window.MathJax = {
 </div>
 <div class="para">Calculate</div>
 <ol class="decimal">
-<li id="li-125"><div class="para" id="p-derived-li-125">Row proportions</div></li>
-<li id="li-126"><div class="para" id="p-derived-li-126">Column proportions</div></li>
+<li id="li-149"><div class="para" id="p-derived-li-149">Row proportions</div></li>
+<li id="li-150"><div class="para" id="p-derived-li-150">Column proportions</div></li>
 </ol>
 </div></article><article class="activity project-like" id="activity-7"><h2 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.4.0.1</span><span class="period">.</span><span class="space"> </span><span class="title">Extra material: Videos.</span>
-</h2> <div class="video-box" style="width: 60%;padding-top: 33.75%; margin-left: 35%; margin-right: 35%;"><iframe id="yt-ExploringCatData" class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/7NhNeADL8fA?&amp;modestbranding=1&amp;rel=0"></iframe></div></article></section></div>
+</h2> <div class="video-box" style="width: 65%;padding-top: 36.5625%; margin-left: 35%; margin-right: 35%;"><iframe id="yt-ExploringCatData" class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/7NhNeADL8fA?&amp;modestbranding=1&amp;rel=0"></iframe></div></article></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec-three.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="chapter_oneCT.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
 </div></main>

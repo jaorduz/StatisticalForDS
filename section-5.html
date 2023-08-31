@@ -109,7 +109,7 @@ window.MathJax = {
 <body class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
 <a id="logo-link" class="logo-link" href=""></a><div class="title-container">
-<h1 class="heading"><a href="book-Statistics_Modeling_Data-Science.html"><span class="title">Elementary Statistics, Modeling and Data Science:</span> <span class="subtitle">Math, concepts, and applications</span></a></h1>
+<h1 class="heading"><a href="book-StatModDS.html"><span class="title">Elementary Statistics, Modeling and Data Science:</span> <span class="subtitle">Math, concepts, and applications</span></a></h1>
 <p class="byline">Javier Orduz</p>
 </div>
 <div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
@@ -220,7 +220,7 @@ window.MathJax = {
 <span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
 </ol>
 </li>
-</ol></div></button><span class="treebuttons"><a class="previous-button button" href="chapter_oneCT.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="chapter_oneCT.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="back-backmatter.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="chapter_oneCT.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="chapter_oneCT.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="chapter_twoKD.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
 <input id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" class="searchbutton" type="button" onclick="doSearch()">🔍</button>
 </div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\R}{\mathbb R}
 \newcommand{\identity}{\mathrm{id}}
@@ -252,7 +252,7 @@ window.MathJax = {
 </ul>
 </li>
 <li>
-<div class="toc-item"><a href="chapter_one.html" class="internal"><span class="codenumber">1</span> <span class="title">Knowing Data</span></a></div>
+<div class="toc-item"><a href="chapter_oneKD.html" class="internal"><span class="codenumber">1</span> <span class="title">Knowing Data</span></a></div>
 <ul class="structural">
 <li><div class="toc-item"><a href="section-1.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Data Basics</span></a></div></li>
 <li><div class="toc-item"><a href="section-2.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Sampling</span></a></div></li>
@@ -265,6 +265,10 @@ window.MathJax = {
 <ul class="structural"><li class="active"><div class="toc-item"><a href="section-5.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Variation and Statistics</span></a></div></li></ul>
 </li>
 <li>
+<div class="toc-item"><a href="chapter_twoKD.html" class="internal"><span class="codenumber">3</span> <span class="title">Types of Graph</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="section-6.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Graphs taxonomy and practical contexts</span></a></div></li></ul>
+</li>
+<li>
 <div class="toc-item"><a href="back-backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
 <ul class="structural"><li><div class="toc-item"><a href="index-1.html" class="internal"><span class="title">Index</span></a></div></li></ul>
 </li>
@@ -273,72 +277,72 @@ window.MathJax = {
 <span class="type">Section</span> <span class="codenumber">2.1</span> <span class="title">Variation and Statistics</span>
 </h2>
 <article class="objectives goal-like" id="Obj-2"><h2 class="heading"><span class="type">Objectives</span></h2>
-<ul class="disc"><li id="li-121"><div class="para" id="p-1211">Introduce concepts and correct terminology to organize data.</div></li></ul></article><div class="para" id="p-100">Let us go over some previous concepts and introduce new ones.</div>
-<div class="para" id="p-101">We explore the <dfn class="terminology">sample</dfn> which is the data randomly selected from the population. Where the <dfn class="terminology">Population</dfn> is all data that know should be interesting and appropriate in our study. In our analysis, we will use <dfn class="terminology">Statistics</dfn> which is the proportion of data/input in the sample.</div>
-<div class="para" id="p-102">In addition to previous concepts, we will require</div>
-<article class="definition definition-like" id="definition-15"><h2 class="heading">
+<ul class="disc"><li id="li-121"><div class="para" id="p-1211">Introduce concepts and correct terminology to organize data.</div></li></ul></article><div class="para" id="p-122">Let us go over some previous concepts and introduce new ones.</div>
+<div class="para" id="p-123">We explore the <dfn class="terminology">sample</dfn> which is the data randomly selected from the population. Where the <dfn class="terminology">Population</dfn> is all data that know should be interesting and appropriate in our study. In our analysis, we will use <dfn class="terminology">Statistics</dfn> which is the proportion of data/input in the sample.</div>
+<div class="para" id="p-124">In addition to previous concepts, we will require</div>
+<article class="definition definition-like" id="definition-18"><h2 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.1.0.1</span><span class="period">.</span>
-</h2> <div class="para" id="p-103">
-<dfn class="terminology">Parameter</dfn> is the proportion of data/input in the population.</div></article><div class="para" id="p-104">Another ways words to define data are</div>
-<article class="definition definition-like" id="definition-16"><h2 class="heading">
+</h2> <div class="para" id="p-125">
+<dfn class="terminology">Parameter</dfn> is the proportion of data/input in the population.</div></article><div class="para" id="p-126">Another ways words to define data are</div>
+<article class="definition definition-like" id="definition-19"><h2 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.1.0.2</span><span class="period">.</span>
 </h2>
-<div class="para" id="p-105">
+<div class="para" id="p-127">
 <dfn class="terminology">Qualitative data</dfn> AKA <dfn class="terminology">Categorical data.</dfn>
-</div></article><div class="para" id="p-106">and</div>
-<article class="definition definition-like" id="definition-17"><h2 class="heading">
+</div></article><div class="para" id="p-128">and</div>
+<article class="definition definition-like" id="definition-20"><h2 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.1.0.3</span><span class="period">.</span>
 </h2>
-<div class="para" id="p-107">
+<div class="para" id="p-129">
 <dfn class="terminology">Quantitative data</dfn> AKA  <dfn class="terminology">Numerical data.</dfn>
-</div></article><div class="para" id="p-108">Find these concepts in the book index.</div>
-<div class="para" id="p-109">Go over the statistics concept, we will think on this field as</div>
+</div></article><div class="para" id="p-130">Find these concepts in the book index.</div>
+<div class="para" id="p-131">Go over the statistics concept, we will think on this field as</div>
 <article class="definition definition-like" id="def-statisticsField"><h2 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.1.0.4</span><span class="period">.</span>
 </h2>
-<div class="para" id="p-110">
-<dfn class="terminology">Statistics</dfn> is the part of mathematics that analyzes, collects, and interpretes data.</div></article><div class="para" id="p-111">Probably, you will find similar definitions in other contexts, but the purpose is the same: knowing, and summarizing data.</div>
-<div class="para" id="p-112">The definition <a href="" class="xref" data-knowl="./knowl/def-statisticsField.html" title="Definition 2.1.0.4">Definition 2.1.0.4</a> has two branches</div>
-<article class="definition definition-like" id="definition-19"><h2 class="heading">
+<div class="para" id="p-132">
+<dfn class="terminology">Statistics</dfn> is the part of mathematics that analyzes, collects, and interpretes data.</div></article><div class="para" id="p-133">Probably, you will find similar definitions in other contexts, but the purpose is the same: knowing, and summarizing data.</div>
+<div class="para" id="p-134">The definition <a href="" class="xref" data-knowl="./knowl/def-statisticsField.html" title="Definition 2.1.0.4">Definition 2.1.0.4</a> has two branches</div>
+<article class="definition definition-like" id="definition-22"><h2 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.1.0.5</span><span class="period">.</span>
 </h2>
-<div class="para logical" id="p-113"><ul class="disc">
-<li id="li-128"><div class="para" id="p-derived-li-128">
+<div class="para logical" id="p-135"><ul class="disc">
+<li id="li-152"><div class="para" id="p-derived-li-152">
 <dfn class="terminology">Descriptive statistics</dfn> This area organizes and summarizes data.</div></li>
-<li id="li-129"><div class="para" id="p-derived-li-129">
+<li id="li-153"><div class="para" id="p-derived-li-153">
 <dfn class="terminology">Inferential statistics</dfn> This is called the formal methods. It uses probability to know if our conclusions are correct.</div></li>
-</ul></div></article><article class="definition definition-like" id="definition-20"><h2 class="heading">
+</ul></div></article><article class="definition definition-like" id="definition-23"><h2 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.1.0.6</span><span class="period">.</span>
 </h2>
-<div class="para" id="p-114">
-<dfn class="terminology">Levels of Measurement</dfn> is the way a set of data is measured.</div></article><div class="para" id="p-115">There are four levels of measurement</div>
-<article class="definition definition-like" id="definition-21"><h2 class="heading">
+<div class="para" id="p-136">
+<dfn class="terminology">Levels of Measurement</dfn> is the way a set of data is measured.</div></article><div class="para" id="p-137">There are four levels of measurement</div>
+<article class="definition definition-like" id="definition-24"><h2 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.1.0.7</span><span class="period">.</span>
 </h2>
-<div class="para logical" id="p-116"><ol class="decimal">
-<li id="li-130"><div class="para" id="p-derived-li-130">
+<div class="para logical" id="p-138"><ol class="decimal">
+<li id="li-154"><div class="para" id="p-derived-li-154">
 <dfn class="terminology">Nominal scale level</dfn> These kind of data can be measured using categories, such as, names, labels, or yes or not answers.</div></li>
-<li id="li-131"><div class="para" id="p-derived-li-131">
+<li id="li-155"><div class="para" id="p-derived-li-155">
 <dfn class="terminology">Ordinal scale level</dfn> These kind of data can be ordered such as a list of top five of Zoos in the USA. There is not a scale to measure the difference between two Zoos. Another example, responses such as sad, neutral, and happy. There is an order, but there is not an scale at all.</div></li>
-<li id="li-132"><div class="para" id="p-derived-li-132">
+<li id="li-156"><div class="para" id="p-derived-li-156">
 <dfn class="terminology">Interval scale level.</dfn> It has a definite ordering, but we cannot compare data. Examples: Different scales to measure temperature.</div></li>
-<li id="li-133"><div class="para" id="p-derived-li-133">
+<li id="li-157"><div class="para" id="p-derived-li-157">
 <dfn class="terminology">Ratio scale level.</dfn> It can be order-definited, and has a zero point and it represents same information for different data. Example: points to grade exams.</div></li>
-</ol></div></article><article class="definition definition-like" id="definition-22"><h2 class="heading">
+</ol></div></article><article class="definition definition-like" id="definition-25"><h2 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.1.0.8</span><span class="period">.</span>
 </h2>
-<div class="para" id="p-117">
-<dfn class="terminology">Frequency.</dfn> It is the number of time a value of data occurs.</div></article><article class="definition definition-like" id="definition-23"><h2 class="heading">
+<div class="para" id="p-139">
+<dfn class="terminology">Frequency.</dfn> It is the number of time a value of data occurs.</div></article><article class="definition definition-like" id="definition-26"><h2 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.1.0.9</span><span class="period">.</span>
 </h2>
-<div class="para" id="p-118">
-<dfn class="terminology">Relative Frequency.</dfn> It is the number of times a value of the data occurs.</div></article><article class="definition definition-like" id="definition-24"><h2 class="heading">
+<div class="para" id="p-140">
+<dfn class="terminology">Relative Frequency.</dfn> It is the number of times a value of the data occurs.</div></article><article class="definition definition-like" id="definition-27"><h2 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.1.0.10</span><span class="period">.</span>
 </h2>
-<div class="para" id="p-119">
+<div class="para" id="p-141">
 <dfn class="terminology">Cumulative relative Frequency.</dfn> Indicates the accumulation of the previous relative frequencies. It is the addition of all the previous relative frequencies, including the current relative frequency.</div></article></section></div>
 <div class="ptx-content-footer">
-<a class="previous-button button" href="chapter_oneCT.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="back-backmatter.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+<a class="previous-button button" href="chapter_oneCT.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="chapter_twoKD.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
