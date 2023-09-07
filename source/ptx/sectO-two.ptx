@@ -782,7 +782,7 @@ helps you efficiently collect data from a large city while maintaining a represe
     <p><term>Systematic sample.</term><idx><h>sample</h><h>systematic-</h></idx> 
     </p>
 <p>
-  ou're conducting a study on shopping habits in a mall with different sections. 
+  You're conducting a study on shopping habits in a mall with different sections. 
   You decide to use systematic cluster sampling to gather your data.
 </p>
 
@@ -794,7 +794,6 @@ helps you efficiently collect data from a large city while maintaining a represe
   <li>Systematic Sampling within Clusters: In each of the selected sections, 
     you use a systematic approach to select your sample. For instance, 
     you decide to survey every <m>5^{\text{th}}</m> shopper who enters the chosen sections.</li>
-  <li></li>
 </ul>
 By following this method, you can efficiently collect data from various 
 sections of the mall while ensuring representation from different parts of the mall. 
