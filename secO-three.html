@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>AATA Numerical Data</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Elementary Statistics, Modeling and Data Science">
+<meta property="book:author" content="Javier Orduz">
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script><script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math",
+    "renderActions": {
+      "findScript": [
+        10,
+        function (doc) {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(function(node) {
+                var display = !!node.type.match(/; *mode=display/);
+                var math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                var text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = {node: text, delim: '', n: 0};
+                math.end = {node: text, delim: '', n: 0};
+                doc.math.push(math);
+            });
+        },
+        ""
+      ]
+    }
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><link href="https://webwork-ptx.aimath.org/webwork2_files/js/apps/MathView/mathview.css" rel="stylesheet">
+<script src="https://pretextbook.org/js/0.3/pretext-webwork/2.17/pretext-webwork.js"></script><script src="https://webwork-ptx.aimath.org/webwork2_files/node_modules/iframe-resizer/js/iframeResizer.min.js"></script><script>// Make *any* pre with class 'sagecell-sage' an executable Sage cell
+// Their results will be linked, only within language type
+sagecell.makeSagecell({
+  "inputLocation": "pre.sagecell-sage",
+  "linked": true,
+  "languages": [
+    "sage"
+  ],
+  "evalButtonText": "Evaluate (Sage)"
+});
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.3/pretext_search.js"></script><link href="https://pretextbook.org/css/0.7/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.3</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.3/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.3/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.3/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://pretextbook.org/css/0.7/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="book-StatModDS.html"><span class="title">Elementary Statistics, Modeling and Data Science:</span> <span class="subtitle">Math, concepts, and applications</span></a></h1>
+<p class="byline">Javier Orduz</p>
+</div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<button id="closesearchresults" class="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms" class="searchterms"></span>
+</h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><a class="index-button button" href="index-1.html" title="Index"><span class="name">Index</span></a><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="avatarbutton" class="avatarbutton name">You!</span><div id="preferences_menu_holder" class="preferences_menu_holder hidden"><ol id="preferences_menu" class="preferences_menu" style="font-family: 'Roboto Serif', serif;">
+<li data-env="avatar" tabindex="-1">Choose avatar<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden avatar">
+<li data-val="You!" tabindex="-1">
+<span id="theYou!" class="avatarcheck">✔️</span>You!</li>
+<li data-val="😺" tabindex="-1">
+<span id="the😺" class="avatarcheck"></span>😺</li>
+<li data-val="👤" tabindex="-1">
+<span id="the👤" class="avatarcheck"></span>👤</li>
+<li data-val="👽" tabindex="-1">
+<span id="the👽" class="avatarcheck"></span>👽</li>
+<li data-val="🐶" tabindex="-1">
+<span id="the🐶" class="avatarcheck"></span>🐶</li>
+<li data-val="🐼" tabindex="-1">
+<span id="the🐼" class="avatarcheck"></span>🐼</li>
+<li data-val="🌈" tabindex="-1">
+<span id="the🌈" class="avatarcheck"></span>🌈</li>
+</ol>
+</li>
+<li data-env="fontfamily" tabindex="-1">Font family<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fontfamily">
+<li data-val="face" data-change="OS" tabindex="-1" style="font-family: 'Open Sans'">
+<span id="theOS" class="ffcheck">✔️</span><span class="name">Open Sans</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+<li data-val="face" data-change="RS" tabindex="-1" style="font-family: 'Roboto Serif'">
+<span id="theRS" class="ffcheck"></span><span class="name">Roboto Serif</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+</ol>
+</li>
+<li data-env="font" tabindex="-1">Adjust font<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fonts">
+<li>Size</li>
+<li><span id="thesize">12</span></li>
+<li data-val="size" data-change="-1" tabindex="-1" style="font-size: 80%">Smaller</li>
+<li data-val="size" data-change="1" tabindex="-1" style="font-size: 110%">Larger</li>
+<li>Width</li>
+<li><span id="thewdth">100</span></li>
+<li data-val="wdth" data-change="-5" tabindex="-1" style="font-variation-settings: 'wdth' 60">narrower</li>
+<li data-val="wdth" data-change="5" tabindex="-1" style="font-variation-settings: 'wdth' 150">wider</li>
+<li>Weight</li>
+<li><span id="thewght">400</span></li>
+<li data-val="wght" data-change="-50" tabindex="-1" style="font-weight: 200">thinner</li>
+<li data-val="wght" data-change="50" tabindex="-1" style="font-weight: 700">heavier</li>
+<li>Letter spacing</li>
+<li>
+<span id="thelspace">0</span><span class="byunits">/200</span>
+</li>
+<li data-val="lspace" data-change="-1" tabindex="-1">closer</li>
+<li data-val="lspace" data-change="1" tabindex="-1">f a r t h e r</li>
+<li>Word spacing</li>
+<li>
+<span id="thewspace">0</span><span class="byunits">/50</span>
+</li>
+<li data-val="wspace" data-change="-1" tabindex="-1">smaller gap </li>
+<li data-val="wspace" data-change="1" tabindex="-1">larger gap</li>
+<li>Line Spacing</li>
+<li>
+<span id="theheight">135</span><span class="byunits">/100</span>
+</li>
+<li data-val="height" data-change="-5" tabindex="-1" style="line-height: 1">closer<br>together</li>
+<li data-val="height" data-change="5" tabindex="-1" style="line-height: 1.75">further<br>apart</li>
+</ol>
+</li>
+<li data-env="atmosphere" tabindex="-1">Light/dark mode<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden atmosphere">
+<li data-val="default" tabindex="-1">
+<span id="thedefault" class="atmospherecheck">✔️</span>default</li>
+<li data-val="pastel" tabindex="-1">
+<span id="thepastel" class="atmospherecheck"></span>pastel</li>
+<li data-val="darktwilight" tabindex="-1">
+<span id="thedarktwilight" class="atmospherecheck"></span>twilight</li>
+<li data-val="dark" tabindex="-1">
+<span id="thedark" class="atmospherecheck"></span>dark</li>
+<li data-val="darkmidnight" tabindex="-1">
+<span id="thedarkmidnight" class="atmospherecheck"></span>midnight</li>
+</ol>
+</li>
+<li data-env="ruler" tabindex="-1">Reading ruler<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden ruler">
+<li data-val="none" tabindex="-1">
+<span id="thenone" class="rulercheck">✔️</span>none</li>
+<li data-val="underline" tabindex="-1">
+<span id="theunderline" class="rulercheck"></span>underline</li>
+<li data-val="lunderline" tabindex="-1">
+<span id="thelunderline" class="rulercheck"></span>L-underline</li>
+<li data-val="greybar" tabindex="-1">
+<span id="thegreybar" class="rulercheck"></span>grey bar</li>
+<li data-val="lightbox" tabindex="-1">
+<span id="thelightbox" class="rulercheck"></span>light box</li>
+<li data-val="sunrise" tabindex="-1">
+<span id="thesunrise" class="rulercheck"></span>sunrise</li>
+<li data-val="sunriseunderline" tabindex="-1">
+<span id="thesunriseunderline" class="rulercheck"></span>sunrise underline</li>
+<li class="moveQ">Motion by:</li>
+<li data-val="mouse" tabindex="-1">
+<span id="themouse" class="motioncheck">✔️</span>follow the mouse</li>
+<li data-val="arrow" tabindex="-1">
+<span id="thearrow" class="motioncheck"></span>up/down arrows - not yet</li>
+<li data-val="eye" tabindex="-1">
+<span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
+</ol>
+</li>
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="section-2.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="chapter_oneKD.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="sectO-four.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+<input id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" class="searchbutton" type="button" onclick="doSearch()">🔍</button>
+</div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\R}{\mathbb R}
+\newcommand{\identity}{\mathrm{id}}
+\newcommand{\notdivide}{{\not{\mid}}}
+\newcommand{\notsubset}{\not\subset}
+\newcommand{\lcm}{\operatorname{lcm}}
+\newcommand{\gf}{\operatorname{GF}}
+\newcommand{\inn}{\operatorname{Inn}}
+\newcommand{\aut}{\operatorname{Aut}}
+\newcommand{\Hom}{\operatorname{Hom}}
+\newcommand{\cis}{\operatorname{cis}}
+\newcommand{\chr}{\operatorname{char}}
+\newcommand{\Null}{\operatorname{Null}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth3"><ul class="structural">
+<li>
+<div class="toc-item"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="colophon-1.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li><div class="toc-item"><a href="author-bio-TWJ.html" class="internal"><span class="title">Author Biography</span></a></div></li>
+<li><div class="toc-item"><a href="dedication.html" class="internal"><span class="title">Dedication</span></a></div></li>
+<li><div class="toc-item"><a href="acknowledgement.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chapter_oneKD.html" class="internal"><span class="codenumber">1</span> <span class="title">Knowing Data</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="section-1.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Data Basics</span></a></div></li>
+<li><div class="toc-item"><a href="section-2.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Sampling</span></a></div></li>
+<li class="active"><div class="toc-item"><a href="secO-three.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Numerical Data</span></a></div></li>
+<li><div class="toc-item"><a href="sectO-four.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Categorical Data</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chapter_oneCT.html" class="internal"><span class="codenumber">2</span> <span class="title">Complementary topics</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="section-5.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Variation and Statistics</span></a></div></li></ul>
+</li>
+<li>
+<div class="toc-item"><a href="chapter_twoKD.html" class="internal"><span class="codenumber">3</span> <span class="title">Types of Graph</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="section-6.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Graphs taxonomy and practical contexts</span></a></div></li></ul>
+</li>
+<li>
+<div class="toc-item"><a href="back-backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="index-1.html" class="internal"><span class="title">Index</span></a></div></li></ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<section class="section" id="secO-three"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">1.3</span> <span class="title">Numerical Data</span>
+</h2>
+<article class="objectives goal-like" id="Obj-3"><h2 class="heading"><span class="type">Objectives</span></h2>
+<ul class="disc"><li id="li-100"><div class="para" id="p-derived-li-100">Introduce basic concepts and correct terminology about Statistics.</div></li></ul></article><div class="para" id="p-101">We examine data through graphs/plots and numbers/statistics. We provide some definitions which are relevant in this chapter.</div>
+<article class="remark remark-like" id="remark-4"><h2 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.3.0.1</span><span class="period">.</span>
+</h2>
+<div class="para logical" id="p-102">
+<div class="para">We have differen kind of plots/graphs to summarize data.</div>
+<ul class="disc">
+<li id="li-101"><div class="para" id="p-derived-li-101">
+<dfn class="terminology">Scatter plot</dfn> This kind of plot provides a case-by-case view of data for two numerical variables.</div></li>
+<li id="li-102"><div class="para" id="p-derived-li-102">
+<dfn class="terminology">Dot plot</dfn> This is a one-variable scatterplot. It is the most basic of displays.</div></li>
+<li id="li-103"><div class="para" id="p-derived-li-103">
+<dfn class="terminology">Histograms plot</dfn> It has different interpretations, but, in general, it is a binned version of the stacked dot plot. It also can be a frequencies plot. We will discuss more about this in the following sections. With this plot, we can know more about <dfn class="terminology">data density</dfn> When data trail off to the right in this way and has a longer right tail, the shape is said to be <dfn class="terminology">right skewed</dfn> Otherwise, we will have <dfn class="terminology">left skewed</dfn> If data sets show roughly equal trailing off in both directions are called <dfn class="terminology">symmetric</dfn>
+</div></li>
+<li id="li-104"><div class="para" id="p-derived-li-104">
+<dfn class="terminology">Box plot.</dfn><ol class="decimal">
+<li id="ol-boxPlotA"><div class="para" id="p-derived-ol-boxPlotA">Draw the median</div></li>
+<li id="ol-boxPlotB"><div class="para" id="p-derived-ol-boxPlotB">Draw a rectangle to represent the <span class="process-math">\(50/%\)</span> of the data</div></li>
+</ol>
+</div></li>
+<li id="li-107"><div class="para" id="p-derived-li-107">
+<dfn class="terminology">Mapping plot.</dfn> This kind of plot works to show different parameters/variables in a map. It implements different colors and their intensity to associate get up or down for any variable.</div></li>
+</ul>
+</div></article><div class="para" id="p-103">The following are examples of plot/graphs.</div>
+<figure class="figure figure-like" id="fig-histogram"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><div class="asymptote-box" style="padding-top: 50%"><iframe src="generated/asymptote/ima-histogram.html" class="asymptote"></iframe></div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.3.0.2<span class="period">.</span></span><span class="space"> </span>Histogram.</figcaption></figure><div class="para" id="p-104">Many types of graphs exist, each having different purposes for showing information and data visually. For example, bar charts are good for comparing amounts, line graphs can demonstrate trends over time, and pie charts display proportions and percentages in interesting slices. Choosing the graph that fits best with a specific data set is an important ability. The type of graph should match the nature of the information in order to communicate it effectively. In the next sections, we will start a journey through guidelines and best practices for picking ideal graph types based on things like how the data is structured and the story you want the visualization to tell. With the right approach, you can find the graph option that will present the information very clearly and accurately in its intended context.</div>
+<div class="para" id="p-105">Let us explore some mathematical concepts.</div>
+<article class="remark remark-like" id="rem-meanAverPopSMe"><h2 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.3.0.3</span><span class="period">.</span>
+</h2>
+<div class="para logical" id="p-106"><ul class="disc">
+<li id="li-108"><div class="para" id="p-derived-li-108">
+<dfn class="terminology">Mean</dfn> AKA <dfn class="terminology">Average</dfn> It is one of the most popular way to measure the center of a distribution.<div class="displaymath process-math" id="mdn-1">
+\begin{gather}
+\overline{x} = \sum\limits_i^n \frac{x_i}{n}\tag{1.3.1}
+\end{gather}
+</div>It is the sample mean, where <span class="process-math">\(x_i\)</span> represents the <span class="process-math">\(i-\)</span>th observed value.</div></li>
+<li id="li-109"><div class="para" id="p-derived-li-109">
+<dfn class="terminology">Population mean</dfn> and <dfn class="terminology">Sample mean</dfn> can be calculated trough the same way, using the <span class="process-math">\(\mu = \sum\limits_i^N \frac{x_i}{N}.\)</span> Notice, the population mean is represented by <span class="process-math">\(\mu.\)</span>
+</div></li>
+<li id="li-110"><div class="para" id="p-derived-li-110">
+<dfn class="terminology">Weighted mean.</dfn> Essentially, mean and weighted mean are same, except that the last one has an impact if the number of observations change.<div class="displaymath process-math" data-contains-math-knowls="./knowl/eq-MeanAverageSample.html ./knowl/eq-weigthedmeand.html" id="mdn-2">
+\begin{gather}
+\text{Weighted mean of } x_i= \frac{\sum\limits^{n}_{i=1} w_i x_i}{\sum\limits^{n}_{i=1} w_i}\tag{1.3.2}
+\end{gather}
+</div>where <span class="process-math">\(w_i\)</span>’s are the weights, and <span class="process-math">\(x_i\)</span>’s are the observations. Notice the eqs. <a href="" class="xref" data-knowl="./knowl/eq-MeanAverageSample.html" title="Equation 1.3.1">(1.3.1)</a> and <a href="" class="xref" data-knowl="./knowl/eq-weigthedmeand.html" title="Equation 1.3.2">(1.3.2)</a> are same if in the last one <span class="process-math">\(w_1=w_2=w_3= \dots = w_n = 1\)</span>
+</div></li>
+<li id="li-111"><div class="para" id="p-derived-li-111">
+<dfn class="terminology">Mode.</dfn> It is the prominent peak in the distribution (sometimes it is identified as the highest rectangle) in the histogram. Besides, it is the value with the most occurrences in the data set. But this definition has some issues, such as, it is uncommon to have repetitions in the data set. On the other hand, the data set can have more peaks, e.g. one mode (<dfn class="terminology">unimodal</dfn>), two mode (<dfn class="terminology">bimodal</dfn>), or several modes (<dfn class="terminology">multimodal</dfn>).</div></li>
+<li id="li-112"><div class="para" id="p-derived-li-112">
+<dfn class="terminology">Standard deviation.</dfn> It is a measure of variability. Mathematically, the standard deviation is<div class="displaymath process-math">
+\begin{equation*}
+\sigma = \sqrt{\frac{1}{N-1} \sum\limits^{N}_{i=1}(x_i - \overline{x})^2}
+\end{equation*}
+</div>and  it roughly describes how far away the typical observation is from the mean. Usually, one standard deviation means the probability that every observation will be within one sigma band is <span class="process-math">\(68.5\%.\)</span> Two standard deviation means the probability that every observation will be within two sigma band is <span class="process-math">\(95.5\%\)</span> and so on. Check the <a class="external" href="https://francis.naukas.com/files/2009/09/dibujo20090924_sigma_significance_data_from_gaussian_model.jpg" target="_blank">figure</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-2" id="fn-2"><sup> 1 </sup></a> (check the website <a class="external" href="https://francis.naukas.com/2009/09/25/las-fluctuaciones-a-2-sigma-del-fermilab-posibles-descubrimientos-futuros-si-se-alcanzan-las-5-sigma/" target="_blank">blog</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-3" id="fn-3"><sup> 2 </sup></a>). Notice The <dfn class="terminology">deviation</dfn> is the distance of the observation from its mean, namely, <span class="process-math">\(x_i - \overline{x}\text{.}\)</span> For instance, <span class="process-math">\(9.5 - 10 = -0.5\)</span> is the deviation.</div></li>
+<li id="li-113"><div class="para" id="p-derived-li-113">
+<dfn class="terminology">Variance.</dfn> It is a measure of variability. It is called as the second central moment of the sample.<div class="displaymath process-math" data-contains-math-knowls="./knowl/eq-varianceDefinition.html" id="mdn-3">
+\begin{align}
+\sigma^2 &amp;= \frac{1}{N-1} \sum\limits^{N}_{i=1}(x_i - \overline{x})^2\tag{1.3.3}
+\end{align}
+</div>Note the eq. <a href="" class="xref" data-knowl="./knowl/eq-varianceDefinition.html" title="Equation 1.3.3">(1.3.3)</a> is the definition of variance. The variance is the average squared distance from the mean. Notice the variance symbol is <span class="process-math">\(\sigma^2.\)</span>
+</div></li>
+</ul></div></article><div class="para logical" id="p-107">
+<div class="para">Additionally, the sigma measure usually means that</div>
+<ul class="disc">
+<li id="li-114"><div class="para" id="p-derived-li-114">the <span class="process-math">\(68.5\%\)</span> of data usually was within <span class="process-math">\(1\sigma\)</span> of the mean.</div></li>
+<li id="li-115"><div class="para" id="p-derived-li-115">the <span class="process-math">\(95.5\%\)</span> of data usually was within <span class="process-math">\(2\sigma\)</span> of the mean.</div></li>
+<li id="li-116"><div class="para" id="p-derived-li-116">the <span class="process-math">\(99.75\%\)</span> of data usually was within <span class="process-math">\(3\sigma\)</span> of the mean.</div></li>
+<li id="li-117"><div class="para" id="p-derived-li-117">the <span class="process-math">\(99.995\%\)</span> of data usually was within <span class="process-math">\(4\sigma\)</span> of the mean.</div></li>
+<li id="li-118"><div class="para" id="p-derived-li-118">the <span class="process-math">\(99.9995\%\)</span> of data usually was within <span class="process-math">\(5\sigma\)</span> of the mean.</div></li>
+</ul>
+</div>
+<div class="para" id="p-108">We will add more relevant concepts those help in statistical analysis.</div>
+<figure class="figure figure-like" id="fig-dotPlots"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/https://www.openintro.org/book/os/" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.3.0.4<span class="period">.</span></span><span class="space"> </span>A vertical dot plot. <a class="external" href="./images/dotPlots.png" target="_blank"><code class="code-inline tex2jax_ignore">Image source: https://www.openintro.org/book/os/</code></a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-4" id="fn-4"><sup> 3 </sup></a></figcaption></figure><div class="para logical" id="p-109">
+<div class="para">Median denotes the concept to split data in half (fig. <a href="" class="xref" data-knowl="./knowl/fig-dotPlots.html" title="Figure 1.3.0.4">Figure 1.3.0.4</a>). In other words this concept refers the <span class="process-math">\(50^{\text{th}}\)</span> percentile. The median has two options</div>
+<ol class="decimal">
+<li id="li-119"><div class="para" id="p-derived-li-119">Even number of observations. In this case we will calculate the average.</div></li>
+<li id="li-120"><div class="para" id="p-derived-li-120">Odd number of observations. In this case we will have only one observation that splits the data into two halves.</div></li>
+</ol>
+<div class="para">Besides, the steps showed in items <a href="" class="xref" data-knowl="./knowl/ol-boxPlotA.html" title="Item">Item </a> and <a href="" class="xref" data-knowl="./knowl/ol-boxPlotB.html" title="Item">Item </a>, we require more concepts about this topic,</div>
+</div>
+<article class="remark remark-like" id="rem-conceptsB"><h2 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.3.0.5</span><span class="period">.</span>
+</h2>
+<div class="para logical" id="p-110"><ul class="disc">
+<li id="li-121"><div class="para" id="p-derived-li-121">
+<dfn class="terminology">Interquartile range (<span class="process-math">\(IQR\)</span>).</dfn> It is the total length of the box plot. It is a measure of variability.</div></li>
+<li id="li-122"><div class="para" id="p-derived-li-122">
+<dfn class="terminology">First quartile (<span class="process-math">\(Q_1\)</span>).</dfn> It is boundary to indicate that the <span class="process-math">\(25\%\)</span> of the data fall below this value.</div></li>
+<li id="li-123"><div class="para" id="p-derived-li-123">
+<dfn class="terminology">Third quartile (<span class="process-math">\(Q_3\)</span>).</dfn> It is boundary to indicate that the <span class="process-math">\(75\%\)</span> of the data fall below this value.</div></li>
+<li id="li-124"><div class="para" id="p-derived-li-124">
+<dfn class="terminology">Whisker.</dfn><ol class="decimal">
+<li id="li-125"><div class="para" id="p-derived-li-125">max <span class="process-math">\(\frac{3}{2}IQR\)</span>
+</div></li>
+<li id="li-126"><div class="para" id="p-derived-li-126">upper <span class="process-math">\(Q_3+\frac{3}{2}IQR\)</span> from <span class="process-math">\(Q_1\)</span>
+</div></li>
+<li id="li-127"><div class="para" id="p-derived-li-127">lower <span class="process-math">\(Q_3-\frac{3}{2}IQR\)</span>
+</div></li>
+</ol>
+<div class="displaymath process-math" id="mdn-4">
+\begin{gather}
+IQR = Q_3 -Q_1\tag{1.3.4}
+\end{gather}
+</div>
+</div></li>
+<li id="li-128"><div class="para" id="p-derived-li-128">
+<dfn class="terminology">Outliers.</dfn><ol class="decimal">
+<li id="li-129"><div class="para" id="p-derived-li-129">identify bias in the distribution.</div></li>
+<li id="li-130"><div class="para" id="p-derived-li-130">Establish data entry errors.</div></li>
+<li id="li-131"><div class="para" id="p-derived-li-131">Reveal potential properties of the data.</div></li>
+</ol>
+</div></li>
+</ul></div></article><div class="para" id="p-111">Let us check other statistical concepts. The following concept is relevant to analyze data and its influence under changes.</div>
+<article class="remark remark-like" id="rem-conceptsC"><h2 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.3.0.6</span><span class="period">.</span>
+</h2>
+<div class="para logical" id="p-112"><ul class="disc">
+<li id="li-132"><div class="para" id="p-derived-li-132">
+<dfn class="terminology">Robust statistics.</dfn> Two concepts constitute the Robust statistics: Median and IQR. These have little effect when there are extreme observations.</div></li>
+<li id="li-133"><div class="para" id="p-derived-li-133">
+<dfn class="terminology">Transformation.</dfn> It is a recalibration of data through a mathematical function, this usually works to rescale the data a make easier to build data models. Some transformation examples are <span class="process-math">\(x\to\log(), x\to\ln(), x\to\sqrt{x},x\to x^{-1}\)</span>
+</div></li>
+</ul></div></article><article class="exercise exercise-like" id="exercise-8"><a href="" data-knowl="" class="id-ref exercise-knowl original" data-refid="hk-exercise-8"><h2 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.0.7</span><span class="period">.</span>
+</h2></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-8"><article class="exercise exercise-like"><div class="para logical" id="p-113">
+<div class="para">Calculate the sample mean for the following data.</div>
+<ol class="decimal">
+<li id="li-134"><div class="para" id="p-derived-li-134">table 1<div class="displaymath process-math">
+\begin{equation*}
+\begin{array}{c|c|c} 
+&amp; \text{New course} &amp; \text{old course}\\
+\hline 
+\text{Number of students}&amp; 100&amp;80\\
+\text{Total of A-grade}&amp;10&amp;5\\
+\hline
+\end{array}  
+\end{equation*}
+</div>
+</div></li>
+<li id="li-135"><div class="para" id="p-derived-li-135">table 2<div class="displaymath process-math">
+\begin{equation*}
+\begin{array}{c|c|c} 
+&amp; \text{New course} &amp; \text{old course}\\
+\hline 
+\text{Number of students}&amp; 100&amp;80\\
+\text{Total of B-grade}&amp;70&amp;55\\
+\hline
+\end{array}  
+\end{equation*}
+</div>
+</div></li>
+<li id="li-136"><div class="para" id="p-derived-li-136">table 3<div class="displaymath process-math">
+\begin{equation*}
+\begin{array}{c|c|c} 
+&amp; \text{City A} (\times 10^3) &amp; \text{City B} (\times 10^3)\\
+\hline 
+\text{Number of cars}&amp; 500&amp;150\\
+\text{Total of X Brand/model of car}&amp;105&amp;25\\
+\hline
+\end{array}  
+\end{equation*}
+</div>
+</div></li>
+<li id="li-137"><div class="para" id="p-derived-li-137">table 4<div class="displaymath process-math">
+\begin{equation*}
+\begin{array}{c|c|c} 
+&amp; \text{City A} (\times 10^3) &amp; \text{City B} (\times 10^3)\\
+\hline 
+\text{Number of families}&amp; 10&amp;7\\
+\text{Total of families with  two children}&amp;0.4&amp;0.02\\
+\hline
+\end{array}  
+\end{equation*}
+</div>
+</div></li>
+<li id="li-138"><div class="para" id="p-derived-li-138">table 5<div class="displaymath process-math">
+\begin{equation*}
+\begin{array}{c|c|c} 
+&amp; \text{Country A} (\times 10^6) &amp; \text{Country B} (\times 10^6)\\
+\hline 
+\text{Population}&amp; 50&amp;300\\
+\text{Total of people living in the capital}&amp;10&amp;0.006\\
+\hline
+\end{array}  
+\end{equation*}
+</div>
+</div></li>
+</ol>
+</div></article></div>
+<article class="example example-like" id="exeI-sampleMean"><h2 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.0.8</span><span class="period">.</span>
+</h2>
+<div class="para" id="p-114">Use the follow information to calculate mean, mode, standard deviation, and variance for each data set. </div> <div class="para logical" id="p-115">
+<div class="para">Data and example</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{array}{l|c} 
+i&amp;x_i\\
+\hline 
+1&amp;3.5\\
+2&amp;3.9\\
+3&amp;2.5\\
+4&amp;2.3\\
+5&amp;3.2\\
+6&amp;3.1\\
+7&amp;3.8\\
+8&amp;3.9\\
+9&amp;3.6\\
+10&amp;3.4\\   
+\hline
+\end{array}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{array}{l|c|c|c} 
+i&amp;y_i\\
+\hline 
+1&amp;4.5\\
+2&amp;5.5\\
+3&amp;3.5\\
+4&amp;4.6\\
+5&amp;4.7\\
+6&amp;5.2\\
+7&amp;4.9\\
+8&amp;4.8\\
+9&amp;4.7\\   
+\hline
+\end{array}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{array}{l|c} 
+i&amp; z_i\\
+\hline 
+1&amp;3.9\\
+2&amp;4.2\\
+3&amp;3.8\\
+4&amp;3.7\\
+5&amp;4.8\\
+6&amp;4.2\\
+7&amp;4.1\\
+8&amp;4.0\\   
+\hline
+\end{array}
+\end{equation*}
+</div>
+<div class="para">Show your process, and explain your results.  </div>
+</div></article><article class="activity project-like" id="activity-5"><h2 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.0.1</span><span class="period">.</span><span class="space"> </span><span class="title">Extra material: Videos.</span>
+</h2>  <div class="video-box" style="width: 60%;padding-top: 33.75%; margin-left: 35%; margin-right: 35%;"><iframe id="yt-ExaminingNumData" class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/Xm0PPtci3JE?&amp;modestbranding=1&amp;rel=0"></iframe></div> </article><article class="activity project-like" id="activity-6"><h2 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.0.2</span><span class="period">.</span><span class="space"> </span><span class="title">Extra material: Slides.</span>
+</h2> <div class="para logical" id="p-116"><ul class="disc">
+<li id="li-139"><div class="para" id="p-derived-li-139"><a class="external" href="https://tinyurl.com/26j7hjy5" target="_blank"><code class="code-inline tex2jax_ignore">Examining Numerical data (OpenIntroStat)</code></a></div></li>
+<li id="li-140"><div class="para" id="p-derived-li-140"><a class="external" href="https://tinyurl.com/265hg7pu" target="_blank"><code class="code-inline tex2jax_ignore">Considering Categorical data (OpenIntroStat)</code></a></div></li>
+</ul></div></article></section><div class="hidden-content tex2jax_ignore" id="hk-fn-2"><div class="fn"><code class="code-inline tex2jax_ignore">figure</code></div></div>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-3"><div class="fn"><code class="code-inline tex2jax_ignore">Blog</code></div></div>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-4"><div class="fn"><code class="code-inline tex2jax_ignore">https://www.openintro.org/book/os/</code></div></div>
+</div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="section-2.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sectO-four.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
