@@ -49,7 +49,7 @@ It is a kind of plot to summarize a data set using statistical concepts, and als
 To create a box plot, we need steps 
 <ol>
   <li xml:id="ol-boxPlotA" >Draw the median</li>
-  <li xml:id="ol-boxPlotB" >Draw a rectangle to represent the <m>50/%</m> of the data</li>
+  <li xml:id="ol-boxPlotB" >Draw a rectangle to represent the <m>50\%</m> of the data</li>
 </ol>
             </li>
              <li>
@@ -316,7 +316,7 @@ a make easier to build data models. Some transformation examples are
   <statement>
     <p> Calculate the sample mean for the following data.
         <ol>
-          <li>table 1
+          <li xml:id="rem-stat-li-table-1">table 1
             <me>
               \begin{array}{c|c|c} 
                &amp; \text{New course} &amp; \text{old course}\\
@@ -372,6 +372,17 @@ a make easier to build data models. Some transformation examples are
             </me>
           </li>      
         </ol>
+    </p>
+    <p>
+      The mean is useful because it allows us to rescale or standardize a metric into something more easily
+interpretable and comparable. However, you should make sure the information introduced 
+to calculate the average is correct. Consider the example labeled with <xref ref="rem-stat-li-table-1"/>, If you compare the total of A-grade, between two groups
+  would make it appear the New course is better, but you have to check each group has a different 
+  number of student. So the correct numbers should be 
+  <me>\text{New course} = \frac{10}{100}=0.1</me> which corresponds <me>10\%.</me> 
+  Keep in mind, you can think do <me>\text{New course} = \frac{100}{10}=10</me>, this calculation is correct 
+  if we want to get the ratio between the number of student per A-grade, but it does not 
+  represent the average.
     </p>
       </statement>    
 </exercise>

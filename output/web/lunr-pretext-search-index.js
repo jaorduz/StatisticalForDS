@@ -772,7 +772,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.1",
   "title": "Graphs taxonomy and practical contexts",
-  "body": " Graphs taxonomy and practical contexts     Develop your skills in creating and interpreting statistical graphs by learning about their different types.     You should refer to sections and to get previous information about what we shall graph.  "
+  "body": " Graphs taxonomy and practical contexts     Develop your skills in creating and interpreting statistical graphs by learning about their different types.     You should refer to sections and to get previous information about what we shall graph.  We will show some types of graphs   "
 },
 {
   "id": "ObjT-1",
