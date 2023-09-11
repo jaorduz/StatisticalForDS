@@ -374,15 +374,30 @@ a make easier to build data models. Some transformation examples are
         </ol>
     </p>
     <p>
-      The mean is useful because it allows us to rescale or standardize a metric into something more easily
-interpretable and comparable. However, you should make sure the information introduced 
-to calculate the average is correct. Consider the example labeled with <xref ref="rem-stat-li-table-1"/>, If you compare the total of A-grade, between two groups
-  would make it appear the New course is better, but you have to check each group has a different 
-  number of student. So the correct numbers should be 
-  <me>\text{New course} = \frac{10}{100}=0.1</me> which corresponds <me>10\%.</me> 
-  Keep in mind, you can think do <me>\text{New course} = \frac{100}{10}=10</me>, this calculation is correct 
-  if we want to get the ratio between the number of student per A-grade, but it does not 
-  represent the average.
+      The arithmetic mean furnishes a normalized, interpretable metric 
+      through which to appraise and contrast datasets. However, 
+      scrutinizing the genesis of the inputs is imperative, as 
+      fallacious or skewed data engenders erroneous averages. 
+      In the aforementioned case (check the example <xref ref="rem-stat-li-table-1"/>), 
+      a superficial analysis of aggregate A-grades 
+      implies the new course surpasses its counterpart. Upon closer inspection, 
+      the cardinality between groups diverges substantially. By rectifying the 
+      calculations thusly:
+      <me>\text{New course} = \frac{10}{100}=0.1</me>, which equates to <me>10\%</me> 
+      the accurate mean materializes. On the hand, we have 
+      <me>\text{New course} = \frac{5}{80}=0.0625</me>
+      which is around <me>6\%.</me> The percentage of students receiving 
+      A-grades in the new course exceeds 
+      the percentage receiving A-grades in the old course.
+      
+      While computing the ratio of students per 
+      A-grade remains valid <me>(\text{New course} = \frac{100}{10} = 10 )</me>, 
+      this quotient does not constitute the true average. 
+      A prudent approach integrates meticulous validation of the underlying 
+      information with nuanced selections among statistical techniques.
+
+      In summary, averages have utility when prudently employed, but can 
+      engender misconceptions when inputs and methodology lack diligent validation.
     </p>
       </statement>    
 </exercise>
