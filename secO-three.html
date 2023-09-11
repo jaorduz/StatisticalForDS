@@ -305,7 +305,7 @@ sagecell.makeSagecell({
 <li id="li-104"><div class="para" id="p-derived-li-104">
 <dfn class="terminology">Box plot.</dfn><ol class="decimal">
 <li id="ol-boxPlotA"><div class="para" id="p-derived-ol-boxPlotA">Draw the median</div></li>
-<li id="ol-boxPlotB"><div class="para" id="p-derived-ol-boxPlotB">Draw a rectangle to represent the <span class="process-math">\(50/%\)</span> of the data</div></li>
+<li id="ol-boxPlotB"><div class="para" id="p-derived-ol-boxPlotB">Draw a rectangle to represent the <span class="process-math">\(50\%\)</span> of the data</div></li>
 </ol>
 </div></li>
 <li id="li-107"><div class="para" id="p-derived-li-107">
@@ -417,7 +417,7 @@ IQR = Q_3 -Q_1\tag{1.3.4}
 </h2></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-8"><article class="exercise exercise-like"><div class="para logical" id="p-113">
 <div class="para">Calculate the sample mean for the following data.</div>
 <ol class="decimal">
-<li id="li-134"><div class="para" id="p-derived-li-134">table 1<div class="displaymath process-math">
+<li id="rem-stat-li-table-1"><div class="para" id="p-derived-rem-stat-li-table-1">table 1<div class="displaymath process-math">
 \begin{equation*}
 \begin{array}{c|c|c} 
 &amp; \text{New course} &amp; \text{old course}\\
@@ -478,11 +478,43 @@ IQR = Q_3 -Q_1\tag{1.3.4}
 </div>
 </div></li>
 </ol>
+</div> <div class="para logical" id="p-114">
+<div class="para">The arithmetic mean furnishes a normalized, interpretable metric through which to appraise and contrast datasets. However, scrutinizing the genesis of the inputs is imperative, as fallacious or skewed data engenders erroneous averages. In the aforementioned case (check the example <a href="" class="xref" data-knowl="./knowl/rem-stat-li-table-1.html" title="Item 1.3.0.7.1">Item 1.3.0.7.1</a>), a superficial analysis of aggregate A-grades implies the new course surpasses its counterpart. Upon closer inspection, the cardinality between groups diverges substantially. By rectifying the calculations thusly:</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/rem-stat-li-table-1.html">
+\begin{equation*}
+\text{New course} = \frac{10}{100}=0.1\text{,}
+\end{equation*}
+</div>
+<div class="para">which equates to</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/rem-stat-li-table-1.html">
+\begin{equation*}
+10\%
+\end{equation*}
+</div>
+<div class="para">the accurate mean materializes. On the hand, we have</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/rem-stat-li-table-1.html">
+\begin{equation*}
+\text{New course} = \frac{5}{80}=0.0625
+\end{equation*}
+</div>
+<div class="para">which is around</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/rem-stat-li-table-1.html">
+\begin{equation*}
+6\%.
+\end{equation*}
+</div>
+<div class="para">The percentage of students receiving A-grades in the new course exceeds the percentage receiving A-grades in the old course. While computing the ratio of students per A-grade remains valid</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/rem-stat-li-table-1.html">
+\begin{equation*}
+(\text{New course} = \frac{100}{10} = 10 )\text{,}
+\end{equation*}
+</div>
+<div class="para">this quotient does not constitute the true average. A prudent approach integrates meticulous validation of the underlying information with nuanced selections among statistical techniques. In summary, averages have utility when prudently employed, but can engender misconceptions when inputs and methodology lack diligent validation.</div>
 </div></article></div>
 <article class="example example-like" id="exeI-sampleMean"><h2 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.0.8</span><span class="period">.</span>
 </h2>
-<div class="para" id="p-114">Use the follow information to calculate mean, mode, standard deviation, and variance for each data set. </div> <div class="para logical" id="p-115">
+<div class="para" id="p-115">Use the follow information to calculate mean, mode, standard deviation, and variance for each data set. </div> <div class="para logical" id="p-116">
 <div class="para">Data and example</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -543,7 +575,7 @@ i&amp; z_i\\
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.0.1</span><span class="period">.</span><span class="space"> </span><span class="title">Extra material: Videos.</span>
 </h2>  <div class="video-box" style="width: 60%;padding-top: 33.75%; margin-left: 35%; margin-right: 35%;"><iframe id="yt-ExaminingNumData" class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/Xm0PPtci3JE?&amp;modestbranding=1&amp;rel=0"></iframe></div> </article><article class="activity project-like" id="activity-6"><h2 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.0.2</span><span class="period">.</span><span class="space"> </span><span class="title">Extra material: Slides.</span>
-</h2> <div class="para logical" id="p-116"><ul class="disc">
+</h2> <div class="para logical" id="p-117"><ul class="disc">
 <li id="li-139"><div class="para" id="p-derived-li-139"><a class="external" href="https://tinyurl.com/26j7hjy5" target="_blank"><code class="code-inline tex2jax_ignore">Examining Numerical data (OpenIntroStat)</code></a></div></li>
 <li id="li-140"><div class="para" id="p-derived-li-140"><a class="external" href="https://tinyurl.com/265hg7pu" target="_blank"><code class="code-inline tex2jax_ignore">Considering Categorical data (OpenIntroStat)</code></a></div></li>
 </ul></div></article></section><div class="hidden-content tex2jax_ignore" id="hk-fn-2"><div class="fn"><code class="code-inline tex2jax_ignore">figure</code></div></div>
